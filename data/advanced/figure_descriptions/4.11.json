@@ -1,0 +1,14 @@
+{
+ "figure_id": "4.11",
+ "page": 119,
+ "crop": "data/advanced/crops/fig4.11_p119.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:55:23",
+ "latency_s": 10.15,
+ "usage": {
+  "completion_tokens": 115,
+  "prompt_tokens": 1452,
+  "total_tokens": 1567
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE: none\n\nDATA: not applicable\n\nKEY FACTS:\n* The left panel shows an offshore oil rig engulfed in massive fire and heavy black smoke, surrounded by support vessels spraying streams of water onto the structure.\n* The right panel shows an aerial view of a large oil slick floating on the ocean surface, creating a distinct yellowish-orange streak against the dark blue water.\n* The combined images illustrate the 2010 Deepwater Horizon oil rig fire and the resulting oil spill in the Gulf of Mexico."
+}

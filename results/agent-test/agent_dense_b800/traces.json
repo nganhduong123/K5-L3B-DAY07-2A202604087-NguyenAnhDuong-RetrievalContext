@@ -1,0 +1,1593 @@
+[
+ {
+  "query_id": "t01",
+  "split": "test",
+  "answerable": true,
+  "question": "Where was Selena Gomez born?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "Selena Gomez was born in Grand Prairie, Texas, but raised outside of Dallas [openstax-writing-guide:p26:B:1].",
+  "citations": [
+   "openstax-writing-guide:p26:B:1"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p26:B:1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Selena Gomez birthplace",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p26:B:1",
+      "page": 26,
+      "rank": 1,
+      "score": 0.87757
+     },
+     {
+      "id": "openstax-writing-guide:p26:B:2",
+      "page": 26,
+      "rank": 2,
+      "score": 0.82945
+     },
+     {
+      "id": "openstax-writing-guide:p26:B:0",
+      "page": 26,
+      "rank": 3,
+      "score": 0.81494
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p26:B:1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p26:B:2",
+     "openstax-writing-guide:p26:B:0"
+    ],
+    "retrieval_ms": 158.1
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p26:B:1"
+  ],
+  "context": "[openstax-writing-guide:p26:B:1 | page 26 | chapter 1]\nAuthenticity as Rhetoric By any standard, singer, actor, and philanthropist Selena Gomez (b. 1992) is an influencer. By 2021, Gomez had amassed around 65 million Twitter (https://openstax.org/r/selenagomeztwitter) followers and over 260 million Instagram (https://openstax.org/r/selenagomezinsta) followers, placing her among celebrities with top follower counts. Gomez was born in Grand Prairie, Texas, but raised outside of Dallas. She is named after the popular Tejano singer Selena Quintanilla-Perez (1971–1995), who was murdered by her fan club president but still maintains an avid following. Gomez entered show business as a child, inspired by the single mother, an amateur actress, who raised her.",
+  "context_chars": 760,
+  "usage": {
+   "prompt_tokens": 821,
+   "completion_tokens": 46,
+   "cost_usd": 0.00015075,
+   "llm_calls": 2
+  },
+  "elapsed_s": 3.29
+ },
+ {
+  "query_id": "t02",
+  "split": "test",
+  "answerable": true,
+  "question": "How does the textbook define authority in its list of rhetorical key terms?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The search did not provide a definition of authority in the context of rhetorical key terms.",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "authority rhetorical key terms definition",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p30:B:2",
+      "page": 30,
+      "rank": 1,
+      "score": 0.85862
+     },
+     {
+      "id": "openstax-writing-guide:p24:B:1",
+      "page": 24,
+      "rank": 2,
+      "score": 0.85084
+     },
+     {
+      "id": "openstax-writing-guide:p24:B:5",
+      "page": 24,
+      "rank": 3,
+      "score": 0.8499
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p24:B:1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p30:B:2",
+     "openstax-writing-guide:p24:B:5"
+    ],
+    "retrieval_ms": 26.0
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "definition of authority in rhetorical key terms",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p30:B:2",
+      "page": 30,
+      "rank": 1,
+      "score": 0.86742
+     },
+     {
+      "id": "openstax-writing-guide:p24:B:5",
+      "page": 24,
+      "rank": 2,
+      "score": 0.84932
+     },
+     {
+      "id": "openstax-writing-guide:p31:B:1",
+      "page": 31,
+      "rank": 3,
+      "score": 0.8448
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p30:B:2",
+     "openstax-writing-guide:p24:B:5",
+     "openstax-writing-guide:p31:B:1"
+    ],
+    "retrieval_ms": 22.7
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "rhetorical key terms authority definition",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p30:B:2",
+      "page": 30,
+      "rank": 1,
+      "score": 0.86285
+     },
+     {
+      "id": "openstax-writing-guide:p24:B:1",
+      "page": 24,
+      "rank": 2,
+      "score": 0.84941
+     },
+     {
+      "id": "openstax-writing-guide:p24:B:5",
+      "page": 24,
+      "rank": 3,
+      "score": 0.84871
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [
+     "openstax-writing-guide:p24:B:1"
+    ],
+    "skipped_budget": [
+     "openstax-writing-guide:p30:B:2",
+     "openstax-writing-guide:p24:B:5"
+    ],
+    "retrieval_ms": 21.4
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "authority definition rhetorical terms OpenStax",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p30:B:2",
+      "page": 30,
+      "rank": 1,
+      "score": 0.86315
+     },
+     {
+      "id": "openstax-writing-guide:p31:B:0",
+      "page": 31,
+      "rank": 2,
+      "score": 0.84659
+     },
+     {
+      "id": "openstax-writing-guide:p24:B:5",
+      "page": 24,
+      "rank": 3,
+      "score": 0.8464
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p30:B:2",
+     "openstax-writing-guide:p31:B:0",
+     "openstax-writing-guide:p24:B:5"
+    ],
+    "retrieval_ms": 21.6
+   },
+   {
+    "event": "search_limit",
+    "max_searches": 4
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p24:B:1"
+  ],
+  "context": "[openstax-writing-guide:p24:B:1 | page 24 | chapter 1]\nOriginally, rhetoric referred to the art of persuasive speaking or writing. Now it is used more inclusively to mean the “techniques and theories of communication.” And notice, too, that like the people in Figure 1.1, you are already using rhetoric every day as you find yourself in different rhetorical situations on social media. In this chapter, you will learn more about the use of rhetoric within rhetorical situations as you begin the journey of constructing bridges among the communication taking place on social media, in the world of academia, and in the world at large. 1.1 \"Reading\" to Understand and Respond LEARNING OUTCOMES By the end of this section, you will be able to:",
+  "context_chars": 740,
+  "usage": {
+   "prompt_tokens": 2489,
+   "completion_tokens": 103,
+   "cost_usd": 0.00043515,
+   "llm_calls": 5
+  },
+  "elapsed_s": 7.18
+ },
+ {
+  "query_id": "t03",
+  "split": "test",
+  "answerable": true,
+  "question": "When and where did Jean Gianini murder his former teacher?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "Jean Gianini murdered his former teacher, Lydia Beecher, in 1914 in the village of Poland, New York. He was sixteen years old at the time of the murder [openstax-writing-guide:p40:B:6].",
+  "citations": [
+   "openstax-writing-guide:p40:B:6"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p40:B:6"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Jean Gianini murder former teacher",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p40:B:6",
+      "page": 40,
+      "rank": 1,
+      "score": 0.89394
+     },
+     {
+      "id": "openstax-writing-guide:p41:B:1",
+      "page": 41,
+      "rank": 2,
+      "score": 0.86345
+     },
+     {
+      "id": "openstax-writing-guide:p41:B:0",
+      "page": 41,
+      "rank": 3,
+      "score": 0.85222
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p40:B:6"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p41:B:1",
+     "openstax-writing-guide:p41:B:0"
+    ],
+    "retrieval_ms": 23.0
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p40:B:6"
+  ],
+  "context": "[openstax-writing-guide:p40:B:6 | page 40 | chapter 1]\nAccess multimedia content (http://openstax.org/books/writing-guide/pages/1-5-writing-process-thinking- critically-about-a-text) Critical Response: An Annotated Model The Case of Jean Gianini In 1914, in the village of Poland, New York, sixteen-year-old Jean Gianini murdered his former teacher Lydia Beecher. During the commission of this brutal murder, Gianini provided evidence that tied him to the murder through a lost a button at the crime scene. Upon arrest, Gianini confessed to the crime. At the trial, Gianni’s",
+  "context_chars": 574,
+  "usage": {
+   "prompt_tokens": 783,
+   "completion_tokens": 68,
+   "cost_usd": 0.00015825,
+   "llm_calls": 2
+  },
+  "elapsed_s": 3.0
+ },
+ {
+  "query_id": "t04",
+  "split": "test",
+  "answerable": true,
+  "question": "If the text you are responding to is argumentative, what should you examine?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The search did not provide specific elements or aspects to examine in argumentative texts.",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "examine argumentative text",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p40:B:2",
+      "page": 40,
+      "rank": 1,
+      "score": 0.87567
+     },
+     {
+      "id": "openstax-writing-guide:p69:B:2",
+      "page": 69,
+      "rank": 2,
+      "score": 0.85991
+     },
+     {
+      "id": "openstax-writing-guide:p35:B:0",
+      "page": 35,
+      "rank": 3,
+      "score": 0.85953
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p69:B:2"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p40:B:2",
+     "openstax-writing-guide:p35:B:0"
+    ],
+    "retrieval_ms": 18.3
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "what to examine in argumentative writing",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p40:B:2",
+      "page": 40,
+      "rank": 1,
+      "score": 0.88129
+     },
+     {
+      "id": "openstax-writing-guide:p69:B:2",
+      "page": 69,
+      "rank": 2,
+      "score": 0.86507
+     },
+     {
+      "id": "openstax-writing-guide:p40:B:1",
+      "page": 40,
+      "rank": 3,
+      "score": 0.86355
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [
+     "openstax-writing-guide:p69:B:2"
+    ],
+    "skipped_budget": [
+     "openstax-writing-guide:p40:B:2",
+     "openstax-writing-guide:p40:B:1"
+    ],
+    "retrieval_ms": 22.5
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "analyze argumentative text",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p37:B:3",
+      "page": 37,
+      "rank": 1,
+      "score": 0.8777
+     },
+     {
+      "id": "openstax-writing-guide:p30:B:2",
+      "page": 30,
+      "rank": 2,
+      "score": 0.87293
+     },
+     {
+      "id": "openstax-writing-guide:p43:B:1",
+      "page": 43,
+      "rank": 3,
+      "score": 0.87203
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p37:B:3",
+     "openstax-writing-guide:p30:B:2",
+     "openstax-writing-guide:p43:B:1"
+    ],
+    "retrieval_ms": 22.0
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "elements of argumentative writing",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p37:B:6",
+      "page": 37,
+      "rank": 1,
+      "score": 0.85775
+     },
+     {
+      "id": "openstax-writing-guide:p38:B:0",
+      "page": 38,
+      "rank": 2,
+      "score": 0.85701
+     },
+     {
+      "id": "openstax-writing-guide:p40:B:2",
+      "page": 40,
+      "rank": 3,
+      "score": 0.8559
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p37:B:6",
+     "openstax-writing-guide:p38:B:0",
+     "openstax-writing-guide:p40:B:2"
+    ],
+    "retrieval_ms": 20.0
+   },
+   {
+    "event": "search_limit",
+    "max_searches": 4
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p69:B:2"
+  ],
+  "context": "[openstax-writing-guide:p69:B:2 | page 69 | chapter 2]\nFinally, consider the use of the word see, for example, to mean “to understand”: Do you see what I mean? Is the use of see in this way inclusive of a visually impaired person who may be reading your text? To start, determine one or two places to include anti-racist or inclusive language or ideas in your writing, and build those into your piece. 2.6 Evaluation: Antiracism and Inclusivity LEARNING OUTCOMES By the end of this section, you will be able to: • Apply or challenge measurement outcomes for anti-racist and inclusive language. • Compare your written work with evaluation criteria.",
+  "context_chars": 647,
+  "usage": {
+   "prompt_tokens": 2434,
+   "completion_tokens": 93,
+   "cost_usd": 0.0004209,
+   "llm_calls": 5
+  },
+  "elapsed_s": 9.48
+ },
+ {
+  "query_id": "t05",
+  "split": "test",
+  "answerable": true,
+  "question": "What does the term academia refer to?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The search did not provide a definition or explanation of the term \"academia.\"",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "academia definition",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p46:B:3",
+      "page": 46,
+      "rank": 1,
+      "score": 0.859
+     },
+     {
+      "id": "openstax-writing-guide:p75:B:0",
+      "page": 75,
+      "rank": 2,
+      "score": 0.82032
+     },
+     {
+      "id": "openstax-writing-guide:p24:B:4",
+      "page": 24,
+      "rank": 3,
+      "score": 0.81933
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p75:B:0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p46:B:3",
+     "openstax-writing-guide:p24:B:4"
+    ],
+    "retrieval_ms": 23.0
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "what is academia",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p46:B:3",
+      "page": 46,
+      "rank": 1,
+      "score": 0.8672
+     },
+     {
+      "id": "openstax-writing-guide:p47:B:0",
+      "page": 47,
+      "rank": 2,
+      "score": 0.82533
+     },
+     {
+      "id": "openstax-writing-guide:p72:B:6",
+      "page": 72,
+      "rank": 3,
+      "score": 0.82282
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p46:B:3",
+     "openstax-writing-guide:p47:B:0",
+     "openstax-writing-guide:p72:B:6"
+    ],
+    "retrieval_ms": 19.2
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p75:B:0"
+  ],
+  "context": "[openstax-writing-guide:p75:B:0 | page 75 | chapter 2]\nare talking about some of these same cultural issues. Think of it as one big conversation. American philosopher and rhetorician Kenneth Burke (1897–1993) created the metaphor of a parlor where academics across time and space have gathered to help you imagine what academic conversations must be like. Burke describes an academic conversation as “unending”: “Others . . . are engaged in a heated discussion. . . . You listen for a while . . . then you put in your oar” (Burke 110). In other words, as you write, you are adding to a timeless conversation among thinkers and authors. Your words help define cultural understanding of the future. (More about this “conversation” appears in Glance at Genre: Introducing Research as Evidence.)",
+  "context_chars": 791,
+  "usage": {
+   "prompt_tokens": 1354,
+   "completion_tokens": 57,
+   "cost_usd": 0.0002373,
+   "llm_calls": 3
+  },
+  "elapsed_s": 4.62
+ },
+ {
+  "query_id": "t06",
+  "split": "test",
+  "answerable": true,
+  "question": "In which book did the former First Lady write that your personal story is something to own?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The search did not provide the specific book where the former First Lady wrote about owning your personal story.",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "former First Lady personal story is something to own",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p56:B:1",
+      "page": 56,
+      "rank": 1,
+      "score": 0.81305
+     },
+     {
+      "id": "openstax-writing-guide:p27:B:0",
+      "page": 27,
+      "rank": 2,
+      "score": 0.80807
+     },
+     {
+      "id": "openstax-writing-guide:p66:B:0",
+      "page": 66,
+      "rank": 3,
+      "score": 0.80488
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p56:B:1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p27:B:0",
+     "openstax-writing-guide:p66:B:0"
+    ],
+    "retrieval_ms": 22.0
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Michelle Obama personal story",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p56:B:1",
+      "page": 56,
+      "rank": 1,
+      "score": 0.82985
+     },
+     {
+      "id": "openstax-writing-guide:p66:B:0",
+      "page": 66,
+      "rank": 2,
+      "score": 0.81823
+     },
+     {
+      "id": "openstax-writing-guide:p27:B:2",
+      "page": 27,
+      "rank": 3,
+      "score": 0.80837
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [
+     "openstax-writing-guide:p56:B:1"
+    ],
+    "skipped_budget": [
+     "openstax-writing-guide:p66:B:0",
+     "openstax-writing-guide:p27:B:2"
+    ],
+    "retrieval_ms": 21.1
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p56:B:1"
+  ],
+  "context": "[openstax-writing-guide:p56:B:1 | page 56 | chapter 2]\nSituating Self Attending college and participating in academic traditions are now a part of your identity. This new environment not only welcomes the traditions you bring with you but also will teach you new ones, thereby broadening your view of culture and the world. In this new cultural environment, you may struggle to find your place. Embrace this struggle because it is a sign of personal growth and development. What is important to note is that even though you may struggle to situate yourself in this new environment, nothing should prevent the self you bring with you to college from finding its proper place. In other words, you do not need to lose who you are to become who you will be. Former First Lady Michelle Obama (b.",
+  "context_chars": 790,
+  "usage": {
+   "prompt_tokens": 1377,
+   "completion_tokens": 68,
+   "cost_usd": 0.00024734999999999997,
+   "llm_calls": 3
+  },
+  "elapsed_s": 5.25
+ },
+ {
+  "query_id": "t07",
+  "split": "test",
+  "answerable": true,
+  "question": "At approximately what mental age did Goddard estimate Jean Gianini?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The search did not provide information on the specific mental age estimate that Goddard made for Jean Gianini.",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Goddard estimate Jean Gianini mental age",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p41:B:0",
+      "page": 41,
+      "rank": 1,
+      "score": 0.87961
+     },
+     {
+      "id": "openstax-writing-guide:p42:B:0",
+      "page": 42,
+      "rank": 2,
+      "score": 0.8396
+     },
+     {
+      "id": "openstax-writing-guide:p40:B:6",
+      "page": 40,
+      "rank": 3,
+      "score": 0.81952
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p41:B:0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p42:B:0",
+     "openstax-writing-guide:p40:B:6"
+    ],
+    "retrieval_ms": 20.7
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Goddard Jean Gianini mental age estimate",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p41:B:0",
+      "page": 41,
+      "rank": 1,
+      "score": 0.88017
+     },
+     {
+      "id": "openstax-writing-guide:p42:B:0",
+      "page": 42,
+      "rank": 2,
+      "score": 0.84444
+     },
+     {
+      "id": "openstax-writing-guide:p40:B:6",
+      "page": 40,
+      "rank": 3,
+      "score": 0.82889
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [
+     "openstax-writing-guide:p41:B:0"
+    ],
+    "skipped_budget": [
+     "openstax-writing-guide:p42:B:0",
+     "openstax-writing-guide:p40:B:6"
+    ],
+    "retrieval_ms": 25.2
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p41:B:0"
+  ],
+  "context": "[openstax-writing-guide:p41:B:0 | page 41 | chapter 1]\ndefense lawyers claimed that Gianini was legally insane during the commission of his crime. Psychologist Dr. Henry Herbert Goddard was called to testify as an expert witness. Here, as the author, Henry Herbert Goddard (1866–1957), analyzes “The Case of Jean Gianini” (1915). The selection that follows demonstrates a framework and an example of a critical response to a text. It has been excerpted for clarity and space. Introduction In the introduction to his critical response, Goddard includes the title of the work and a summary of the rhetorical situation. He ends the introduction with a statement of evaluation. “We find the defendant in this case not guilty as charged . . .”",
+  "context_chars": 738,
+  "usage": {
+   "prompt_tokens": 1372,
+   "completion_tokens": 75,
+   "cost_usd": 0.0002508,
+   "llm_calls": 3
+  },
+  "elapsed_s": 4.57
+ },
+ {
+  "query_id": "t08",
+  "split": "test",
+  "answerable": true,
+  "question": "In chapter 1, how is a meme defined in the list of key terms?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "In chapter 1, a meme is defined as an image (usually) with accompanying text that calls for a response or elicits a reaction [openstax-writing-guide:p30:B:4].",
+  "citations": [
+   "openstax-writing-guide:p30:B:4"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p30:B:4"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "meme definition key terms chapter 1",
+    "seeded_original_question": false,
+    "filter": {
+     "chapter": 1
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p29:B:2",
+      "page": 29,
+      "rank": 1,
+      "score": 0.88617
+     },
+     {
+      "id": "openstax-writing-guide:p30:B:4",
+      "page": 30,
+      "rank": 2,
+      "score": 0.87449
+     },
+     {
+      "id": "openstax-writing-guide:p29:B:3",
+      "page": 29,
+      "rank": 3,
+      "score": 0.87318
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p29:B:2",
+     "openstax-writing-guide:p30:B:4"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p29:B:3"
+    ],
+    "retrieval_ms": 23.9
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p29:B:2",
+   "openstax-writing-guide:p30:B:4"
+  ],
+  "context": "[openstax-writing-guide:p29:B:2 | page 29 | chapter 1]\nIf you have experience with social media, you may be familiar with the way users respond to images or words by introducing another image: the meme. A meme is a photograph containing text that presents one viewer’s response. The term meme originates from the Greek root mim, meaning “mime” or “mimic,” and the English suffix -eme. In the 1970s, British evolutionary biologist and author Richard Dawkins (b. 1941) created the term for use as “a unit of cultural transmission,” and he understood it to be “the cultural equivalent of a gene.”\n\n[openstax-writing-guide:p30:B:4 | page 30 | chapter 1]\n• Meme: image (usually) with accompanying text that calls for a response or elicits a reaction.",
+  "context_chars": 745,
+  "usage": {
+   "prompt_tokens": 862,
+   "completion_tokens": 62,
+   "cost_usd": 0.0001665,
+   "llm_calls": 2
+  },
+  "elapsed_s": 3.78
+ },
+ {
+  "query_id": "t09",
+  "split": "test",
+  "answerable": true,
+  "question": "In chapter 2, is culture described as something static?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The search did not provide information on whether culture is described as static or dynamic in chapter 2.",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "culture static chapter 2",
+    "seeded_original_question": false,
+    "filter": {
+     "chapter": 2
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p64:B:2",
+      "page": 64,
+      "rank": 1,
+      "score": 0.85525
+     },
+     {
+      "id": "openstax-writing-guide:p61:B:0",
+      "page": 61,
+      "rank": 2,
+      "score": 0.84406
+     },
+     {
+      "id": "openstax-writing-guide:p54:B:5",
+      "page": 54,
+      "rank": 3,
+      "score": 0.84098
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p64:B:2"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p61:B:0",
+     "openstax-writing-guide:p54:B:5"
+    ],
+    "retrieval_ms": 21.4
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "culture dynamic chapter 2",
+    "seeded_original_question": false,
+    "filter": {
+     "chapter": 2
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p64:B:2",
+      "page": 64,
+      "rank": 1,
+      "score": 0.85902
+     },
+     {
+      "id": "openstax-writing-guide:p61:B:0",
+      "page": 61,
+      "rank": 2,
+      "score": 0.84797
+     },
+     {
+      "id": "openstax-writing-guide:p65:B:3",
+      "page": 65,
+      "rank": 3,
+      "score": 0.84262
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [
+     "openstax-writing-guide:p64:B:2"
+    ],
+    "skipped_budget": [
+     "openstax-writing-guide:p61:B:0",
+     "openstax-writing-guide:p65:B:3"
+    ],
+    "retrieval_ms": 17.3
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "culture definition chapter 2",
+    "seeded_original_question": false,
+    "filter": {
+     "chapter": 2
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p61:B:0",
+      "page": 61,
+      "rank": 1,
+      "score": 0.86223
+     },
+     {
+      "id": "openstax-writing-guide:p64:B:2",
+      "page": 64,
+      "rank": 2,
+      "score": 0.8605
+     },
+     {
+      "id": "openstax-writing-guide:p54:B:5",
+      "page": 54,
+      "rank": 3,
+      "score": 0.84302
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [
+     "openstax-writing-guide:p64:B:2"
+    ],
+    "skipped_budget": [
+     "openstax-writing-guide:p61:B:0",
+     "openstax-writing-guide:p54:B:5"
+    ],
+    "retrieval_ms": 23.9
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p64:B:2"
+  ],
+  "context": "[openstax-writing-guide:p64:B:2 | page 64 | chapter 2]\nUnfortunately, such assumptions and stereotypes still exist in America today. In Chapter 2, you have begun to learn about the impact of language on culture and about how developing anti-racist and inclusive ideas is an important part of the composition process. Read the following scenario. Mark is an assistant manager at a neighborhood convenience store. At the end of the evening, his inventory count is short. After an examination of the store, Mark notices that a large display of novelty items is nearly empty. Knowing his store sells only a few of those items each day, Mark identifies theft of the items as the likely source of the discrepancy. He thinks back through the customers he served that day.",
+  "context_chars": 764,
+  "usage": {
+   "prompt_tokens": 1938,
+   "completion_tokens": 83,
+   "cost_usd": 0.0003405,
+   "llm_calls": 4
+  },
+  "elapsed_s": 5.54
+ },
+ {
+  "query_id": "t10",
+  "split": "test",
+  "answerable": true,
+  "question": "What verdict did the jury reach in the Jean Gianini murder case?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The specific verdict reached by the jury in the Jean Gianini murder case is not provided in the search results.",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Jean Gianini murder case verdict jury",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p41:B:1",
+      "page": 41,
+      "rank": 1,
+      "score": 0.88251
+     },
+     {
+      "id": "openstax-writing-guide:p40:B:6",
+      "page": 40,
+      "rank": 2,
+      "score": 0.87067
+     },
+     {
+      "id": "openstax-writing-guide:p41:B:0",
+      "page": 41,
+      "rank": 3,
+      "score": 0.86238
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p41:B:1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p40:B:6",
+     "openstax-writing-guide:p41:B:0"
+    ],
+    "retrieval_ms": 26.6
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Jean Gianini murder case verdict",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p40:B:6",
+      "page": 40,
+      "rank": 1,
+      "score": 0.88015
+     },
+     {
+      "id": "openstax-writing-guide:p41:B:1",
+      "page": 41,
+      "rank": 2,
+      "score": 0.87913
+     },
+     {
+      "id": "openstax-writing-guide:p41:B:0",
+      "page": 41,
+      "rank": 3,
+      "score": 0.87464
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [
+     "openstax-writing-guide:p41:B:1"
+    ],
+    "skipped_budget": [
+     "openstax-writing-guide:p40:B:6",
+     "openstax-writing-guide:p41:B:0"
+    ],
+    "retrieval_ms": 19.9
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p41:B:1"
+  ],
+  "context": "[openstax-writing-guide:p41:B:1 | page 41 | chapter 1]\nSuch was the verdict by the jury of the Supreme Court of Herkimer County, New York, on May 28th, 1914, in the case of the people vs. Jean Gianini, indicted for the murder of Lida Beecher, his former teacher. Here, the author cites the title of the text—a court case—and provides some early context.",
+  "context_chars": 353,
+  "usage": {
+   "prompt_tokens": 1223,
+   "completion_tokens": 70,
+   "cost_usd": 0.00022544999999999998,
+   "llm_calls": 3
+  },
+  "elapsed_s": 4.9
+ },
+ {
+  "query_id": "u04",
+  "split": "test",
+  "answerable": false,
+  "question": "To which institution was Jean Gianini committed after his trial?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": null,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The search did not provide information about the institution to which Jean Gianini was committed after his trial.",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Jean Gianini committed institution after trial",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p41:B:1",
+      "page": 41,
+      "rank": 1,
+      "score": 0.85134
+     },
+     {
+      "id": "openstax-writing-guide:p41:B:0",
+      "page": 41,
+      "rank": 2,
+      "score": 0.84713
+     },
+     {
+      "id": "openstax-writing-guide:p40:B:6",
+      "page": 40,
+      "rank": 3,
+      "score": 0.83795
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p41:B:1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p41:B:0",
+     "openstax-writing-guide:p40:B:6"
+    ],
+    "retrieval_ms": 21.9
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Jean Gianini trial outcome commitment institution",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p41:B:0",
+      "page": 41,
+      "rank": 1,
+      "score": 0.84474
+     },
+     {
+      "id": "openstax-writing-guide:p40:B:6",
+      "page": 40,
+      "rank": 2,
+      "score": 0.83363
+     },
+     {
+      "id": "openstax-writing-guide:p41:B:1",
+      "page": 41,
+      "rank": 3,
+      "score": 0.82358
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [
+     "openstax-writing-guide:p41:B:1"
+    ],
+    "skipped_budget": [
+     "openstax-writing-guide:p41:B:0",
+     "openstax-writing-guide:p40:B:6"
+    ],
+    "retrieval_ms": 22.7
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p41:B:1"
+  ],
+  "context": "[openstax-writing-guide:p41:B:1 | page 41 | chapter 1]\nSuch was the verdict by the jury of the Supreme Court of Herkimer County, New York, on May 28th, 1914, in the case of the people vs. Jean Gianini, indicted for the murder of Lida Beecher, his former teacher. Here, the author cites the title of the text—a court case—and provides some early context.",
+  "context_chars": 353,
+  "usage": {
+   "prompt_tokens": 1218,
+   "completion_tokens": 69,
+   "cost_usd": 0.00022410000000000003,
+   "llm_calls": 3
+  },
+  "elapsed_s": 5.44
+ },
+ {
+  "query_id": "u05",
+  "split": "test",
+  "answerable": false,
+  "question": "In what year did Richard Dawkins publish The Selfish Gene?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": null,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The publication year of Richard Dawkins' \"The Selfish Gene\" is not mentioned in the search results.",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Richard Dawkins The Selfish Gene publication year",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p29:B:2",
+      "page": 29,
+      "rank": 1,
+      "score": 0.80555
+     },
+     {
+      "id": "openstax-writing-guide:p67:B:3",
+      "page": 67,
+      "rank": 2,
+      "score": 0.79777
+     },
+     {
+      "id": "openstax-writing-guide:p57:B:2",
+      "page": 57,
+      "rank": 3,
+      "score": 0.7976
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p29:B:2"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p67:B:3",
+     "openstax-writing-guide:p57:B:2"
+    ],
+    "retrieval_ms": 23.7
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Richard Dawkins The Selfish Gene",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p63:B:4",
+      "page": 63,
+      "rank": 1,
+      "score": 0.81108
+     },
+     {
+      "id": "openstax-writing-guide:p42:B:3",
+      "page": 42,
+      "rank": 2,
+      "score": 0.80945
+     },
+     {
+      "id": "openstax-writing-guide:p41:B:0",
+      "page": 41,
+      "rank": 3,
+      "score": 0.8074
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p63:B:4",
+     "openstax-writing-guide:p42:B:3",
+     "openstax-writing-guide:p41:B:0"
+    ],
+    "retrieval_ms": 23.9
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p29:B:2"
+  ],
+  "context": "[openstax-writing-guide:p29:B:2 | page 29 | chapter 1]\nIf you have experience with social media, you may be familiar with the way users respond to images or words by introducing another image: the meme. A meme is a photograph containing text that presents one viewer’s response. The term meme originates from the Greek root mim, meaning “mime” or “mimic,” and the English suffix -eme. In the 1970s, British evolutionary biologist and author Richard Dawkins (b. 1941) created the term for use as “a unit of cultural transmission,” and he understood it to be “the cultural equivalent of a gene.”",
+  "context_chars": 593,
+  "usage": {
+   "prompt_tokens": 1315,
+   "completion_tokens": 73,
+   "cost_usd": 0.00024105,
+   "llm_calls": 3
+  },
+  "elapsed_s": 4.64
+ },
+ {
+  "query_id": "u06",
+  "split": "test",
+  "answerable": false,
+  "question": "What percentage of Americans speak African American Vernacular English?",
+  "config": "agent_dense_b800",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "max_searches": 4,
+  "prompt": "v1",
+  "seed_original": false,
+  "context_evidence_hit": null,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The search did not provide information on the percentage of Americans who speak African American Vernacular English.",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "percentage of Americans speak African American Vernacular English",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p72:B:1",
+      "page": 72,
+      "rank": 1,
+      "score": 0.86466
+     },
+     {
+      "id": "openstax-writing-guide:p60:B:1",
+      "page": 60,
+      "rank": 2,
+      "score": 0.85227
+     },
+     {
+      "id": "openstax-writing-guide:p71:B:3",
+      "page": 71,
+      "rank": 3,
+      "score": 0.83885
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p72:B:1",
+     "openstax-writing-guide:p60:B:1",
+     "openstax-writing-guide:p71:B:3"
+    ],
+    "retrieval_ms": 25.9
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "African American Vernacular English statistics",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p72:B:1",
+      "page": 72,
+      "rank": 1,
+      "score": 0.87576
+     },
+     {
+      "id": "openstax-writing-guide:p60:B:1",
+      "page": 60,
+      "rank": 2,
+      "score": 0.84457
+     },
+     {
+      "id": "openstax-writing-guide:p75:B:2",
+      "page": 75,
+      "rank": 3,
+      "score": 0.83541
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p75:B:2"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p72:B:1",
+     "openstax-writing-guide:p60:B:1"
+    ],
+    "retrieval_ms": 23.2
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "how many Americans speak AAVE",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p72:B:1",
+      "page": 72,
+      "rank": 1,
+      "score": 0.85999
+     },
+     {
+      "id": "openstax-writing-guide:p72:B:2",
+      "page": 72,
+      "rank": 2,
+      "score": 0.83372
+     },
+     {
+      "id": "openstax-writing-guide:p60:B:1",
+      "page": 60,
+      "rank": 3,
+      "score": 0.81896
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [],
+    "skipped_budget": [
+     "openstax-writing-guide:p72:B:1",
+     "openstax-writing-guide:p72:B:2",
+     "openstax-writing-guide:p60:B:1"
+    ],
+    "retrieval_ms": 25.7
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p75:B:2"
+  ],
+  "context": "[openstax-writing-guide:p75:B:2 | page 75 | chapter 2]\nBritish Writer E. M. Forster: “And Englishmen like posing as gods.” American Professor J. M. Blaut: “Eurocentrism is quite simply the colonizer’s model of the world.” American Theologian Catherine Keller: “Western dominology can with religious sanction identify anything dark, profound, or fluid with a revolting chaos.” Senegalese Author Mariama Bâ: “The assimilationist dream of the colonist drew into its crucible our mode of thought and way of life.” Antiguan American Author Jamaica Kinkaid: “What I see is the millions of people . . . made orphans: no motherland . . . no . . . holy ground.” African American Author Ralph Ellison: “When I discover who I am, I’ll be free.” YOU: “. . .” [to be continued]",
+  "context_chars": 764,
+  "usage": {
+   "prompt_tokens": 1843,
+   "completion_tokens": 88,
+   "cost_usd": 0.00032925,
+   "llm_calls": 4
+  },
+  "elapsed_s": 6.79
+ }
+]

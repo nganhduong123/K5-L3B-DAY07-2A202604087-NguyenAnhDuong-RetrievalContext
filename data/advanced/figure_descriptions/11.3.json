@@ -1,0 +1,14 @@
+{
+ "figure_id": "11.3",
+ "page": 315,
+ "crop": "data/advanced/crops/fig11.3_p315.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:11:42",
+ "latency_s": 18.35,
+ "usage": {
+  "completion_tokens": 602,
+  "prompt_tokens": 1435,
+  "total_tokens": 2037
+ },
+ "description": "TYPE: map\nTITLE: Largest Private Employers by State\nTEXT IN IMAGE: \nLargest Private Employers by State\nWA, OR, CA, NV, ID, MT, WY, UT, CO, AZ, NM, AK, HI, ND, SD, NE, KS, OK, TX, MN, IA, MO, AR, LA, WI, IL, MS, MI, IN, KY, AL, OH, TN, GA, FL, PA, WV, VA, NC, SC, NY, VT, NH, ME, MA, RI, CT, NJ, DE, MD\nLegend: Walmart (blue), Healthcare Industry (orange), State University System (green), Other (grey)\nSource: Comen, Evan, and Michael B. Sauter. \"The Largest Employer in Every State.\" 24/7 Wall St. March 17, 2017.\n\nDATA:\n- Walmart (Blue): MT, WY, IL, IN, OH, WV, VA, KY, TN, NC (wait, NC is green), let's check carefully:\n  - MT: Walmart\n  - WY: Walmart\n  - AZ: Walmart\n  - OK: Walmart\n  - TX: Walmart\n  - MO: Walmart\n  - AR: Walmart\n  - LA: Walmart\n  - MS: Walmart\n  - AL: Walmart\n  - GA: Walmart\n  - FL: Walmart\n  - SC: Walmart\n  - KY: Walmart\n  - TN: Walmart\n  - OH: Walmart\n  - IN: Walmart\n  - IL: Walmart\n  - NH: Walmart\n  - KS: Walmart\n- Healthcare Industry (Orange): AK, WA (wait, WA is grey), OR (orange), ID (orange), UT (orange), ND (orange), SD (orange), MN (orange), PA (orange), MA (orange), DE (orange)\n- State University System (Green): CA, NV, NM, NE, IA, WI, MI, NC, SC (wait, SC is blue), VA (blue), MD (green), VT (green), ME (green), CT (green), HI (green)\n- Other (Grey): WA, CO, NY, RI, NJ\n\nKEY FACTS:\n- Walmart is the largest private employer in a large number of states, particularly across the South and parts of the Midwest and West (e.g., Texas, Florida, Arizona, Arkansas, Missouri).\n- The Healthcare Industry is the largest employer in several states including Oregon, Idaho, Utah, South Dakota, North Dakota, Minnesota, Pennsylvania, and Massachusetts.\n- The State University System is the largest employer in states such as California, New Mexico, Nebraska, Iowa, Wisconsin, Michigan, and North Carolina.\n- The \"Other\" category accounts for states including Washington, Colorado, New York, and New Jersey."
+}

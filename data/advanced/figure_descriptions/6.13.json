@@ -1,0 +1,14 @@
+{
+ "figure_id": "6.13",
+ "page": 178,
+ "crop": "data/advanced/crops/fig6.13_p178.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:59:13",
+ "latency_s": 3.02,
+ "usage": {
+  "completion_tokens": 232,
+  "prompt_tokens": 1434,
+  "total_tokens": 1666
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: \n- \"P\" (on parking meter)\n- \"CWA & IBEW ON STRIKE FOR GOOD JOBS AT VERIZON\" (on multiple signs attached to barricades)\n- \"CWA & IBEW ON STRIKE FIGHTING CORPORATE GREED AT VERIZON\" (on multiple signs attached to barricades)\n- \"CWA STRIKE for GOOD JOBS AT VERIZON WIRELESS\" (on sign attached to barricade)\nDATA: none\nKEY FACTS:\n- A group of people wearing red shirts are gathered on a city sidewalk behind metal barricades, participating in a picket line.\n- Several protest signs are attached to the barricades with text including \"CWA & IBEW ON STRIKE\" and \"FIGHTING CORPORATE GREED AT VERIZON\".\n- An American flag is being held on a wooden pole near the right side of the image.\n- The setting appears to be a busy urban street with tall buildings, parked cars, and a parking meter visible."
+}

@@ -1,0 +1,14 @@
+{
+ "figure_id": "6.12",
+ "page": 176,
+ "crop": "data/advanced/crops/fig6.12_p176.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:59:04",
+ "latency_s": 7.91,
+ "usage": {
+  "completion_tokens": 545,
+  "prompt_tokens": 1439,
+  "total_tokens": 1984
+ },
+ "description": "TYPE: line chart\n\nTITLE: Employee Productivity and Compensation, 1950-2010\n\nTEXT IN IMAGE:\n- Title: Employee Productivity and Compensation, 1950-2010\n- Y-axis labels: 0%, 25%, 50%, 75%, 100%, 125%, 150%, 175%, 200%, 225%, 250%\n- X-axis labels: 1950, 1960, 1970, 1980, 1990, 2000, 2010\n- Series labels: Productivity, Hourly compensation\n- Source: Source: Economic Policy Institute. \"The Productivity-Pay Gap.\" Oct 2017. Based on analysis of data from BLS Labor Productivity and Costs program, Bureau of Labor Statistics Current Employment Statistics public data series and Employer Costs for Employee Compensation, and Bureau of Economic Analysis National Income and Product Accounts (Tables 2.3.4, 6.2, 6.3, 6.9, 6.10, and 6.11).\n\nDATA:\n- Chart type: Line chart with X-axis representing years (1950 to approximately 2015) and Y-axis representing percentage growth (0% to 250%).\n- Series 1 (Productivity): Starts at 0% in 1950, rises closely with compensation until about 1973 (reaching ≈100%), and continues to grow steeply to reach ≈240% by the end of the chart.\n- Series 2 (Hourly compensation): Starts at 0% in 1950, rises alongside productivity until about 1973 (reaching ≈100%), then stagnates/plateaus between roughly 75% and 115% through the remaining decades, ending at ≈115%.\n\nKEY FACTS:\n- From 1950 to roughly 1973, employee productivity and hourly compensation grew closely together at nearly identical rates.\n- Around 1973, a divergence (the \"productivity-pay gap\") begins to form between the two metrics.\n- Productivity continued on a strong upward trajectory, reaching approximately 240% growth by the end of the period.\n- Hourly compensation stagnated significantly after 1973, showing very modest growth and ending at approximately 115%."
+}

@@ -1,0 +1,14 @@
+{
+ "figure_id": "6.4",
+ "page": 160,
+ "crop": "data/advanced/crops/fig6.4_p160.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:57:45",
+ "latency_s": 3.39,
+ "usage": {
+  "completion_tokens": 150,
+  "prompt_tokens": 1497,
+  "total_tokens": 1647
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: \n(a)\n(b)\n2016 GLOBAL ENTREPRENEURSHIP SUMMIT SILICON VALLEY USA (repeated in background of image b)\n\nKEY FACTS:\n- The image consists of two separate photographs labeled (a) and (b).\n- Photo (a) shows a man in a dark suit sitting in an armchair on what appears to be a television set or interview stage.\n- Photo (b) shows a man wearing a dark polo shirt and jeans, sitting in a white armchair and speaking with hand gestures at an event with \"2016 GLOBAL ENTREPRENEURSHIP SUMMIT SILICON VALLEY USA\" visible in the background."
+}

@@ -1,0 +1,14 @@
+{
+ "figure_id": "2.9",
+ "page": 53,
+ "crop": "data/advanced/crops/fig2.9_p53.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:48:09",
+ "latency_s": 33.89,
+ "usage": {
+  "completion_tokens": 157,
+  "prompt_tokens": 1477,
+  "total_tokens": 1634
+ },
+ "description": "TYPE: painting\n\nTITLE: none\n\nTEXT IN IMAGE:\nCritik der reinen Vernunft\nvon Immanuel Kant\nProfessor in Königsberg.\nRiga, verlegts Johann Friedrich Hartknoch\n1781.\n(a)\n(b)\n\nDATA:\nNot applicable\n\nKEY FACTS:\n* Image (a) shows a portrait painting of Immanuel Kant holding a book.\n* Image (b) shows the original title page of the 1781 German edition of *Critique of Pure Reason* (*Critik der reinen Vernunft*).\n* The title page lists Immanuel Kant as \"Professor in Königsberg\" and publisher Johann Friedrich Hartknoch in Riga, dated 1781."
+}

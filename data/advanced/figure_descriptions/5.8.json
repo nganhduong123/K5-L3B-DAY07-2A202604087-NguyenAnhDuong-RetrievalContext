@@ -1,0 +1,14 @@
+{
+ "figure_id": "5.8",
+ "page": 147,
+ "crop": "data/advanced/crops/fig5.8_p147.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:57:10",
+ "latency_s": 3.43,
+ "usage": {
+  "completion_tokens": 195,
+  "prompt_tokens": 1411,
+  "total_tokens": 1606
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: \n- \"LOVE IS ALL YOU NEED\"\n- \"JOE'S JOE'S\" (with \"joeisjeans.com\")\n- \"NEW\"\n- \"ICE 1900\"\n- \"Clear Channel SPECTRACOLOR\" (partially visible at top left)\nDATA: none\nKEY FACTS:\n- A large billboard dominates the center of the image, featuring the bold black text \"LOVE IS ALL YOU NEED\" on a white background.\n- To the left of the main billboard, a vertical fashion advertisement shows a person standing, with the text \"JOE'S\" and \"joeisjeans.com\".\n- Other partial billboards and urban high-rise buildings with many windows surround the main sign, suggesting a city setting like Times Square.\n- Several spotlights are mounted along the bottom of the main billboard to illuminate it."
+}

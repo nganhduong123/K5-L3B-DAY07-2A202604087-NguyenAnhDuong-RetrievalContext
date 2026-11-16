@@ -1,0 +1,14 @@
+{
+ "figure_id": "5.7",
+ "page": 143,
+ "crop": "data/advanced/crops/fig5.7_p143.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:57:01",
+ "latency_s": 2.12,
+ "usage": {
+  "completion_tokens": 92,
+  "prompt_tokens": 1457,
+  "total_tokens": 1549
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: Happiness is a piece of cake\nDATA: none\nKEY FACTS:\n- A close-up photograph of a cake topped with dark berries and white frosting.\n- A white cake server or plate with the printed text \"Happiness is a piece of cake\" rests beside a sliced piece of the cake.\n- The background is blurred, focusing attention on the cake and the text on the server."
+}

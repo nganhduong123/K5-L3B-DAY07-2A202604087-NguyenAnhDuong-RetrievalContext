@@ -1,0 +1,25 @@
+{
+ "config": "agent_dense_b2400",
+ "split": "dev",
+ "model": "openai/gpt-4o-mini",
+ "retriever": "dense",
+ "top_k": 3,
+ "budget_chars": 2400,
+ "max_searches": 3,
+ "n": 23,
+ "errors": 0,
+ "tool_use": "23/23",
+ "searches_distribution": {
+  "1": 16,
+  "2": 5,
+  "3": 2
+ },
+ "Context Evidence Rate": "15/20",
+ "answered_answerable": "18/20",
+ "abstained_unanswerable": "3/3",
+ "avg_context_chars": 1989,
+ "median_latency_s": 3.12,
+ "total_prompt_tokens": 32318,
+ "total_completion_tokens": 1659,
+ "total_cost_usd": 0.005843
+}

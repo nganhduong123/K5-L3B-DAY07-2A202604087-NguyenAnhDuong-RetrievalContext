@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.12",
+ "page": 245,
+ "crop": "data/advanced/crops/fig8.12_p245.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T16:01:19",
+ "latency_s": 10.37,
+ "usage": {
+  "completion_tokens": 84,
+  "prompt_tokens": 1455,
+  "total_tokens": 1539
+ },
+ "description": "**TYPE:** photo\n\n**TITLE:** none\n\n**TEXT IN IMAGE:** none\n\n**DATA:** N/A\n\n**KEY FACTS:**\n* The photograph shows a chimpanzee inside an enclosure behind green painted metal mesh fencing and bars.\n* A padlock is visible on the lower right section of the green metal cage structure.\n* The interior behind the mesh screen appears dark with limited visibility of the enclosed space."
+}

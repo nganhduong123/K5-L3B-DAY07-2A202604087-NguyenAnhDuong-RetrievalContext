@@ -1,0 +1,14 @@
+{
+ "figure_id": "3.1",
+ "page": 69,
+ "crop": "data/advanced/crops/fig3.1_p69.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:49:12",
+ "latency_s": 6.66,
+ "usage": {
+  "completion_tokens": 166,
+  "prompt_tokens": 1448,
+  "total_tokens": 1614
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\nSTARBUCKS COFFEE\nSTARBUCKS COFFEE (logo text)\nt's not the holidays WITHOUT THEM!\nSHARE JOY\nGIFT BAGS ARE READY TO BE FILLED WITH JOY\nTELEPHONE\nWASHROOMS\nFAMILY WASHROOM\n\nDATA: N/A\n\nKEY FACTS:\n- A photograph of a Starbucks Coffee counter storefront located inside a indoor shopping mall or food court setting.\n- Features prominent green illuminated \"STARBUCKS COFFEE\" signage above the counter alongside the circular Siren logo.\n- Showcases holiday-themed promotional menu boards, red gift bags, merchandise displays, and mugs on the front counter area.\n- People/customers and employees are seen standing near and around the service counter."
+}

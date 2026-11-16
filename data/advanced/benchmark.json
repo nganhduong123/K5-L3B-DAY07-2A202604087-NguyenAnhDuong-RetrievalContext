@@ -1,0 +1,999 @@
+[
+ {
+  "id": "ad01",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "According to Table 6.2, what percentage of Germany's workforce is in unions?",
+  "expected_answer": "26%",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p175:table6.2",
+    "page": 175,
+    "kind": "table",
+    "locator": "row Germany, column 'Workforce in Unions, %' = 26",
+    "check": "| Germany | 26 |",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad02",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "Which country has the lowest productivity in Table 6.3 (2015), and what is its value?",
+  "expected_answer": "South Korea, 97.60 (output/hours worked)",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p176:table6.3",
+    "page": 176,
+    "kind": "table",
+    "locator": "row South Korea = 97.60 (min of column)",
+    "check": "| South Korea | 97.60 |",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad03",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "In the comparison of socially responsible and other index mutual funds, what was the 5-year return of the Vanguard FTSE Social Index?",
+  "expected_answer": "96.7%",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p101:fig4.5",
+    "page": 101,
+    "kind": "table image",
+    "locator": "Figure 4.5 table, row 'Vanguard FTSE Social Index', column '5-Year Return' = 96.7%",
+    "check": null,
+    "crop": "data/advanced/crops/fig4.5_p101.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad04",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "In the stakeholder power/interest grid, what approach is recommended for stakeholders with high power but low interest?",
+  "expected_answer": "Keep satisfied, meet needs.",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p80:fig3.5",
+    "page": 80,
+    "kind": "diagram",
+    "locator": "Figure 3.5 top-left quadrant (High power / Low interest): 'Keep satisfied, meet needs.'",
+    "check": null,
+    "crop": "data/advanced/crops/fig3.5_p80.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad05",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "According to the Employment Relationships figure, who pays employment taxes for non-employees such as contractors and gig workers?",
+  "expected_answer": "They must be paid entirely by the employee (the worker); for employees taxes are split between employee and employer",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p298:fig10.8",
+    "page": 298,
+    "kind": "diagram/table image",
+    "locator": "Figure 10.8 right column, last bullet: 'Employment taxes must be paid entirely by employee'",
+    "check": null,
+    "crop": "data/advanced/crops/fig10.8_p298.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad06",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "According to the map of states with right-to-work laws, which of these states has a right-to-work law: Colorado, Michigan, or New Mexico?",
+  "expected_answer": "Michigan (Colorado and New Mexico are shown without right-to-work laws)",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p174:fig6.10",
+    "page": 174,
+    "kind": "map",
+    "locator": "Figure 6.10: MI colored blue (with right-to-work laws); CO and NM gray",
+    "check": null,
+    "crop": "data/advanced/crops/fig6.10_p174.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad07",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "What percentage of women and of men rank work-from-home options as a highly influential benefit?",
+  "expected_answer": "Women 55%, men 40%",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p163:fig6.6",
+    "page": 163,
+    "kind": "bar chart",
+    "locator": "Figure 6.6, category 'Work-from-home options': Women 55%, Men 40% (data labels)",
+    "check": null,
+    "crop": "data/advanced/crops/fig6.6_p163.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad08",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "What share of the U.S. workforce is projected to be Hispanic in 2050, compared with 2010?",
+  "expected_answer": "30% projected in 2050, up from 15% in 2010",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p225:fig8.2",
+    "page": 225,
+    "kind": "donut charts",
+    "locator": "Figure 8.2 lower panel: Hispanic 15% (2010) -> 30% (projected 2050)",
+    "check": null,
+    "crop": "data/advanced/crops/fig8.2_p225.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad09",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "Approximately what percentage of U.S. workers were union members in 1983?",
+  "expected_answer": "About 20%",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p174:fig6.11",
+    "page": 174,
+    "kind": "line chart",
+    "locator": "Figure 6.11: line starts at 1983 at ≈20% (y-axis gridline 20%)",
+    "check": null,
+    "crop": "data/advanced/crops/fig6.11_p174.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad10",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "In the chart of employers offering telework options, which country is at 85%?",
+  "expected_answer": "China",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p284:fig10.2",
+    "page": 284,
+    "kind": "donut charts",
+    "locator": "Figure 10.2: '85% China'",
+    "check": null,
+    "crop": "data/advanced/crops/fig10.2_p284.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad11",
+  "split": "dev",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Which stakeholder groups shown around the company in Figure 1.2 are classified as functional stakeholders in Figure 3.4?",
+  "expected_answer": "Suppliers, employees, customers and retailers",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p18:fig1.2",
+    "page": 18,
+    "kind": "diagram",
+    "locator": "Figure 1.2 nodes: Clients, Customers, Suppliers, Investors, Retailers, Employees, Media, Government, Environment, Community, Competitors",
+    "check": null,
+    "crop": "data/advanced/crops/fig1.2_p18.jpg"
+   },
+   {
+    "unit": "openstax-business-ethics:p76:fig3.4",
+    "page": 76,
+    "kind": "diagram",
+    "locator": "Figure 3.4 Functional Stakeholders: suppliers, employees, unions, customers, distributors, retailers",
+    "check": null,
+    "crop": "data/advanced/crops/fig3.4_p76.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad12",
+  "split": "dev",
+  "group": "multihop",
+  "answerable": true,
+  "question": "What share of millennials does the text say do not expect to stay in their current job longer than three years, and what figure does the millennials infographic give for changing jobs within the first three years?",
+  "expected_answer": "Text: 91 percent (about nine in ten); infographic: 90% change jobs within first 3 years",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p191:t1",
+    "page": 191,
+    "kind": "text",
+    "locator": "'About nine in ten millennials (91 percent) say they do not expect to stay...'",
+    "check": "(91 percent)",
+    "crop": null
+   },
+   {
+    "unit": "openstax-business-ethics:p191:fig7.2",
+    "page": 191,
+    "kind": "infographic",
+    "locator": "Figure 7.2: '90% change jobs within first 3 years'",
+    "check": null,
+    "crop": "data/advanced/crops/fig7.2_p191.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad13",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "When was the WARN Act enacted and how much advance notice does it require, for which events?",
+  "expected_answer": "1989; sixty days' advance notice of mass layoffs and plant closings",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p157:t1",
+    "page": 157,
+    "kind": "text",
+    "locator": "WARN Act of 1989 ... sixty days' advance notice of mass layoffs and plant closings",
+    "check": "sixty days’ advance notice of mass layoffs and plant closings",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad14",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "When were the ISO 14000 environmental standards developed and updated, and which standard covers eco-design?",
+  "expected_answer": "Developed in the 1990s, updated in 2015; ISO 14006 covers eco-design",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p107:t1",
+    "page": 107,
+    "kind": "text",
+    "locator": "developed in the 1990s and updated in 2015 ... eco-design (ISO 14006)",
+    "check": "eco-design (ISO 14006)",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "ad15",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "What is the CEO-to-average-worker pay multiplier in Germany, and what was the U.S. ratio in 1965?",
+  "expected_answer": "Germany: twelve; U.S. 1965: twenty to one",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p177:t1",
+    "page": 177,
+    "kind": "text",
+    "locator": "in Germany, it is twelve ... The 1965 U.S. ratio was only twenty to one",
+    "check": "in Germany, it is twelve",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at01",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "In Table 6.2, which country has the highest share of its workforce in unions, and what is the share?",
+  "expected_answer": "Sweden, 82%",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p175:table6.2",
+    "page": 175,
+    "kind": "table",
+    "locator": "row Sweden = 82 (max of column)",
+    "check": "| Sweden | 82 |",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at02",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "Which country in Table 6.2 has a lower union membership rate than the United States, and what are the two rates?",
+  "expected_answer": "France, 9% (United States 12%)",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p175:table6.2",
+    "page": 175,
+    "kind": "table",
+    "locator": "rows France = 9, United States = 12",
+    "check": "| France | 9 |",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at03",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "By how much did Germany's 2015 productivity exceed Japan's in Table 6.3?",
+  "expected_answer": "2.00 (105.90 vs 103.90 output/hours worked)",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p176:table6.3",
+    "page": 176,
+    "kind": "table",
+    "locator": "Germany 105.90 − Japan 103.90 = 2.00",
+    "check": "| Germany | 105.90 |",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at04",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "In the comparison of socially responsible and general index funds, which index or fund had the highest year-to-date return, and how much?",
+  "expected_answer": "TIAA-CREF Social, 12.1%",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p101:fig4.5",
+    "page": 101,
+    "kind": "table image",
+    "locator": "Figure 4.5, column 'Year-to-Date Return': TIAA-CREF Social 12.1% (max)",
+    "check": null,
+    "crop": "data/advanced/crops/fig4.5_p101.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at05",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "How many different stocks did the NASDAQ Index hold in the fund comparison table?",
+  "expected_answer": "3,176",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p101:fig4.5",
+    "page": 101,
+    "kind": "table image",
+    "locator": "Figure 4.5, row NASDAQ Index, column Holdings = 3,176",
+    "check": null,
+    "crop": "data/advanced/crops/fig4.5_p101.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at06",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "What does the sample code of conduct require of employees regarding conflicts of interest?",
+  "expected_answer": "Employees must disclose and/or avoid any personal, financial, or other interests that might influence their ability to perform their job duties",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p203:table7.1",
+    "page": 203,
+    "kind": "table",
+    "locator": "row 'Conflict of interest'",
+    "check": "Employees must disclose and/or avoid any personal, financial, or other interests",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at07",
+  "split": "test",
+  "group": "image",
+  "answerable": true,
+  "question": "In the classification of stakeholders around an organization, which category includes unions?",
+  "expected_answer": "Functional stakeholders",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p76:fig3.4",
+    "page": 76,
+    "kind": "diagram",
+    "locator": "Figure 3.4 box 'Functional Stakeholders' bullet 'unions'",
+    "check": null,
+    "crop": "data/advanced/crops/fig3.4_p76.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at08",
+  "split": "test",
+  "group": "image",
+  "answerable": true,
+  "question": "In the triple bottom line diagram, which three items are listed under Environmental?",
+  "expected_answer": "Land use, carbon footprint, waste",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p85:fig3.6",
+    "page": 85,
+    "kind": "diagram",
+    "locator": "Figure 3.6 right box 'Environmental': land use, carbon footprint, waste",
+    "check": null,
+    "crop": "data/advanced/crops/fig3.6_p85.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at09",
+  "split": "test",
+  "group": "image",
+  "answerable": true,
+  "question": "In the figure comparing control in Aristotle's and Confucius's virtue ethics, which behaviors are listed for Confucius?",
+  "expected_answer": "Junzi and ru (humanity)",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p45:fig2.6",
+    "page": 45,
+    "kind": "diagram/table image",
+    "locator": "Figure 2.6, row Behavior, column Confucius: junzi; ru (humanity)",
+    "check": null,
+    "crop": "data/advanced/crops/fig2.6_p45.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at10",
+  "split": "test",
+  "group": "image",
+  "answerable": true,
+  "question": "On the 2017 minimum wage by state map, which wage band is Washington state in?",
+  "expected_answer": "$10.25 – $11.50 (highest band)",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p168:fig6.9",
+    "page": 168,
+    "kind": "map",
+    "locator": "Figure 6.9: WA salmon color = legend '$10.25 – $11.50'",
+    "check": null,
+    "crop": "data/advanced/crops/fig6.9_p168.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at11",
+  "split": "test",
+  "group": "image",
+  "answerable": true,
+  "question": "According to the corporation diagram, who appoints the officers, and to what is liability limited?",
+  "expected_answer": "The directors (elected by shareholders) appoint the officers; liability is limited to corporate assets",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p94:fig4.2",
+    "page": 94,
+    "kind": "diagram",
+    "locator": "Figure 4.2: Shareholders → Directors → Officers arrows; 'Liability Is Limited to Corporate Assets'",
+    "check": null,
+    "crop": "data/advanced/crops/fig4.2_p94.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at12",
+  "split": "test",
+  "group": "chart",
+  "answerable": true,
+  "question": "What percentage of women and of men rank better health, dental, and vision insurance as highly influential?",
+  "expected_answer": "Women 61%, men 47%",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p163:fig6.6",
+    "page": 163,
+    "kind": "bar chart",
+    "locator": "Figure 6.6 first category: Women 61%, Men 47%",
+    "check": null,
+    "crop": "data/advanced/crops/fig6.6_p163.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at13",
+  "split": "test",
+  "group": "chart",
+  "answerable": true,
+  "question": "What share of Google's technology workforce were women in the 2017 data?",
+  "expected_answer": "20% (men 80%)",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p226:fig8.3",
+    "page": 226,
+    "kind": "donut chart",
+    "locator": "Figure 8.3 'Technology' donut: 20% / 80%",
+    "check": null,
+    "crop": "data/advanced/crops/fig8.3_p226.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at14",
+  "split": "test",
+  "group": "chart",
+  "answerable": true,
+  "question": "For ethnically diverse companies, what were the likelihoods of financial performance above the industry median for the 1st and 4th diversity quartiles?",
+  "expected_answer": "1st quartile 58, 4th quartile 43 (a +35% difference)",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p227:fig8.4",
+    "page": 227,
+    "kind": "bar chart",
+    "locator": "Figure 8.4 right panel: 4th quartile 43, 1st quartile 58, '+35%'",
+    "check": null,
+    "crop": "data/advanced/crops/fig8.4_p227.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at15",
+  "split": "test",
+  "group": "chart",
+  "answerable": true,
+  "question": "In the nominal versus real minimum wage chart, in what year did the real minimum wage peak, and at roughly what value?",
+  "expected_answer": "1968, at about $11.50 (between $11 and $12)",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p167:fig6.8",
+    "page": 167,
+    "kind": "line chart",
+    "locator": "Figure 6.8 blue line max at 1968 ≈ $11.4–11.5",
+    "check": null,
+    "crop": "data/advanced/crops/fig6.8_p167.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at16",
+  "split": "test",
+  "group": "chart",
+  "answerable": true,
+  "question": "In the median net worth of families by income tier chart, in which year was upper-income median net worth highest, and roughly how high?",
+  "expected_answer": "2007, about $730K (between $700K and $750K)",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p238:fig8.10",
+    "page": 238,
+    "kind": "bar chart",
+    "locator": "Figure 8.10 Upper income bar 2007 ≈ 730K (highest)",
+    "check": null,
+    "crop": "data/advanced/crops/fig8.10_p238.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at17",
+  "split": "test",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Is any state in the highest 2017 minimum wage band ($10.25–$11.50) also a right-to-work state?",
+  "expected_answer": "No. The highest band (Washington, California, Massachusetts and DC) are all shown without right-to-work laws",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p168:fig6.9",
+    "page": 168,
+    "kind": "map",
+    "locator": "Figure 6.9: WA, CA, MA (+DC) in $10.25–$11.50",
+    "check": null,
+    "crop": "data/advanced/crops/fig6.9_p168.jpg"
+   },
+   {
+    "unit": "openstax-business-ethics:p174:fig6.10",
+    "page": 174,
+    "kind": "map",
+    "locator": "Figure 6.10: WA, CA, MA, DC gray = without right-to-work laws",
+    "check": null,
+    "crop": "data/advanced/crops/fig6.10_p174.jpg"
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at18",
+  "split": "test",
+  "group": "multihop",
+  "answerable": true,
+  "question": "The text says the United States ranks number two on the OECD productivity list. Which country ranks above it in Table 6.3, and by how much?",
+  "expected_answer": "Canada, 109.45 vs 108.87, higher by 0.58",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p175:t2",
+    "page": 175,
+    "kind": "text",
+    "locator": "'number two on the list compiled by the OECD (Table 6.3)'",
+    "check": "number two on the list compiled by the OECD",
+    "crop": null
+   },
+   {
+    "unit": "openstax-business-ethics:p176:table6.3",
+    "page": 176,
+    "kind": "table",
+    "locator": "Canada 109.45, United States 108.87",
+    "check": "| Canada | 109.45 |",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at19",
+  "split": "test",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Among the countries that appear both in the telework chart and in Table 6.2, which has the highest share of employers offering telework, and what is its union membership rate?",
+  "expected_answer": "United States: 90% of employers offer telework; 12% of the workforce in unions",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p284:fig10.2",
+    "page": 284,
+    "kind": "donut charts",
+    "locator": "Figure 10.2: US 90%, UK 72%, France 71%, Germany 71% (China/India not in Table 6.2)",
+    "check": null,
+    "crop": "data/advanced/crops/fig10.2_p284.jpg"
+   },
+   {
+    "unit": "openstax-business-ethics:p175:table6.2",
+    "page": 175,
+    "kind": "table",
+    "locator": "United States = 12",
+    "check": "| United States | 12 |",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at20",
+  "split": "test",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Which countries appear in Table 6.3 (productivity) but not in Table 6.2 (union membership)?",
+  "expected_answer": "Mexico and South Korea",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p176:table6.3",
+    "page": 176,
+    "kind": "table",
+    "locator": "rows Mexico, South Korea",
+    "check": "| Mexico | 105.10 |",
+    "crop": null
+   },
+   {
+    "unit": "openstax-business-ethics:p175:table6.2",
+    "page": 175,
+    "kind": "table",
+    "locator": "no Mexico / South Korea rows",
+    "check": "| Australia | 25 |",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at21",
+  "split": "test",
+  "group": "text",
+  "answerable": true,
+  "question": "To which companies does the Sarbanes-Oxley Act apply, who enforces it, and when was it passed?",
+  "expected_answer": "Publicly traded companies; enforced by the Securities and Exchange Commission (SEC); passed in 2002",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p120:t3",
+    "page": 120,
+    "kind": "text",
+    "locator": "applies to publicly traded companies and is enforced by the Securities and Exchange Commission",
+    "check": "applies to publicly traded companies and is enforced by the Securities and Exchange Commission",
+    "crop": null
+   },
+   {
+    "unit": "openstax-business-ethics:p120:t2",
+    "page": 120,
+    "kind": "text",
+    "locator": "Sarbanes-Oxley, passed in 2002",
+    "check": "passed in 2002",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at22",
+  "split": "test",
+  "group": "text",
+  "answerable": true,
+  "question": "What did the court decide in Dodge v. Ford Motor Company about Ford's plan to benefit workers and customers?",
+  "expected_answer": "The court agreed with the shareholders; Ford was forced to abandon his goal of balancing profits with broader social goals",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p96:t1",
+    "page": 96,
+    "kind": "text",
+    "locator": "'The court agreed, and Ford was forced to abandon his managerial goal of balancing profits and realizing broader social goals.'",
+    "check": "The court agreed, and Ford was forced to abandon",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at23",
+  "split": "test",
+  "group": "text",
+  "answerable": true,
+  "question": "How much more productive were American Express employees who worked from home than office workers?",
+  "expected_answer": "43 percent more productive",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p285:t3",
+    "page": 285,
+    "kind": "text",
+    "locator": "'American Express employees who worked from home were 43 percent more productive'",
+    "check": "43 percent more productive",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "at24",
+  "split": "test",
+  "group": "text",
+  "answerable": true,
+  "question": "According to the text, what results has codetermination led to in Germany?",
+  "expected_answer": "Higher productivity, fewer strikes, better pay, and safer working conditions (workers more engaged, with a real voice)",
+  "evidence": [
+   {
+    "unit": "openstax-business-ethics:p175:t1",
+    "page": 175,
+    "kind": "text",
+    "locator": "'higher productivity, fewer strikes, better pay, and safer working conditions'",
+    "check": "higher productivity, fewer strikes, better pay, and safer working conditions",
+    "crop": null
+   }
+  ],
+  "source": "Business Ethics (OpenStax, 2026 PDF)",
+  "scoring": "pass only if answer correct+complete (units/conditions/calculation) AND citations include every required evidence unit and support the answer"
+ },
+ {
+  "id": "adu1",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "According to Table 6.2, what percentage of Mexico's workforce is unionized?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Mexico appears only in Table 6.3 (productivity), not in Table 6.2; no Mexican union rate anywhere.",
+  "absence_check": {
+   "keywords": [
+    "Mexico’s union",
+    "Mexican union",
+    "unionized in Mexico"
+   ],
+   "hits_outside_allowed": 0,
+   "allowed": []
+  }
+ },
+ {
+  "id": "adu2",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "What was the 10-year return of the NASDAQ Index in the socially responsible funds comparison?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Figure 4.5 only gives Year-to-Date, 2-Year and 5-Year returns.",
+  "absence_check": {
+   "keywords": [
+    "10-Year Return",
+    "10-year return",
+    "ten-year return"
+   ],
+   "hits_outside_allowed": 0,
+   "allowed": []
+  }
+ },
+ {
+  "id": "adu3",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "What percentage of employers in Japan offer telework options?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Figure 10.2 covers US, China, India, UK, France, Germany only; text has no Japan telework figure.",
+  "absence_check": {
+   "keywords": [
+    "Japan offer",
+    "telework in Japan",
+    "telecommuting in Japan"
+   ],
+   "hits_outside_allowed": 0,
+   "allowed": []
+  }
+ },
+ {
+  "id": "atu1",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "According to Table 6.3, what was France's productivity in 2015?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "France is in Table 6.2 (union %) but not in Table 6.3; no French productivity value in the book.",
+  "absence_check": {
+   "keywords": [
+    "France | ",
+    "French productivity",
+    "productivity in France"
+   ],
+   "hits_outside_allowed": 0,
+   "allowed": [
+    "p175:table6.2"
+   ]
+  }
+ },
+ {
+  "id": "atu2",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "What percentage of Google's leadership roles are held by Black employees?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Figure 8.3 gives leadership by gender only; text p226 gives Black share of all employees (2.4%) and White share of leadership (68%), not Black leadership.",
+  "absence_check": {
+   "keywords": [
+    "Black leaders at Google",
+    "Black employees hold",
+    "leadership roles are held by Black"
+   ],
+   "hits_outside_allowed": 0,
+   "allowed": []
+  }
+ },
+ {
+  "id": "atu3",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "What was the real minimum wage in 2020 according to the nominal versus real minimum wage chart?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Figure 6.8 x-axis ends around 2017; no 2020 value.",
+  "absence_check": {
+   "keywords": [
+    "minimum wage in 2020",
+    "2020 minimum wage"
+   ],
+   "hits_outside_allowed": 0,
+   "allowed": []
+  }
+ },
+ {
+  "id": "atu4",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "What percentage of women rank free lunches as a highly influential benefit?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Figure 6.6 lists free coffee and free snacks, not free lunch.",
+  "absence_check": {
+   "keywords": [
+    "free lunch",
+    "Free lunch"
+   ],
+   "hits_outside_allowed": 0,
+   "allowed": []
+  }
+ },
+ {
+  "id": "atu5",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "What was Puerto Rico's minimum wage in 2017?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Figure 6.9 covers 50 states + DC; Puerto Rico only mentioned for Hurricane Maria (p109).",
+  "absence_check": {
+   "keywords": [
+    "Puerto Rico’s minimum",
+    "minimum wage in Puerto Rico"
+   ],
+   "hits_outside_allowed": 0,
+   "allowed": []
+  }
+ },
+ {
+  "id": "atu6",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "What percentage of U.S. workers were union members in 1970?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Figure 6.11 starts in 1983 (≈20%); no 1970 union membership rate in text.",
+  "absence_check": {
+   "keywords": [
+    "union members in 1970",
+    "1970, union",
+    "in 1970, about"
+   ],
+   "hits_outside_allowed": 0,
+   "allowed": []
+  }
+ }
+]

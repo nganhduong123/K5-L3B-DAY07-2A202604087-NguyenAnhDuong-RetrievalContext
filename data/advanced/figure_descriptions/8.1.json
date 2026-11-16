@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.1",
+ "page": 223,
+ "crop": "data/advanced/crops/fig8.1_p223.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:08:35",
+ "latency_s": 23.81,
+ "usage": {
+  "completion_tokens": 118,
+  "prompt_tokens": 1522,
+  "total_tokens": 1640
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: none\nDATA: none\nKEY FACTS:\n- A collage of diverse people and work environments is overlaid with a transparent world map.\n- The images show individuals of various ethnicities, ages, and genders engaged in different activities and settings around the globe.\n- Prominent features include close-up shots of human eyes representing different populations.\n- Working contexts depicted include culinary settings, outdoor labor, office/training environments, and textile work.\n- The visual composition emphasizes global diversity and the interconnectedness of the worldwide workforce."
+}

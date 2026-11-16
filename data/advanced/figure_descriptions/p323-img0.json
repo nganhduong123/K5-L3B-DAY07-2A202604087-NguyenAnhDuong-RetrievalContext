@@ -1,0 +1,14 @@
+{
+ "figure_id": "p323-img0",
+ "page": 323,
+ "crop": "data/advanced/crops/figp323-img0_p323.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:48:42",
+ "latency_s": 16.1,
+ "usage": {
+  "completion_tokens": 133,
+  "prompt_tokens": 1321,
+  "total_tokens": 1454
+ },
+ "description": "TYPE: diagram\nTITLE: none\nTEXT IN IMAGE: personal values → personal mission statement → entrepreneurial mission statement\nDATA: \n- Node 1: personal values\n- Arrow pointing from \"personal values\" to \"personal mission statement\"\n- Node 2: personal mission statement\n- Arrow pointing from \"personal mission statement\" to \"entrepreneurial mission statement\"\n- Node 3: entrepreneurial mission statement\n\nKEY FACTS:\n- Illustrates a linear progression from personal values to an entrepreneurial mission statement.\n- Personal values directly lead to a personal mission statement.\n- A personal mission statement leads to the development of an entrepreneurial mission statement."
+}

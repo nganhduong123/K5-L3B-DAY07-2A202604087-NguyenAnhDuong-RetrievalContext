@@ -1,0 +1,27 @@
+{
+ "pdf_pages": 355,
+ "indexed_pages": "17-352",
+ "n_indexed_pages": 336,
+ "units": 1650,
+ "by_type": {
+  "text": 1547,
+  "table": 4,
+  "figure": 99
+ },
+ "skipped_images": [
+  {
+   "page": 323,
+   "bbox": [
+    72,
+    558,
+    468,
+    568
+   ],
+   "note": "no Figure caption; indexed as p323-img0"
+  }
+ ],
+ "excluded": {
+  "1-16": "cover, copyright, contents, preface",
+  "353-355": "back-of-book index"
+ }
+}

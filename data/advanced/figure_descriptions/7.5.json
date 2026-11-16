@@ -1,0 +1,14 @@
+{
+ "figure_id": "7.5",
+ "page": 197,
+ "crop": "data/advanced/crops/fig7.5_p197.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:07:46",
+ "latency_s": 1.78,
+ "usage": {
+  "completion_tokens": 145,
+  "prompt_tokens": 1501,
+  "total_tokens": 1646
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: \nCUSTOMER SUCCESS\nLAND ADOPT EXPAND RENEW\n(And a smiley face drawn on the palm of a hand)\n\nKEY FACTS:\n- A group of seven women employees are smiling and posing together outdoors in an outdoor or park-like setting with trees in the background.\n- The central woman in the foreground wears a blue t-shirt with the text \"CUSTOMER SUCCESS\" and \"LAND ADOPT EXPAND RENEW\".\n- One woman holds up her hand facing the camera, featuring a hand-drawn smiley face on her palm.\n- Most of the women are wearing shades of blue clothing, reflecting a cohesive team appearance."
+}

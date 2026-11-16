@@ -1,0 +1,14 @@
+{
+ "figure_id": "10.3",
+ "page": 286,
+ "crop": "data/advanced/crops/fig10.3_p286.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:54:40",
+ "latency_s": 5.76,
+ "usage": {
+  "completion_tokens": 279,
+  "prompt_tokens": 1391,
+  "total_tokens": 1670
+ },
+ "description": "**TYPE:** infographic\n\n**TITLE:** none\n\n**TEXT IN IMAGE:**\nEmployee Benefits\n• Saves time\n• Reduces spending on gas\n• Decreases stress\n• Improves work-life balance\n\nEmployer Benefits\n• Reduces spending on real estate, utilities, overhead\n• Increases employee productivity\n\nOther Benefits\n• Reduces greenhouse emissions\n• Decreases dependence on oil imports\n• Aligns with future trending (Bring Your Own Device, Software as a Service)\n\n**DATA:**\nThe graphic lists three categories of telecommuting benefits arranged around a circular photo of a woman using a laptop outdoors:\n* **Employee Benefits:** Saves time; Reduces spending on gas; Decreases stress; Improves work-life balance.\n* **Employer Benefits:** Reduces spending on real estate, utilities, overhead; Increases employee productivity.\n* **Other Benefits:** Reduces greenhouse emissions; Decreases dependence on oil imports; Aligns with future trending (Bring Your Own Device, Software as a Service).\n\n**KEY FACTS:**\n* Lists four specific benefits for employees, including time and gas savings, reduced stress, and better work-life balance.\n* Highlights two major benefits for employers: reduced overhead costs (real estate, utilities) and increased productivity.\n* Outlines broader societal and technological (\"Other\") benefits such as reduced emissions, lower oil dependence, and alignment with BYOD and SaaS trends."
+}

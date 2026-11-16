@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.5",
+ "page": 230,
+ "crop": "data/advanced/crops/fig8.5_p230.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:09:16",
+ "latency_s": 1.98,
+ "usage": {
+  "completion_tokens": 149,
+  "prompt_tokens": 1419,
+  "total_tokens": 1568
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: \n- \"EAGLE 24 ATHLETICS\" (printed on the man's shirt)\n- Text on small poster in the upper right background is partially visible but unreadable.\n\nDATA: none\nKEY FACTS:\n- A man wearing a gray long-sleeved \"Eagle 24 Athletics\" shirt is seated in an office chair in an office setting.\n- A light-colored service dog is positioned near a desk, with its paws resting on the desk surface next to keys and office supplies.\n- The office includes a computer monitor, keyboard, desk calendar, a small desk fan, and a bookshelf with a green pet crate nearby."
+}

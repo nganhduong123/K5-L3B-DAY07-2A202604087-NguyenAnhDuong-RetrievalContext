@@ -1,0 +1,24 @@
+{
+ "config": "agent_rerank_b2400",
+ "split": "dev",
+ "model": "openai/gpt-4o-mini",
+ "retriever": "hybrid_rerank",
+ "top_k": 3,
+ "budget_chars": 2400,
+ "max_searches": 3,
+ "n": 23,
+ "errors": 0,
+ "tool_use": "23/23",
+ "searches_distribution": {
+  "1": 21,
+  "2": 2
+ },
+ "Context Evidence Rate": "19/20",
+ "answered_answerable": "20/20",
+ "abstained_unanswerable": "2/3",
+ "avg_context_chars": 1988,
+ "median_latency_s": 3.74,
+ "total_prompt_tokens": 26803,
+ "total_completion_tokens": 1618,
+ "total_cost_usd": 0.004991
+}

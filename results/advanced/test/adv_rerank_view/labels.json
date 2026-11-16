@@ -1,0 +1,152 @@
+[
+ {
+  "query_id": "at01",
+  "pass": true,
+  "reason": "Sweden 82% = Table 6.2 row Sweden (p175)."
+ },
+ {
+  "query_id": "at02",
+  "pass": true,
+  "reason": "France 9%, US 12% = Table 6.2 (p175)."
+ },
+ {
+  "query_id": "at03",
+  "pass": true,
+  "reason": "105.90 − 103.90 = 2.00, values match Table 6.3 (p176); arithmetic shown."
+ },
+ {
+  "query_id": "at04",
+  "pass": true,
+  "reason": "TIAA-CREF Social 12.1% YTD = max of column in Fig 4.5 crop (p101); verified with view_figure."
+ },
+ {
+  "query_id": "at05",
+  "pass": true,
+  "reason": "3,176 = Fig 4.5 NASDAQ holdings (p101)."
+ },
+ {
+  "query_id": "at06",
+  "pass": true,
+  "reason": "Matches Table 7.1 row 'Conflict of interest' (p203) verbatim."
+ },
+ {
+  "query_id": "at07",
+  "pass": true,
+  "reason": "Fig 3.4 (p76): 'unions' under Functional Stakeholders."
+ },
+ {
+  "query_id": "at08",
+  "pass": true,
+  "reason": "Fig 3.6 (p85) Environmental box: land use, carbon footprint, waste."
+ },
+ {
+  "query_id": "at09",
+  "pass": true,
+  "reason": "Fig 2.6 (p45) Behavior/Confucius: junzi, ru (humanity)."
+ },
+ {
+  "query_id": "at10",
+  "pass": true,
+  "reason": "WA = $10.25–$11.50 on Fig 6.9 crop (p168). Note: the index description of Fig 6.9 was WRONG (put WA in $9.50–10.24); view_figure on the original crop gave the right band."
+ },
+ {
+  "query_id": "at11",
+  "pass": true,
+  "reason": "Fig 4.2 (p94): Directors → Officers arrow; 'Liability Is Limited to Corporate Assets'. Both parts answered."
+ },
+ {
+  "query_id": "at12",
+  "pass": true,
+  "reason": "Fig 6.6 (p163): women 61%, men 47% (data labels)."
+ },
+ {
+  "query_id": "at13",
+  "pass": true,
+  "reason": "Fig 8.3 (p226) Technology donut 20%."
+ },
+ {
+  "query_id": "at14",
+  "pass": true,
+  "reason": "Fig 8.4 (p227) ethnic: 1st 58, 4th 43 (+35% not stated but both requested values correct)."
+ },
+ {
+  "query_id": "at15",
+  "pass": true,
+  "reason": "Fig 6.8 (p167): peak 1968 ≈ $11.4–11.5; answer 'around 1968 ... approximately $11.50' within tolerance stated in benchmark."
+ },
+ {
+  "query_id": "at16",
+  "pass": true,
+  "reason": "Fig 8.10 (p238): upper-income max 2007 ≈ $730K."
+ },
+ {
+  "query_id": "at17",
+  "pass": true,
+  "reason": "Answer 'No' correct and both required maps cited (p168, p174). Borderline: vision reading listed WA, CA, DC and missed MA; the question does not ask for the list and MA is also non-right-to-work on Fig 6.10, so the cited evidence supports the full answer."
+ },
+ {
+  "query_id": "at18",
+  "pass": false,
+  "reason": "Values (Canada 109.45 vs US 108.87, +0.58) correct, but the pre-registered required evidence includes text p175:t2 ('number two on the list compiled by the OECD') and it is not cited -> fail under the benchmark rule (every required unit must be cited)."
+ },
+ {
+  "query_id": "at19",
+  "pass": false,
+  "reason": "Final values correct (US 90% telework, 12% union) but the answer states China and India appear in Table 6.2 — false (Table 6.2 has no China/India). Contains an unsupported/false claim -> fail."
+ },
+ {
+  "query_id": "at20",
+  "pass": true,
+  "reason": "Mexico and South Korea: in Table 6.3 (p176), absent from Table 6.2 (p175); both cited."
+ },
+ {
+  "query_id": "at21",
+  "pass": true,
+  "reason": "Publicly traded, SEC, 2002 (p120:t2/t3). Extra claim about private companies/not-for-profits is stated in cited p120:t4."
+ },
+ {
+  "query_id": "at22",
+  "pass": true,
+  "reason": "Court agreed with shareholders; Ford forced to abandon balancing goal (p96:t1). Extra 'profit-maximizing interests of shareholders' is in cited Fig 4.4 caption and p137:t3."
+ },
+ {
+  "query_id": "at23",
+  "pass": true,
+  "reason": "43 percent (p285:t3)."
+ },
+ {
+  "query_id": "at24",
+  "pass": true,
+  "reason": "Higher productivity, fewer strikes, better pay, safer conditions + engaged workers (p175:t1)."
+ },
+ {
+  "query_id": "atu1",
+  "pass": true,
+  "reason": "Abstained: France not in Table 6.3; correct observation."
+ },
+ {
+  "query_id": "atu2",
+  "pass": true,
+  "reason": "States leadership share by Black employees is not given; added facts (2.4% of all employees Black, 68% leadership White) are in cited p226:t0; ends with INSUFFICIENT_EVIDENCE. Parser marked 'answered' because of the citation; manual label: correct abstention."
+ },
+ {
+  "query_id": "atu3",
+  "pass": false,
+  "reason": "Abstains, but adds 'the chart only shows data up to the year 2010' — false: the line continues to ~2017 (2010 is only the last axis label). Added inaccurate claim -> fail under the abstention rule."
+ },
+ {
+  "query_id": "atu4",
+  "pass": true,
+  "reason": "States free lunch is not shown; added coffee 10% / snacks 9% for women are correct per Fig 6.6. Correct abstention (parser status 'answered' overridden)."
+ },
+ {
+  "query_id": "atu5",
+  "pass": true,
+  "reason": "Abstained; no Puerto Rico minimum wage in book."
+ },
+ {
+  "query_id": "atu6",
+  "pass": true,
+  "reason": "Abstained; Fig 6.11 starts 1983."
+ }
+]

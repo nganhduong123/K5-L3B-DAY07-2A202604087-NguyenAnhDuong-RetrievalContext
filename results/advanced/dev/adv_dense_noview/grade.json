@@ -1,0 +1,21 @@
+{
+ "split": "dev",
+ "config": "adv_dense_noview",
+ "passed": "17/18",
+ "pass_rate_pct": 94.44,
+ "threshold_90pct_needs": 17,
+ "meets_90pct": true,
+ "by_group": {
+  "table": "3/3",
+  "image": "3/3",
+  "chart": "4/4",
+  "multihop": "1/2",
+  "text": "3/3",
+  "unanswerable": "3/3"
+ },
+ "system_errors": 0,
+ "median_latency_s": 1.935,
+ "llm_calls": 23,
+ "vision_calls": 0,
+ "cost_usd": 0.0
+}

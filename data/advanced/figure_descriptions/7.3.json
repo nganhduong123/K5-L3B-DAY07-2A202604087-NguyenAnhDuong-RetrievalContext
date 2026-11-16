@@ -1,0 +1,14 @@
+{
+ "figure_id": "7.3",
+ "page": 194,
+ "crop": "data/advanced/crops/fig7.3_p194.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:07:35",
+ "latency_s": 1.57,
+ "usage": {
+  "completion_tokens": 151,
+  "prompt_tokens": 1441,
+  "total_tokens": 1592
+ },
+ "description": "TYPE: infographic\nTITLE: none\nTEXT IN IMAGE: \ncopyright\nstatutory protections\nproprietary information\ncommon law protections\npatent pending\nregistered trademark\ntrade secret\npatent\nintellectual property\nDATA: none\nKEY FACTS:\n- The image is a word cloud containing terms related to intellectual property and legal protections.\n- Prominent terms displayed in darker, bolder blue include \"copyright\", \"registered\", \"trademark\", and \"patent\".\n- Additional terms included in lighter or smaller text are \"common law protections\", \"statutory protections\", \"proprietary information\", \"patent pending\", \"trade\", \"secret\", and \"intellectual property\".\n- All text is rendered in shades of blue against a white background."
+}

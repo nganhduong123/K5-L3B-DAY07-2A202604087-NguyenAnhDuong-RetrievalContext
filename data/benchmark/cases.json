@@ -1,0 +1,351 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "question": "What are the two elements of a rhetorical situation?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "question": "What do the conditions of a rhetorical situation refer to?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "question": "What is the name for the total trace of everything a person does online?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "question": "In what year did Selena Gomez hand her Instagram account over to her assistant?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "question": "Who created the term meme, and how did he describe it?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "question": "Under what condition does a paraphrase require a citation of the original source?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "question": "Is a restatement written in your own words usually shorter than the source text?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "question": "How long should the critical response written for the chapter assignment be?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "question": "What object is often used as a metaphor for culture?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "question": "Which word covers all the parts of yourself that make you who you are?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "question": "What is the term for the hidden mental strain marginalized people carry while trying to feel included and safe?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "question": "How does the meaning of “He been married” in AAVE differ from “He was married” in General American English?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "question": "In chapter 1, what is a writing portfolio in the simplest terms?",
+  "filter": {
+   "chapter": 1
+  },
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "question": "In the evaluation section of chapter 1, what is the difference between intention and execution?",
+  "filter": {
+   "chapter": 1
+  },
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "question": "Who is the trailblazer profiled in chapter 2?",
+  "filter": {
+   "chapter": 2
+  },
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q16",
+  "split": "dev",
+  "question": "What do we call a statement asserting that something is valid or that some action ought to be taken?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q17",
+  "split": "dev",
+  "question": "In what year did the CCCC adopt the statement “Students’ Right to Their Own Language”?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q18",
+  "split": "dev",
+  "question": "What term describes unfairly preferring one person or idea over another?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q19",
+  "split": "dev",
+  "question": "When writing inclusively, which matters more: the impact of your language or your good intentions?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q20",
+  "split": "dev",
+  "question": "In chapter 2, what is the evaluation rubric designed to help you think about?",
+  "filter": {
+   "chapter": 2
+  },
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t01",
+  "split": "test",
+  "question": "Where was Selena Gomez born?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t02",
+  "split": "test",
+  "question": "How does the textbook define authority in its list of rhetorical key terms?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t03",
+  "split": "test",
+  "question": "When and where did Jean Gianini murder his former teacher?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t04",
+  "split": "test",
+  "question": "If the text you are responding to is argumentative, what should you examine?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t05",
+  "split": "test",
+  "question": "What does the term academia refer to?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t06",
+  "split": "test",
+  "question": "In which book did the former First Lady write that your personal story is something to own?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t07",
+  "split": "test",
+  "question": "At approximately what mental age did Goddard estimate Jean Gianini?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t08",
+  "split": "test",
+  "question": "In chapter 1, how is a meme defined in the list of key terms?",
+  "filter": {
+   "chapter": 1
+  },
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t09",
+  "split": "test",
+  "question": "In chapter 2, is culture described as something static?",
+  "filter": {
+   "chapter": 2
+  },
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t10",
+  "split": "test",
+  "question": "What verdict did the jury reach in the Jean Gianini murder case?",
+  "filter": null,
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "u01",
+  "split": "dev",
+  "question": "How many TikTok followers did Selena Gomez have in 2021?",
+  "filter": null,
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Corpus gives 2021 Twitter (~65M) and Instagram (~260M) counts only; keyword 'TikTok' has 0 hits.",
+  "absence_check": {
+   "keywords": [
+    "TikTok"
+   ],
+   "hits": 0
+  }
+ },
+ {
+  "id": "u02",
+  "split": "dev",
+  "question": "What is the required word count for the chapter 1 critical response assignment?",
+  "filter": null,
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Assignment length is given only in pages (1-2 pages); no word count/limit in corpus.",
+  "absence_check": {
+   "keywords": [
+    "word count",
+    "word limit",
+    "words long"
+   ],
+   "hits": 0
+  }
+ },
+ {
+  "id": "u03",
+  "split": "dev",
+  "question": "Which literary award did Cathy Park Hong's Minor Feelings win?",
+  "filter": null,
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Near-miss trap: Minor Feelings is described (p57-58) but no award is given for it. p57 says a DIFFERENT book (Dance Dance Revolution, 2007) won the Barnard Women Poets Prize; answering with that prize is wrong.",
+  "absence_check": {
+   "keywords": [
+    "National Book Critics",
+    "Minor Feelings won",
+    "Minor Feelings received"
+   ],
+   "hits": 0
+  }
+ },
+ {
+  "id": "u04",
+  "split": "test",
+  "question": "To which institution was Jean Gianini committed after his trial?",
+  "filter": null,
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Corpus covers the not-guilty verdict and Goddard's testimony; no post-trial institution ('asylum', 'hospital', 'Matteawan': 0 hits).",
+  "absence_check": {
+   "keywords": [
+    "asylum",
+    "hospital",
+    "Matteawan"
+   ],
+   "hits": 0
+  }
+ },
+ {
+  "id": "u05",
+  "split": "test",
+  "question": "In what year did Richard Dawkins publish The Selfish Gene?",
+  "filter": null,
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Dawkins appears once (p29, coined 'meme' in the 1970s); book title 'Selfish' has 0 hits.",
+  "absence_check": {
+   "keywords": [
+    "Selfish"
+   ],
+   "hits": 0
+  }
+ },
+ {
+  "id": "u06",
+  "split": "test",
+  "question": "What percentage of Americans speak African American Vernacular English?",
+  "filter": null,
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "AAVE is discussed (p60, p72) but no share of speakers; the only 'percentage' refers to General American English.",
+  "absence_check": {
+   "keywords": [
+    "AAVE speakers",
+    "percent of Americans"
+   ],
+   "hits": 0
+  }
+ }
+]

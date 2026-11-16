@@ -1,0 +1,494 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "type": "direct",
+  "question": "What are the two elements of a rhetorical situation?",
+  "expected_answer": "Agents and conditions",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 24,
+    "evidence": "In the most basic terms, a rhetorical situation has two elements: agents and conditions."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "type": "direct",
+  "question": "What do the conditions of a rhetorical situation refer to?",
+  "expected_answer": "Genre, purpose, stance, context, and culture",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 24,
+    "evidence": "The conditions of a rhetorical situation refer to the genre, purpose, stance, context, and culture."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "What is the name for the total trace of everything a person does online?",
+  "expected_answer": "A digital footprint",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 25,
+    "evidence": "every post you make on any social media platform leaves a digital footprint—the sum of your online behavior."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "type": "direct",
+  "question": "In what year did Selena Gomez hand her Instagram account over to her assistant?",
+  "expected_answer": "2017",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 27,
+    "evidence": "Gomez handed over her Instagram account to her assistant in 2017."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "type": "direct",
+  "question": "Who created the term meme, and how did he describe it?",
+  "expected_answer": "Richard Dawkins, in the 1970s, as “a unit of cultural transmission”",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 29,
+    "evidence": "British evolutionary biologist and author Richard Dawkins (b. 1941) created the term for use as “a unit of cultural transmission,”"
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "type": "condition",
+  "question": "Under what condition does a paraphrase require a citation of the original source?",
+  "expected_answer": "When the paraphrase is part of your text",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 31,
+    "evidence": "When they are part of your text, paraphrases require a citation of the original source."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Is a restatement written in your own words usually shorter than the source text?",
+  "expected_answer": "No; a paraphrase is usually about the same length as the original, although it can be longer or shorter",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 37,
+    "evidence": "A paraphrase is usually about the same length as the original text, although it can be either longer or shorter."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "type": "direct",
+  "question": "How long should the critical response written for the chapter assignment be?",
+  "expected_answer": "Short, 1–2 pages",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 35,
+    "evidence": "write a short (1–2 pages) critical response to the text"
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "type": "direct",
+  "question": "What object is often used as a metaphor for culture?",
+  "expected_answer": "An iceberg",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 55,
+    "evidence": "The iceberg is often used as a metaphor for culture."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Which word covers all the parts of yourself that make you who you are?",
+  "expected_answer": "Identity",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 54,
+    "evidence": "Identity is the word that encompasses all the parts of yourself that make you who you are."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "What is the term for the hidden mental strain marginalized people carry while trying to feel included and safe?",
+  "expected_answer": "Emotional tax",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 61,
+    "evidence": "Emotional tax: the invisible mental stress taken on by people of marginalized backgrounds in an attempt to feel included, respected, and safe"
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "type": "condition",
+  "question": "How does the meaning of “He been married” in AAVE differ from “He was married” in General American English?",
+  "expected_answer": "In General American English the man is no longer married; in AAVE he is still married",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 72,
+    "evidence": "In General American English, the sentence implies that the man is no longer married, whereas the sentence in AAVE indicates that the man is still married."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "type": "metadata",
+  "question": "In chapter 1, what is a writing portfolio in the simplest terms?",
+  "expected_answer": "A collection of your writing contained within a single binder or folder",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 48,
+    "evidence": "In simplest terms, a writing portfolio is a collection of your writing contained within a single binder or folder."
+   }
+  ],
+  "filter": {
+   "chapter": 1
+  },
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "type": "metadata",
+  "question": "In the evaluation section of chapter 1, what is the difference between intention and execution?",
+  "expected_answer": "Intention is what you mean; execution is how you say it",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 44,
+    "evidence": "Your intention is what you mean, and your execution is how you say it."
+   }
+  ],
+  "filter": {
+   "chapter": 1
+  },
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "type": "metadata",
+  "question": "Who is the trailblazer profiled in chapter 2?",
+  "expected_answer": "Cathy Park Hong, an Asian American poet, writer, and educator",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 57,
+    "evidence": "Cathy Park Hong (b. 1976) is an Asian American poet, writer, and educator committed to exploring living art."
+   }
+  ],
+  "filter": {
+   "chapter": 2
+  },
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q16",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "What do we call a statement asserting that something is valid or that some action ought to be taken?",
+  "expected_answer": "A claim",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 37,
+    "evidence": "A claim is a statement that something is true (or valid) or that some action should be taken."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-test"
+ },
+ {
+  "id": "q17",
+  "split": "dev",
+  "type": "direct",
+  "question": "In what year did the CCCC adopt the statement “Students’ Right to Their Own Language”?",
+  "expected_answer": "1974",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 73,
+    "evidence": "In 1974, the Conference on College Composition and Communication adopted “Students’ Right to Their Own Language,”"
+   }
+  ],
+  "filter": null,
+  "origin": "day6-test"
+ },
+ {
+  "id": "q18",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "What term describes unfairly preferring one person or idea over another?",
+  "expected_answer": "Bias",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 59,
+    "evidence": "bias occurs when you prejudicially favor one person, place, thing, or idea over another."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-test"
+ },
+ {
+  "id": "q19",
+  "split": "dev",
+  "type": "condition",
+  "question": "When writing inclusively, which matters more: the impact of your language or your good intentions?",
+  "expected_answer": "Impact; the impact on the reader is more important than good intentions",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 60,
+    "evidence": "The impact of your language on your reader is more important than your good intentions."
+   }
+  ],
+  "filter": null,
+  "origin": "day6-test"
+ },
+ {
+  "id": "q20",
+  "split": "dev",
+  "type": "metadata",
+  "question": "In chapter 2, what is the evaluation rubric designed to help you think about?",
+  "expected_answer": "Your writing in anti-racist and inclusive terms",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 69,
+    "evidence": "The rubric is designed to help you think about your writing in anti-racist and inclusive terms."
+   }
+  ],
+  "filter": {
+   "chapter": 2
+  },
+  "origin": "day6-test"
+ },
+ {
+  "id": "t01",
+  "split": "test",
+  "type": "direct",
+  "question": "Where was Selena Gomez born?",
+  "expected_answer": "Grand Prairie, Texas (raised outside of Dallas)",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 26,
+    "evidence": "Gomez was born in Grand Prairie, Texas, but raised outside of Dallas."
+   }
+  ],
+  "filter": null,
+  "origin": "day7-new"
+ },
+ {
+  "id": "t02",
+  "split": "test",
+  "type": "direct",
+  "question": "How does the textbook define authority in its list of rhetorical key terms?",
+  "expected_answer": "Credibility; background that reflects experience, knowledge, or understanding of a situation",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 30,
+    "evidence": "Authority: credibility; background that reflects experience, knowledge, or understanding of a situation."
+   }
+  ],
+  "filter": null,
+  "origin": "day7-new"
+ },
+ {
+  "id": "t03",
+  "split": "test",
+  "type": "direct",
+  "question": "When and where did Jean Gianini murder his former teacher?",
+  "expected_answer": "In 1914, in the village of Poland, New York",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 40,
+    "evidence": "In 1914, in the village of Poland, New York, sixteen-year-old Jean Gianini murdered his former teacher Lydia Beecher."
+   }
+  ],
+  "filter": null,
+  "origin": "day7-new"
+ },
+ {
+  "id": "t04",
+  "split": "test",
+  "type": "condition",
+  "question": "If the text you are responding to is argumentative, what should you examine?",
+  "expected_answer": "The claim, the reasoning, and each piece of supporting evidence",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 40,
+    "evidence": "If the text is argumentative, examine the claim, reasoning, and each piece of supporting evidence."
+   }
+  ],
+  "filter": null,
+  "origin": "day7-new"
+ },
+ {
+  "id": "t05",
+  "split": "test",
+  "type": "direct",
+  "question": "What does the term academia refer to?",
+  "expected_answer": "The life, community, or environment of teachers, schools, and education",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 46,
+    "evidence": "The term academia refers to “the life, community, or environment of teachers, schools, and education.”"
+   }
+  ],
+  "filter": null,
+  "origin": "day7-new"
+ },
+ {
+  "id": "t06",
+  "split": "test",
+  "type": "paraphrase",
+  "question": "In which book did the former First Lady write that your personal story is something to own?",
+  "expected_answer": "Becoming (2018), by Michelle Obama",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 56,
+    "evidence": "writes in her book Becoming (2018) that your personal story"
+   }
+  ],
+  "filter": null,
+  "origin": "day7-new"
+ },
+ {
+  "id": "t07",
+  "split": "test",
+  "type": "direct",
+  "question": "At approximately what mental age did Goddard estimate Jean Gianini?",
+  "expected_answer": "Approximately ten years of age",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 42,
+    "evidence": "he estimated his mentality at approximately ten years of age"
+   }
+  ],
+  "filter": null,
+  "origin": "day7-new"
+ },
+ {
+  "id": "t08",
+  "split": "test",
+  "type": "metadata",
+  "question": "In chapter 1, how is a meme defined in the list of key terms?",
+  "expected_answer": "An image (usually) with accompanying text that calls for a response or elicits a reaction",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 30,
+    "evidence": "Meme: image (usually) with accompanying text that calls for a response or elicits a reaction."
+   }
+  ],
+  "filter": {
+   "chapter": 1
+  },
+  "origin": "day7-new"
+ },
+ {
+  "id": "t09",
+  "split": "test",
+  "type": "metadata",
+  "question": "In chapter 2, is culture described as something static?",
+  "expected_answer": "No; culture is not static, it changes and grows dynamically in response to many variables",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 56,
+    "evidence": "Culture is not static; it changes and grows dynamically in response to any number of variables."
+   }
+  ],
+  "filter": {
+   "chapter": 2
+  },
+  "origin": "day7-new"
+ },
+ {
+  "id": "t10",
+  "split": "test",
+  "type": "paraphrase",
+  "question": "What verdict did the jury reach in the Jean Gianini murder case?",
+  "expected_answer": "Not guilty (as charged)",
+  "gold": [
+   {
+    "source_id": "openstax-writing-guide",
+    "page": 41,
+    "evidence": "We find the defendant in this case not guilty as charged"
+   }
+  ],
+  "filter": null,
+  "origin": "day7-new"
+ }
+]

@@ -1,0 +1,14 @@
+{
+ "figure_id": "9.6",
+ "page": 272,
+ "crop": "data/advanced/crops/fig9.6_p272.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:55:02",
+ "latency_s": 7.98,
+ "usage": {
+  "completion_tokens": 115,
+  "prompt_tokens": 1427,
+  "total_tokens": 1542
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE: WELLPOINT\n\nDATA: N/A\n\nKEY FACTS:\n- Shows a curved multi-story office building lit up at night, with the \"WELLPOINT\" logo sign visible on its facade.\n- The surrounding trees and streetlights are decorated with bright holiday lights.\n- Red light trails from moving vehicle traffic are visible on the street in front of the building.\n- Red-and-white striped pole decorations (candy-cane style) stand on the left side of the plaza/street area."
+}

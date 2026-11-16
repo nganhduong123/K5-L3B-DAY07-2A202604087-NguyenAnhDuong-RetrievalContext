@@ -1,0 +1,16 @@
+{
+ "figure_id": "4.5",
+ "page": 101,
+ "crop": "data/advanced/crops/fig4.5_p101.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "prompt_variant": "no_verbatim (RECITATION fallback)",
+ "finish_reason": "stop",
+ "described_at": "2026-11-16T17:13:11",
+ "latency_s": 2.21,
+ "usage": {
+  "completion_tokens": 557,
+  "prompt_tokens": 1410,
+  "total_tokens": 1967
+ },
+ "description": "TYPE: table image\nTITLE: Relative Profitability of Socially Responsible and Other Index Mutual Funds\nTEXT IN IMAGE:\n- Columns: Index or Fund, Holdings (Number of Different Stocks Held in Fund), Year-to-Date Return, 2-Year Return, 5-Year Return\n- Rows (General index fund, beige background):\n  - S&P 500 Index\n  - NASDAQ Index\n- Rows (Social index fund, green background):\n  - Vanguard FTSE Social Index\n  - TIAA-CREF Social\n  - iShares Social\n- Legend: General index fund (beige square), Social index fund (green square)\n\nDATA:\n- S&P 500 Index (General index fund): Holdings = 500, Year-to-Date Return = 8.2%, 2-Year Return = 7.4%, 5-Year Return = 81.4%\n- NASDAQ Index (General index fund): Holdings = 3,176, Year-to-Date Return = 6.5%, 2-Year Return = 12.5%, 5-Year Return = 108%\n- Vanguard FTSE Social Index (Social index fund): Holdings = 407, Year-to-Date Return = 7.7%, 2-Year Return = 5.7%, 5-Year Return = 96.7%\n- TIAA-CREF Social (Social index fund): Holdings = 793, Year-to-Date Return = 12.1%, 2-Year Return = 0.1%, 5-Year Return = 66.8%\n- iShares Social (Social index fund): Holdings = 403, Year-to-Date Return = 8.1%, 2-Year Return = 6.5%, 5-Year Return = 78.8%\n\nKEY FACTS:\n- The NASDAQ Index holds the highest number of different stocks (3,176), while the iShares Social fund holds the fewest (403 among the listed funds, or 407 for Vanguard FTSE Social Index).\n- TIAA-CREF Social achieved the highest Year-to-Date return at 12.1%.\n- NASDAQ Index achieved the highest 2-Year return (12.5%) and 5-Year return (108%).\n- TIAA-CREF Social recorded the lowest 2-Year return at 0.1%.\n- Social index funds show competitive returns compared to general index funds across various time periods."
+}

@@ -1,0 +1,14 @@
+{
+ "figure_id": "5.3",
+ "page": 132,
+ "crop": "data/advanced/crops/fig5.3_p132.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:56:17",
+ "latency_s": 2.21,
+ "usage": {
+  "completion_tokens": 89,
+  "prompt_tokens": 1387,
+  "total_tokens": 1476
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: none\nDATA: none\nKEY FACTS:\n- A person stands on a snowy mountain peak against a dark blue sky.\n- The person is carrying skis on their back and holding ski poles.\n- A large, detailed view of the moon is visible in the upper right portion of the image.\n- Footprints trail up the snowy ridge leading to where the person stands."
+}

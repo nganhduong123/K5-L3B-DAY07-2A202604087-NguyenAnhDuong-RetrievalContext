@@ -1,0 +1,93 @@
+[
+ {
+  "query_id": "ad01",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad02",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad03",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad04",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad05",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad06",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad07",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad08",
+  "pass": false,
+  "reason": "Answer correct and supported by text p225:t1, but the required unit Fig 8.2 is not cited. Relabelled FAIL after test grading to apply the pre-registered rule (every required unit cited) consistently; does not change the selection.",
+  "passed_before_relabel": true
+ },
+ {
+  "query_id": "ad09",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad10",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad11",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad12",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad13",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad14",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "ad15",
+  "pass": true,
+  "reason": "Matches expected answer and original page/crop; cites the required evidence unit(s)."
+ },
+ {
+  "query_id": "adu1",
+  "pass": true,
+  "reason": "Abstained; states the requested item is not in the table/figure; no unsupported claim."
+ },
+ {
+  "query_id": "adu2",
+  "pass": true,
+  "reason": "Abstained; states the requested item is not in the table/figure; no unsupported claim."
+ },
+ {
+  "query_id": "adu3",
+  "pass": true,
+  "reason": "Abstained; states the requested item is not in the table/figure; no unsupported claim."
+ }
+]

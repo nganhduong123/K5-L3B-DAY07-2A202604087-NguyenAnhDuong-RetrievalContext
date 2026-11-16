@@ -1,0 +1,14 @@
+{
+ "figure_id": "4.1",
+ "page": 93,
+ "crop": "data/advanced/crops/fig4.1_p93.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:55:22",
+ "latency_s": 5.46,
+ "usage": {
+  "completion_tokens": 103,
+  "prompt_tokens": 1446,
+  "total_tokens": 1549
+ },
+ "description": "TYPE: diagram\nTITLE: none\nTEXT IN IMAGE: 4\nDATA: none\nKEY FACTS:\n- An illustration showing a large, leafy green tree with an extensive root system underground.\n- In the background, several stylized houses and buildings of various designs are lined up behind the tree.\n- The ground is depicted as a brown layer where the roots spread out horizontally and vertically beneath the surface.\n- A small white circle with the number \"4\" is visible in the bottom left corner."
+}

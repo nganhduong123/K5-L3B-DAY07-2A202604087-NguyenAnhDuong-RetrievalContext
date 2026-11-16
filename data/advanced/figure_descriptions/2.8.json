@@ -1,0 +1,14 @@
+{
+ "figure_id": "2.8",
+ "page": 52,
+ "crop": "data/advanced/crops/fig2.8_p52.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:47:35",
+ "latency_s": 21.88,
+ "usage": {
+  "completion_tokens": 144,
+  "prompt_tokens": 1462,
+  "total_tokens": 1606
+ },
+ "description": "**TYPE:** photo\n\n**TITLE:** none\n\n**TEXT IN IMAGE:**\n(a)\nON\nLIBERTY\nBY\nJOHN STUART MILL.\nLONDON:\nJOHN W. PARKER AND SON, WEST STRAND.\nMDCCCLIX.\n\n(b)\n(a)\n(b)\n\n**DATA:** none\n\n**KEY FACTS:**\n* Image (a) shows the title page of the first edition of the book *On Liberty* by John Stuart Mill, published in London by John W. Parker and Son in 1859 (MDCCCLIX).\n* Image (b) shows a black-and-white portrait photograph of John Stuart Mill."
+}

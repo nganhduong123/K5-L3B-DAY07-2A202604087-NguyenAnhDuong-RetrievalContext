@@ -1,0 +1,14 @@
+{
+ "figure_id": "1.1",
+ "page": 17,
+ "crop": "data/advanced/crops/fig1.1_p17.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:42:13",
+ "latency_s": 34.73,
+ "usage": {
+  "completion_tokens": 143,
+  "prompt_tokens": 1414,
+  "total_tokens": 1557
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\nContract\nCompany's Growth\nBusiness Company\nINVOICE\n\nDATA:\nN/A\n\nKEY FACTS:\n- Top-down view (flat lay) of a wooden desk office environment.\n- Two people in business attire shaking hands across the desk.\n- One person holding a pen over a document labeled \"Contract\" attached to a clipboard.\n- Another person (or hands visible at the bottom left) reviewing papers and a tablet displaying line charts titled \"Company's Growth\".\n- Additional items on the desk include a laptop, open file folders, printed financial spreadsheets/reports, an invoice document, and a tablet."
+}

@@ -1,0 +1,14 @@
+{
+ "figure_id": "10.7",
+ "page": 296,
+ "crop": "data/advanced/crops/fig10.7_p296.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:10:39",
+ "latency_s": 17.74,
+ "usage": {
+  "completion_tokens": 178,
+  "prompt_tokens": 1409,
+  "total_tokens": 1587
+ },
+ "description": "TYPE: diagram\nTITLE: none\nTEXT IN IMAGE: \n- Labor platforms\n- Capital platforms\n- Online platforms in the access economy\nDATA: \n- Node 1: \"Labor platforms\" (blue circle) points via an arrow to \"Online platforms in the access economy\".\n- Node 2: \"Capital platforms\" (orange circle) points via an arrow to \"Online platforms in the access economy\".\n- Additionally, curved arrows from both \"Labor platforms\" and \"Capital platforms\" merge and point to the middle of \"Online platforms in the access economy\".\nKEY FACTS:\n- The diagram illustrates the components of online platforms in the access economy.\n- It shows two primary categories: labor platforms and capital platforms.\n- Arrows indicate that online platforms in the access economy are driven by labor platforms, capital platforms, or a combination of both."
+}

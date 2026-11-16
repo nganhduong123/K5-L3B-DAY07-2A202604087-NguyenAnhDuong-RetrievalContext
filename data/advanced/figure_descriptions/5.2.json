@@ -1,0 +1,14 @@
+{
+ "figure_id": "5.2",
+ "page": 129,
+ "crop": "data/advanced/crops/fig5.2_p129.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:56:09",
+ "latency_s": 4.45,
+ "usage": {
+  "completion_tokens": 122,
+  "prompt_tokens": 1421,
+  "total_tokens": 1543
+ },
+ "description": "TYPE: painting\nTITLE: none\nTEXT IN IMAGE: none\nDATA: not applicable\nKEY FACTS:\n- Depicts a historical scene outdoors near a body of water with a sailing ship visible in the background.\n- Shows European men in 17th-century attire interacting with Indigenous people.\n- One European man stands holding papers while another sits by an open chest filled with goods and textiles.\n- Several Indigenous figures are gathered on the left, some wearing feathered headdresses and traditional garments.\n- In the background to the right, figures are seen carrying a chest along the shore."
+}

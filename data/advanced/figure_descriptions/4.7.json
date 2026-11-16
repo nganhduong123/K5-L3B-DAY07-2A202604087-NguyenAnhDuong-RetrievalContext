@@ -1,0 +1,14 @@
+{
+ "figure_id": "4.7",
+ "page": 107,
+ "crop": "data/advanced/crops/fig4.7_p107.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:54:57",
+ "latency_s": 24.7,
+ "usage": {
+  "completion_tokens": 109,
+  "prompt_tokens": 1375,
+  "total_tokens": 1484
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE: none\n\nDATA: not applicable\n\nKEY FACTS:\n- Shows four stacks of coins arranged in increasing height from left to right against a natural green outdoor background.\n- Small green plants are sprouting out from the top of each of the four stacks of coins.\n- To the far right, a clear glass jar filled with coins holds a larger, taller plant growing out of its opening.\n- The image visually symbolizes financial growth, investment, and environmental sustainability/green economy concepts."
+}

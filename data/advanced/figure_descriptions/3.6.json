@@ -1,0 +1,14 @@
+{
+ "figure_id": "3.6",
+ "page": 85,
+ "crop": "data/advanced/crops/fig3.6_p85.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:55:10",
+ "latency_s": 3.14,
+ "usage": {
+  "completion_tokens": 293,
+  "prompt_tokens": 1398,
+  "total_tokens": 1691
+ },
+ "description": "TYPE: diagram\nTITLE: none\nTEXT IN IMAGE:\nCompany\nSocial\n• employee well-being\n• fair trade\n• community stakeholder\nEnvironmental\n• land use\n• carbon footprint\n• waste\nEconomic\n• revenue\n• growth\n• cost\nDATA:\n- Nodes/Boxes:\n  - \"Company\" (top orange box)\n  - \"Social\" (left blue box containing: employee well-being, fair trade, community stakeholder)\n  - \"Environmental\" (right blue box containing: land use, carbon footprint, waste)\n  - \"Economic\" (bottom blue box containing: revenue, growth, cost)\n- Relations/Lines:\n  - Orange lines connect \"Company\" to \"Social\", \"Environmental\", and \"Economic\".\n  - Blue lines connect \"Social\", \"Environmental\", and \"Economic\" to each other, forming a triangle between the three bottom/side components.\nKEY FACTS:\n- The diagram places a central \"Company\" at the top connected to three components: Social, Environmental, and Economic.\n- The Social component includes employee well-being, fair trade, and community stakeholder.\n- The Environmental component includes land use, carbon footprint, and waste.\n- The Economic component includes revenue, growth, and cost.\n- Lines interconnect the Social, Environmental, and Economic boxes, indicating interrelation among the three pillars of the triple bottom line."
+}

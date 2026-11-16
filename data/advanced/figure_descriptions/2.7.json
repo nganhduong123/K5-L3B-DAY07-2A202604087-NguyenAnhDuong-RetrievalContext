@@ -1,0 +1,14 @@
+{
+ "figure_id": "2.7",
+ "page": 49,
+ "crop": "data/advanced/crops/fig2.7_p49.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:47:13",
+ "latency_s": 45.37,
+ "usage": {
+  "completion_tokens": 173,
+  "prompt_tokens": 1451,
+  "total_tokens": 1624
+ },
+ "description": "**TYPE:** painting\n\n**TITLE:** none\n\n**TEXT IN IMAGE:**\nDrawn by H. H. Pickersgill.\nJEREMY BENTHAM.\nBorn 15th Feby 1747.\nDied 6th June, 1832.\nOn Stone by Weld Taylor.\nPrinted by Maguire Lemercier & Co.\n\n**DATA:**\nN/A\n\n**KEY FACTS:**\n* The artwork depicts a deceased man (Jeremy Bentham) lying prone/flat on his back upon a table or slab, partially covered by a draped sheet.\n* His head is positioned to the left side with his mouth slightly open, and his feet extend toward the right side.\n* The image is a monochrome sketch/lithograph featuring printed credits and birth/death dates along the bottom margin."
+}

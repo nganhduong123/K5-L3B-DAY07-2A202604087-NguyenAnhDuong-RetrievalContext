@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.7",
+ "page": 235,
+ "crop": "data/advanced/crops/fig8.7_p235.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:09:36",
+ "latency_s": 3.95,
+ "usage": {
+  "completion_tokens": 449,
+  "prompt_tokens": 1371,
+  "total_tokens": 1820
+ },
+ "description": "TYPE: map\nTITLE: States That Prohibit Sexual Orientation Discrimination\nTEXT IN IMAGE:\nState abbreviations: WA, OR, CA, NV, ID, UT, AZ, MT, WY, CO, NM, ND, SD, NE, KS, OK, TX, MN, IA, MO, AR, LA, WI, IL, MI, IN, KY, TN, MS, AL, OH, WV, VA, NC, SC, GA, FL, PA, NY, VT, NH, ME, MA, RI, CT, NJ, DE, MD, DC, AK, HI.\nLegend:\n- States that prohibit sexual orientation discrimination in both private and public workplaces (orange color)\n- States that prohibit sexual orientation discrimination in public workplaces (blue color)\nSource: \"Sexual Orientation Discrimination in the Workplace.\" FindLaw. http://employment.findlaw.com/employment-discrimination/sexual-orientation-discrimination-in-the-workplace.html.\n\nDATA:\nOrange states (prohibit in both private and public workplaces): WA, OR, CA, NV, CO, NM, MN, IA, IL, WI, ME, VT, MA, RI, CT, NY, NJ, HI.\nBlue states (prohibit in public workplaces only): MT, MI, IN, PA.\nWhite states (no color/legend category specified on map for this): ID, UT, AZ, WY, SD, ND, NE, KS, OK, TX, MO, AR, LA, OH, KY, TN, MS, AL, WV, VA, NC, SC, GA, FL, DE, MD, DC, NH, AK.\n\nKEY FACTS:\n- The map displays US states categorized by whether they prohibit sexual orientation discrimination in private and public workplaces, public workplaces only, or neither based on the map.\n- Orange represents states prohibiting sexual orientation discrimination in both private and public workplaces.\n- Blue represents states prohibiting sexual orientation discrimination in public workplaces.\n- A significant number of states, particularly in the South and parts of the Midwest and Great Plains, are uncolored (white), indicating no prohibition shown under these categories on the map."
+}

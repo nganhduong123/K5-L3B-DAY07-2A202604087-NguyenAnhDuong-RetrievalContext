@@ -1,0 +1,1896 @@
+[
+ {
+  "query_id": "q01",
+  "split": "dev",
+  "answerable": true,
+  "question": "What are the two elements of a rhetorical situation?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The two elements of a rhetorical situation are agents and conditions. Agents refer to the originators and the audience of the communication, while conditions encompass the genre, purpose, stance, context, and culture of the situation [openstax-writing-guide:p24:B:5].",
+  "citations": [
+   "openstax-writing-guide:p24:B:5"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p24:B:5"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "What are the two elements of a rhetorical situation?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p24:B:5",
+      "page": 24,
+      "rank": 1,
+      "score": 8.87885
+     },
+     {
+      "id": "openstax-writing-guide:p41:B:3",
+      "page": 41,
+      "rank": 2,
+      "score": 7.4739
+     },
+     {
+      "id": "openstax-writing-guide:p24:B:7",
+      "page": 24,
+      "rank": 3,
+      "score": 6.4027
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p24:B:5",
+     "openstax-writing-guide:p41:B:3",
+     "openstax-writing-guide:p24:B:7"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 765.7
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p24:B:5",
+   "openstax-writing-guide:p41:B:3",
+   "openstax-writing-guide:p24:B:7"
+  ],
+  "context": "[openstax-writing-guide:p24:B:5 | page 24 | chapter 1]\nRhetoric and the Rhetorical Situation To begin to read, write, and think critically, it is helpful to look at something familiar such as social media and the way it is used. Interactions on social media, as in all types of conversation, present rhetorical situations that form the basis of communication. In the most basic terms, a rhetorical situation has two elements: agents and conditions. Agents are the originators (initiators) and the audience of the communication. The originator may have a real audience or an anticipated audience. A real audience is made up of people the originator may know personally or know of. For example, if you are the originator, your real audience could be a group of your peers to whom you present your ideas in class.\n\n[openstax-writing-guide:p41:B:3 | page 41 | chapter 1]\nHere, the author provides elements of the rhetorical situation: culture, context, and stance. Shared cultural assumptions are that the guilty will be punished. Contextual details of the trial include a summary of the defense and the jury’s reaction. The phrase “unaccountable to a great many people” may suggest that the author does not agree with the jury’s “not guilty” verdict.\n\n[openstax-writing-guide:p24:B:7 | page 24 | chapter 1]\nThe conditions of a rhetorical situation refer to the genre, purpose, stance, context, and culture. The genre, or medium, is the mode in which you communicate. You may speak persuasively in class, or you may send a text message; both are genres. The purpose is your reason or reasons for the communication. For example, if you are presenting to your class, your purpose might be to do well and get a good grade, but it also might be to",
+  "context_chars": 1739,
+  "usage": {
+   "prompt_tokens": 855,
+   "completion_tokens": 55,
+   "cost_usd": 0.00016125,
+   "llm_calls": 1
+  },
+  "elapsed_s": 3.22
+ },
+ {
+  "query_id": "q02",
+  "split": "dev",
+  "answerable": true,
+  "question": "What do the conditions of a rhetorical situation refer to?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The conditions of a rhetorical situation refer to the genre, purpose, stance, context, and culture involved in the communication. These elements help define how and why communication occurs in various contexts, such as speaking persuasively in class or sending a text message [openstax-writing-guide:p24:B:7].",
+  "citations": [
+   "openstax-writing-guide:p24:B:7"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p24:B:7"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "What do the conditions of a rhetorical situation refer to?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p24:B:7",
+      "page": 24,
+      "rank": 1,
+      "score": 9.47724
+     },
+     {
+      "id": "openstax-writing-guide:p24:B:0",
+      "page": 24,
+      "rank": 2,
+      "score": 5.82346
+     },
+     {
+      "id": "openstax-writing-guide:p24:B:5",
+      "page": 24,
+      "rank": 3,
+      "score": 5.55658
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p24:B:7",
+     "openstax-writing-guide:p24:B:0",
+     "openstax-writing-guide:p24:B:5"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 556.7
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p24:B:7",
+   "openstax-writing-guide:p24:B:0",
+   "openstax-writing-guide:p24:B:5"
+  ],
+  "context": "[openstax-writing-guide:p24:B:7 | page 24 | chapter 1]\nThe conditions of a rhetorical situation refer to the genre, purpose, stance, context, and culture. The genre, or medium, is the mode in which you communicate. You may speak persuasively in class, or you may send a text message; both are genres. The purpose is your reason or reasons for the communication. For example, if you are presenting to your class, your purpose might be to do well and get a good grade, but it also might be to\n\n[openstax-writing-guide:p24:B:0 | page 24 | chapter 1]\nThe essential element of all communication, past and present, including your social media posts and related comments, is the rhetorical situation: the conditions, or circumstances, of the communication and the agents, or people involved, in that communication. Notice that the term comes from the word rhetoric.\n\n[openstax-writing-guide:p24:B:5 | page 24 | chapter 1]\nRhetoric and the Rhetorical Situation To begin to read, write, and think critically, it is helpful to look at something familiar such as social media and the way it is used. Interactions on social media, as in all types of conversation, present rhetorical situations that form the basis of communication. In the most basic terms, a rhetorical situation has two elements: agents and conditions. Agents are the originators (initiators) and the audience of the communication. The originator may have a real audience or an anticipated audience. A real audience is made up of people the originator may know personally or know of. For example, if you are the originator, your real audience could be a group of your peers to whom you present your ideas in class.",
+  "context_chars": 1670,
+  "usage": {
+   "prompt_tokens": 837,
+   "completion_tokens": 63,
+   "cost_usd": 0.00016335,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.48
+ },
+ {
+  "query_id": "q03",
+  "split": "dev",
+  "answerable": true,
+  "question": "What is the name for the total trace of everything a person does online?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The total trace of everything a person does online is referred to as a \"digital footprint\"—the sum of your online behavior [openstax-writing-guide:p25:B:3].",
+  "citations": [
+   "openstax-writing-guide:p25:B:3"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p25:B:3"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "What is the name for the total trace of everything a person does online?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p25:B:3",
+      "page": 25,
+      "rank": 1,
+      "score": -7.74267
+     },
+     {
+      "id": "openstax-writing-guide:p24:B:6",
+      "page": 24,
+      "rank": 2,
+      "score": -10.82918
+     },
+     {
+      "id": "openstax-writing-guide:p65:B:5",
+      "page": 65,
+      "rank": 3,
+      "score": -10.90092
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p25:B:3",
+     "openstax-writing-guide:p24:B:6",
+     "openstax-writing-guide:p65:B:5"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 772.3
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p25:B:3",
+   "openstax-writing-guide:p24:B:6",
+   "openstax-writing-guide:p65:B:5"
+  ],
+  "context": "[openstax-writing-guide:p25:B:3 | page 25 | chapter 1]\nSocial Media Savvy Social media is an important part of modern life, and many people maintain multiple social media accounts. These applications can educate and help you connect to others. However, every post you make on any social media platform leaves a digital footprint—the sum of your online behavior. These footprints might reflect on you positively or negatively. On one hand, if you repost a baby goat jumping around a barnyard, you and others may laugh and no harm is done. On the other hand, if you are upset or angry and post something nasty about someone, the target can be harmed through cyberbullying and your online reputation tarnished. It is important to understand that the footprint you leave may never go away and may cause trouble for you down the road.\n\n[openstax-writing-guide:p24:B:6 | page 24 | chapter 1]\nOr it could be a person to whom you send a text message. You know the members of the class and know something about them. Similarly, you know the person to whom you send the text. An anticipated audience is one you hope to reach or one you expect will engage with your communication. When you post on social media platforms, for instance, your audience is probably anticipated. While you might have followers, you may not know them personally, but you anticipate who they are and how they might react.\n\n[openstax-writing-guide:p65:B:5 | page 65 | chapter 2]\nCharacter Sketch and Captured Moment Because your cultural artifact may be tied to a person, a character sketch might help you think about its significance. A character sketch is a brief description of a real or fictional person—in this case, likely someone you know or even yourself. In it, you describe the character’s personality, physical traits, habits, history, relationships, and ties to the cultural artifact. You may include research about the character to introduce readers to them. Use the following format if you need more guidance:",
+  "context_chars": 1988,
+  "usage": {
+   "prompt_tokens": 891,
+   "completion_tokens": 38,
+   "cost_usd": 0.00015645,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.27
+ },
+ {
+  "query_id": "q04",
+  "split": "dev",
+  "answerable": true,
+  "question": "In what year did Selena Gomez hand her Instagram account over to her assistant?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "Selena Gomez handed her Instagram account over to her assistant in 2017 due to suffering from publicity overload, cyberbullying, and a negatively changing sense of self [openstax-writing-guide:p27:B:2].",
+  "citations": [
+   "openstax-writing-guide:p27:B:2"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p27:B:2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "In what year did Selena Gomez hand her Instagram account over to her assistant?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p27:B:2",
+      "page": 27,
+      "rank": 1,
+      "score": 8.89263
+     },
+     {
+      "id": "openstax-writing-guide:p26:B:1",
+      "page": 26,
+      "rank": 2,
+      "score": 1.85307
+     },
+     {
+      "id": "openstax-writing-guide:p27:B:3",
+      "page": 27,
+      "rank": 3,
+      "score": -2.09477
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p27:B:2",
+     "openstax-writing-guide:p26:B:1",
+     "openstax-writing-guide:p27:B:3"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 648.5
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p27:B:2",
+   "openstax-writing-guide:p26:B:1",
+   "openstax-writing-guide:p27:B:3"
+  ],
+  "context": "[openstax-writing-guide:p27:B:2 | page 27 | chapter 1]\nHowever, the most radical action that Gomez may have committed with regard to social media was her decision to quit it. Suffering from publicity overload, cyberbullying, and a negatively changing sense of self, Gomez handed over her Instagram account to her assistant in 2017. She has also handed her Instagram account over to people such as Georgia voting rights advocate Stacey Abrams (https://openstax.org/r/ staceyabrams) (b. 1973) as part of the #ShareTheMicNow (https://openstax.org/r/sharethemicnow) campaign, which amplifies the voices of Black women. Gomez deleted social media apps from her smartphone and gave up knowledge of her passwords.\n\n[openstax-writing-guide:p26:B:1 | page 26 | chapter 1]\nAuthenticity as Rhetoric By any standard, singer, actor, and philanthropist Selena Gomez (b. 1992) is an influencer. By 2021, Gomez had amassed around 65 million Twitter (https://openstax.org/r/selenagomeztwitter) followers and over 260 million Instagram (https://openstax.org/r/selenagomezinsta) followers, placing her among celebrities with top follower counts. Gomez was born in Grand Prairie, Texas, but raised outside of Dallas. She is named after the popular Tejano singer Selena Quintanilla-Perez (1971–1995), who was murdered by her fan club president but still maintains an avid following. Gomez entered show business as a child, inspired by the single mother, an amateur actress, who raised her.\n\n[openstax-writing-guide:p27:B:3 | page 27 | chapter 1]\nShe claims that the move has been liberating: “I suddenly had to learn how to be with myself.” She reflects that there were 150 million people on her phone, and “I just put it down. . . . That was such a relief.” Despite the shift in approach, Gomez’s relationship with social media remains strong. She actively cultivates a “deliberate . . . vulnerability” through her unwillingness to shy away from tough or important issues. Regardless of which of Gomez’s assistants hits the “post” button, Gomez’s focus on giving of herself to improve society resonates with her fans. Discussion Questions 1 . Have you heard of Selena Gomez? What did you know about her before reading this feature?",
+  "context_chars": 2211,
+  "usage": {
+   "prompt_tokens": 992,
+   "completion_tokens": 46,
+   "cost_usd": 0.0001764,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.32
+ },
+ {
+  "query_id": "q05",
+  "split": "dev",
+  "answerable": true,
+  "question": "Who created the term meme, and how did he describe it?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The term \"meme\" was created by British evolutionary biologist Richard Dawkins in the 1970s. He described it as \"a unit of cultural transmission\" and understood it to be \"the cultural equivalent of a gene\" [openstax-writing-guide:p29:B:2].",
+  "citations": [
+   "openstax-writing-guide:p29:B:2"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p29:B:2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "Who created the term meme, and how did he describe it?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p29:B:2",
+      "page": 29,
+      "rank": 1,
+      "score": 7.73245
+     },
+     {
+      "id": "openstax-writing-guide:p29:B:3",
+      "page": 29,
+      "rank": 2,
+      "score": 0.90507
+     },
+     {
+      "id": "openstax-writing-guide:p30:B:4",
+      "page": 30,
+      "rank": 3,
+      "score": -1.2289
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p29:B:2",
+     "openstax-writing-guide:p29:B:3",
+     "openstax-writing-guide:p30:B:4"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 644.0
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p29:B:2",
+   "openstax-writing-guide:p29:B:3",
+   "openstax-writing-guide:p30:B:4"
+  ],
+  "context": "[openstax-writing-guide:p29:B:2 | page 29 | chapter 1]\nIf you have experience with social media, you may be familiar with the way users respond to images or words by introducing another image: the meme. A meme is a photograph containing text that presents one viewer’s response. The term meme originates from the Greek root mim, meaning “mime” or “mimic,” and the English suffix -eme. In the 1970s, British evolutionary biologist and author Richard Dawkins (b. 1941) created the term for use as “a unit of cultural transmission,” and he understood it to be “the cultural equivalent of a gene.”\n\n[openstax-writing-guide:p29:B:3 | page 29 | chapter 1]\nToday, according to the dictionary definition, memes are “amusing or interesting items that spread widely through the Internet.” For example, maybe you have seen a meme of an upset cat or of a friend turning around to look at something else while another friend is relating something important. The text that accompanies these pictures provides some expression on the part of the originator that the audience usually finds humorous, relatable, or capable of arousing any range of emotion or thought. For example, in the photograph shown in Figure 1.4 of a critter standing at attention, the author of the text conveys anxiousness. The use of the word like has been popularized in the meme genre to mean “to give an example.”\n\n[openstax-writing-guide:p30:B:4 | page 30 | chapter 1]\n• Meme: image (usually) with accompanying text that calls for a response or elicits a reaction.",
+  "context_chars": 1526,
+  "usage": {
+   "prompt_tokens": 818,
+   "completion_tokens": 60,
+   "cost_usd": 0.0001587,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.65
+ },
+ {
+  "query_id": "q06",
+  "split": "dev",
+  "answerable": true,
+  "question": "Under what condition does a paraphrase require a citation of the original source?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "A paraphrase requires a citation of the original source when it is included as part of your text, as it involves rewording the original text to clarify its meaning for readers [openstax-writing-guide:p31:B:0]. Additionally, proper citation is necessary for all forms of responding to a text, including paraphrasing, to establish authority and credibility [openstax-writing-guide:p40:B:4].",
+  "citations": [
+   "openstax-writing-guide:p31:B:0",
+   "openstax-writing-guide:p40:B:4"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p31:B:0",
+   "openstax-writing-guide:p40:B:4"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "Under what condition does a paraphrase require a citation of the original source?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p31:B:0",
+      "page": 31,
+      "rank": 1,
+      "score": 5.90297
+     },
+     {
+      "id": "openstax-writing-guide:p40:B:4",
+      "page": 40,
+      "rank": 2,
+      "score": 3.30709
+     },
+     {
+      "id": "openstax-writing-guide:p37:B:1",
+      "page": 37,
+      "rank": 3,
+      "score": 1.76963
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p31:B:0",
+     "openstax-writing-guide:p40:B:4",
+     "openstax-writing-guide:p37:B:1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 791.3
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p31:B:0",
+   "openstax-writing-guide:p40:B:4",
+   "openstax-writing-guide:p37:B:1"
+  ],
+  "context": "[openstax-writing-guide:p31:B:0 | page 31 | chapter 1]\n• Paraphrase: rewording of original text to make it clearer for readers. When they are part of your text, paraphrases require a citation of the original source. • Rhetoric: use of effective communication in written, visual, or other forms and understanding of its impact on audiences as well as of its organization and structure. • Rhetorical situation: instance of communication; the conditions of a communication and the agents of that communication. • Social media: all digital tools that allow individuals or groups to create, post, share, or otherwise express themselves in a public forum. Social media platforms publish instantly and can reach a wide audience. • Summary: condensed account of a text or other form of communication, noting its main points.\n\n[openstax-writing-guide:p40:B:4 | page 40 | chapter 1]\nResponding to a text in writing also means locating specific evidence to quote, paraphrase, or summarize in support of your analysis or evaluation. When you quote, you use the exact language of the text; when you summarize, you reduce the text to a brief statement of its main ideas in your own words; when you paraphrase, you restate the text in your own words. In all these cases—quotation, summary, or paraphrase—you will need to cite or reference the original source. Proper and consistent citation is important for several reasons. It helps establish your authority, thus building your credibility with readers. It also allows readers to go to your sources for more details or specifics so that they, too, can take part in the conversation.\n\n[openstax-writing-guide:p37:B:1 | page 37 | chapter 1]\nResponding to Clarify: Paraphrase A paraphrase is a restatement of a text or part of a text, written in your own words, to clarify its meaning for your readers. A paraphrase is usually about the same length as the original text, although it can be either longer or shorter. Your goal in paraphrasing is to provide readers with clarity about a complex idea while still maintaining the perspective of the source. Paraphrasing can be difficult and requires practice, so be sure to review (https://openstax.org/r/review).",
+  "context_chars": 2192,
+  "usage": {
+   "prompt_tokens": 951,
+   "completion_tokens": 85,
+   "cost_usd": 0.00019365,
+   "llm_calls": 1
+  },
+  "elapsed_s": 3.03
+ },
+ {
+  "query_id": "q07",
+  "split": "dev",
+  "answerable": true,
+  "question": "Is a restatement written in your own words usually shorter than the source text?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "A paraphrase, which is a restatement of a text in your own words, is usually about the same length as the original text, although it can be either longer or shorter [openstax-writing-guide:p37:B:1].",
+  "citations": [
+   "openstax-writing-guide:p37:B:1"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p37:B:1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "Is a restatement written in your own words usually shorter than the source text?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p37:B:1",
+      "page": 37,
+      "rank": 1,
+      "score": 7.81779
+     },
+     {
+      "id": "openstax-writing-guide:p36:B:3",
+      "page": 36,
+      "rank": 2,
+      "score": 2.25269
+     },
+     {
+      "id": "openstax-writing-guide:p40:B:4",
+      "page": 40,
+      "rank": 3,
+      "score": 1.40191
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p37:B:1",
+     "openstax-writing-guide:p36:B:3",
+     "openstax-writing-guide:p40:B:4"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 589.0
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p37:B:1",
+   "openstax-writing-guide:p36:B:3",
+   "openstax-writing-guide:p40:B:4"
+  ],
+  "context": "[openstax-writing-guide:p37:B:1 | page 37 | chapter 1]\nResponding to Clarify: Paraphrase A paraphrase is a restatement of a text or part of a text, written in your own words, to clarify its meaning for your readers. A paraphrase is usually about the same length as the original text, although it can be either longer or shorter. Your goal in paraphrasing is to provide readers with clarity about a complex idea while still maintaining the perspective of the source. Paraphrasing can be difficult and requires practice, so be sure to review (https://openstax.org/r/review).\n\n[openstax-writing-guide:p36:B:3 | page 36 | chapter 1]\nResponding to Understand: Summary A summary is a condensed version of a longer text that reviews its main ideas. Shorter than the original text, a summary is written in your own words. To prepare a summary, you may outline or annotate the text to\n\n[openstax-writing-guide:p40:B:4 | page 40 | chapter 1]\nResponding to a text in writing also means locating specific evidence to quote, paraphrase, or summarize in support of your analysis or evaluation. When you quote, you use the exact language of the text; when you summarize, you reduce the text to a brief statement of its main ideas in your own words; when you paraphrase, you restate the text in your own words. In all these cases—quotation, summary, or paraphrase—you will need to cite or reference the original source. Proper and consistent citation is important for several reasons. It helps establish your authority, thus building your credibility with readers. It also allows readers to go to your sources for more details or specifics so that they, too, can take part in the conversation.",
+  "context_chars": 1677,
+  "usage": {
+   "prompt_tokens": 855,
+   "completion_tokens": 49,
+   "cost_usd": 0.00015765,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.44
+ },
+ {
+  "query_id": "q08",
+  "split": "dev",
+  "answerable": true,
+  "question": "How long should the critical response written for the chapter assignment be?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The critical response written for the chapter assignment should be 1–2 pages long [openstax-writing-guide:p35:B:1].",
+  "citations": [
+   "openstax-writing-guide:p35:B:1"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p35:B:1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "How long should the critical response written for the chapter assignment be?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p35:B:1",
+      "page": 35,
+      "rank": 1,
+      "score": 0.5666
+     },
+     {
+      "id": "openstax-writing-guide:p35:B:0",
+      "page": 35,
+      "rank": 2,
+      "score": -0.96781
+     },
+     {
+      "id": "openstax-writing-guide:p50:B:0",
+      "page": 50,
+      "rank": 3,
+      "score": -4.19859
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p35:B:1",
+     "openstax-writing-guide:p35:B:0",
+     "openstax-writing-guide:p50:B:0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 493.1
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p35:B:1",
+   "openstax-writing-guide:p35:B:0",
+   "openstax-writing-guide:p50:B:0"
+  ],
+  "context": "[openstax-writing-guide:p35:B:1 | page 35 | chapter 1]\nFinally, write a short (1–2 pages) critical response to the text, perhaps recommending or not recommending it to other readers, explaining its significance in a particular area of life or field of study, or even commenting on the diction or style of the communication and its potential impact on readers. Another Lens. When you consider another perspective, you often learn information you have not considered before. Look at Figure 1.6:\n\n[openstax-writing-guide:p35:B:0 | page 35 | chapter 1]\nlanguage, the more you will learn about the texts you read. Summary of Assignment: Critical Response Select a short “text” for response. The “text” may be written, visual, or a combination of both. Keeping in mind the example of Selena Gomez or other social media activists (such as Swedish environmentalist Greta Thunberg [b. 2003] or conservative speaker and entrepreneur Wayne Dupree [b. 1968]), focus on a text, perhaps a meme or social media post, that addresses an aspect of social activism. First, read it completely for understanding. Summarize or paraphrase the main ideas of the text to check for comprehension. Second, read it critically to determine its purpose, to analyze its use of language (or another element), and to evaluate it.\n\n[openstax-writing-guide:p50:B:0 | page 50 | chapter 1]\ncritical response and the finished product. See where your thoughts go, a process that often helps you clarify your own thoughts about the subject—your own text and its creation. When you freewrite, write to yourself in your own natural style, without worrying about sentence structure, grammar, spelling, or punctuation. The purpose is to help you tie together the ideas from your writing process, your assignment, and other thoughts and experiences in your mind. One future value of freewriting is that the process tends to generate questions at random, capture them, and leave the answering for a later task or assignment. Another bonus of freewriting is that you will build confidence with writing and become more disciplined when you have to write.",
+  "context_chars": 2106,
+  "usage": {
+   "prompt_tokens": 922,
+   "completion_tokens": 29,
+   "cost_usd": 0.0001557,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.08
+ },
+ {
+  "query_id": "q09",
+  "split": "dev",
+  "answerable": true,
+  "question": "What object is often used as a metaphor for culture?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The iceberg is often used as a metaphor for culture. The visible part of the iceberg represents the aspects of culture that are apparent, while the larger, hidden part symbolizes the less obvious elements that can be challenging to recognize or understand [openstax-writing-guide:p55:B:2].",
+  "citations": [
+   "openstax-writing-guide:p55:B:2"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p55:B:2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "What object is often used as a metaphor for culture?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p55:B:2",
+      "page": 55,
+      "rank": 1,
+      "score": 6.55334
+     },
+     {
+      "id": "openstax-writing-guide:p55:B:3",
+      "page": 55,
+      "rank": 2,
+      "score": 5.30278
+     },
+     {
+      "id": "openstax-writing-guide:p65:B:0",
+      "page": 65,
+      "rank": 3,
+      "score": 4.75002
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p55:B:2",
+     "openstax-writing-guide:p55:B:3",
+     "openstax-writing-guide:p65:B:0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 511.6
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p55:B:2",
+   "openstax-writing-guide:p55:B:3",
+   "openstax-writing-guide:p65:B:0"
+  ],
+  "context": "[openstax-writing-guide:p55:B:2 | page 55 | chapter 2]\nThe elaborate celebration is attended by the girl’s extended family and recognized by the cultural community at large. Participation in regular daily practices, such as Black women’s natural hair culture, and once-in-a-lifetime celebrations, such as the quinceañera, can contribute to a person’s culture and sense of identity. The iceberg is often used as a metaphor for culture. The top of the iceberg, visible to all, is much smaller than the part hidden below the water. So it is with culture. The less obvious parts of culture can sometimes be “hidden” from observers. This lack of knowledge can make understanding cultures other than your own more difficult because these hidden parts are more challenging to recognize or understand.\n\n[openstax-writing-guide:p55:B:3 | page 55 | chapter 2]\nFIGURE 2.2 Icebergs often serve as a metaphor for the aspects of culture that seem “hidden” or invisible. Notice how only part of the iceberg is visible above the water. (credit: “iceberg” by Ce?sar Henrique de Santis Nascimento/ flickr, Public Domain) Within a culture, beliefs, attitudes, and behaviors are both taught explicitly and learned implicitly. Think back for a moment to your high school days. You may have attended a freshman orientation that included a tour of the building, a summary of school rules, and an overview of the school schedule. This orientation was the beginning of your cultural understanding of the school and your role in it.\n\n[openstax-writing-guide:p65:B:0 | page 65 | chapter 2]\nSummary of Assignment: Cultural Artifact Choose an artifact that symbolizes something about a culture to which you belong. This might be a physical object that you have, or it may be a metaphorical object, such as Du Bois’s color line or veil, that represents something larger about your culture. Write approximately 350–700 words describing it, using sensory detail and explaining its meaning both to you personally and within your culture. To begin your thinking, view this TEDx Talk (https://openstax.org/r/thistedxtalk) for a discussion of cultural artifacts and narrative led by artist David Bailey.",
+  "context_chars": 2167,
+  "usage": {
+   "prompt_tokens": 929,
+   "completion_tokens": 58,
+   "cost_usd": 0.00017415,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.2
+ },
+ {
+  "query_id": "q10",
+  "split": "dev",
+  "answerable": true,
+  "question": "Which word covers all the parts of yourself that make you who you are?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The word that encompasses all the parts of yourself that make you who you are is \"identity\" [openstax-writing-guide:p54:B:1].",
+  "citations": [
+   "openstax-writing-guide:p54:B:1"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p54:B:1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "Which word covers all the parts of yourself that make you who you are?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p54:B:1",
+      "page": 54,
+      "rank": 1,
+      "score": 4.56614
+     },
+     {
+      "id": "openstax-writing-guide:p56:B:2",
+      "page": 56,
+      "rank": 2,
+      "score": -3.6139
+     },
+     {
+      "id": "openstax-writing-guide:p54:B:4",
+      "page": 54,
+      "rank": 3,
+      "score": -4.68646
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p54:B:1",
+     "openstax-writing-guide:p56:B:2",
+     "openstax-writing-guide:p54:B:4"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 525.8
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p54:B:1",
+   "openstax-writing-guide:p56:B:2",
+   "openstax-writing-guide:p54:B:4"
+  ],
+  "context": "[openstax-writing-guide:p54:B:1 | page 54 | chapter 2]\nWhile all humans have the same basic needs—food, water, shelter, affection, and a sense of belonging—cultural identity is shaped by family, upbringing, language, and geographical location. You may have grown up in a small town, in a large city, or in the suburbs; you may have been raised with siblings and may have attended church; you may speak more than one language. You may be single, married, or dating; you may drive a car, SUV, or truck. All your lived experiences have shaped who you are today. Identity is the word that encompasses all the parts of yourself that make you who you are. For example, if you were to respond to all of the scenarios presented in the sentences above, your answers would collectively make up at least some of your identity.\n\n[openstax-writing-guide:p56:B:2 | page 56 | chapter 2]\n1964) writes in her book Becoming (2018) that your personal story “is what you have, what you will always have. It is something to own.” So make space in your understanding of yourself for the value that your cultural experiences provide to others in this new environment. By sharing yourself—your culture and identity—with peers and professors, you give them an opportunity to develop and grow. College or university is a place for you to have experiences that help you first figure out who you already are and then explore who you want to be. Allow these experiences to provide that opportunity. A cultural system includes all parts of a culture that shape its members: its beliefs, traditions, and rituals.\n\n[openstax-writing-guide:p54:B:4 | page 54 | chapter 2]\nWhenever you consider lived experiences, think about the contexts in which they occur, and the systems of communication used in those contexts. The word culture includes the expressions, customs, practices, and experiences that connect a person to other people in their present, past, and future. Who you are is closely connected to the cultures you inhabit and the ways in which you communicate. Among the more noticeable markers of your identities are the languages you speak. In this chapter, language is defined as a system of words used to communicate. Just as you likely have multiple identities, you likely speak varieties of languages as part of each of those identities.",
+  "context_chars": 2317,
+  "usage": {
+   "prompt_tokens": 964,
+   "completion_tokens": 32,
+   "cost_usd": 0.0001638,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.29
+ },
+ {
+  "query_id": "q11",
+  "split": "dev",
+  "answerable": true,
+  "question": "What is the term for the hidden mental strain marginalized people carry while trying to feel included and safe?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The term for the hidden mental strain marginalized people carry while trying to feel included and safe is \"emotional tax\" [openstax-writing-guide:p61:B:0].",
+  "citations": [
+   "openstax-writing-guide:p61:B:0"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p61:B:0"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "What is the term for the hidden mental strain marginalized people carry while trying to feel included and safe?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p61:B:0",
+      "page": 61,
+      "rank": 1,
+      "score": 0.38458
+     },
+     {
+      "id": "openstax-writing-guide:p60:B:5",
+      "page": 60,
+      "rank": 2,
+      "score": -8.46147
+     },
+     {
+      "id": "openstax-writing-guide:p58:B:0",
+      "page": 58,
+      "rank": 3,
+      "score": -9.74136
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p61:B:0",
+     "openstax-writing-guide:p60:B:5",
+     "openstax-writing-guide:p58:B:0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 503.6
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p61:B:0",
+   "openstax-writing-guide:p60:B:5",
+   "openstax-writing-guide:p58:B:0"
+  ],
+  "context": "[openstax-writing-guide:p61:B:0 | page 61 | chapter 2]\n• Cultural appropriation: taking the creative or artistic forms of a different culture and using them as one’s own, particularly in a way that is disrespectful of the original context • Culture: the shared beliefs, values, and assumptions of a group of people • Emotional tax: the invisible mental stress taken on by people of marginalized backgrounds in an attempt to feel included, respected, and safe • Ethnocentrism: the idea that one’s own culture is inherently better than other cultures • Intersectionality: the intertwining of different aspects of social identities, including gender, race, culture, ethnicity, social class, religion, and sexual orientation, that results in unique experiences and opportunities • Microaggression: behavior or speech that subtly or indirectly expresses prejud\n\n[openstax-writing-guide:p60:B:5 | page 60 | chapter 2]\nExploring the Issues The following key terms and characteristics provide a better understand of anti-racist and inclusive writing: • Ally: a person who identifies as a supporter of marginalized groups and who advocates for them • Anti-racist: adhering to a set of beliefs and actions that oppose racism and promote inclusion and equality of marginalized groups • Critical race theory: the idea that racism is ingrained in the institutions and systems of American society\n\n[openstax-writing-guide:p58:B:0 | page 58 | chapter 2]\ninvisible racism. The title of Minor Feelings comes from the word han, which Koreans use to describe emotions that include anger, melancholy, envy, and shame. Hong believes these same emotions are shared by minorities in America today. She expresses difficulty in using the pronoun we in her writing because of the diversity of Asian Americans. Yet she notes that what this diverse population has in common is that even as second- and third- generation Americans, Asian Americans find they still don’t enjoy first-class status in American life in the same way that White Americans do. She proposes thinking of the label Asian Americans as “less of an identity, and more as a coalition” (Hong, “Why”) in order to seek common ground with others who share similar experiences.",
+  "context_chars": 2212,
+  "usage": {
+   "prompt_tokens": 935,
+   "completion_tokens": 36,
+   "cost_usd": 0.00016185,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.44
+ },
+ {
+  "query_id": "q12",
+  "split": "dev",
+  "answerable": true,
+  "question": "How does the meaning of “He been married” in AAVE differ from “He was married” in General American English?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "In AAVE, the phrase \"He been married\" indicates that the man is still married, while in General American English, \"He was married\" implies that he is no longer married. This grammatical difference reflects distinct meanings in the two dialects [openstax-writing-guide:p72:B:2].",
+  "citations": [
+   "openstax-writing-guide:p72:B:2"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p72:B:2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "How does the meaning of “He been married” in AAVE differ from “He was married” in General American English?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p72:B:2",
+      "page": 72,
+      "rank": 1,
+      "score": 8.58811
+     },
+     {
+      "id": "openstax-writing-guide:p72:B:1",
+      "page": 72,
+      "rank": 2,
+      "score": -1.19451
+     },
+     {
+      "id": "openstax-writing-guide:p71:B:4",
+      "page": 71,
+      "rank": 3,
+      "score": -5.20077
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p72:B:2",
+     "openstax-writing-guide:p72:B:1",
+     "openstax-writing-guide:p71:B:4"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 535.2
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p72:B:2",
+   "openstax-writing-guide:p72:B:1",
+   "openstax-writing-guide:p71:B:4"
+  ],
+  "context": "[openstax-writing-guide:p72:B:2 | page 72 | chapter 2]\nWhile General American English requires verb and tense agreement, AAVE features more variations. For example, in AAVE, the word been is often placed before a verb in order to convey a past event: for example, “He been married” rather than the General American English “He was married.” This change in grammar can actually convey different meanings. In General American English, the sentence implies that the man is no longer married, whereas the sentence in AAVE indicates that the man is still married. This is by no means an inclusive list of AAVE conventions, as languages are constantly evolving.\n\n[openstax-writing-guide:p72:B:1 | page 72 | chapter 2]\nAmong the most common—and most debated—language variations is African American Vernacular English (AAVE). AAVE, also referred to as Black English Vernacular or Ebonics, is a generalized term for a variety of dialects spoken by Black Americans. These dialects are influenced by American Southern dialects. With roots in the language patterns of people descended from enslaved Africans in the United States, AAVE has its own syntax, grammar, and tense system. Some common features include the absence of third-person singular and possessive pronouns and the use of double negatives. AAVE has distinct grammar conventions. The speaker or writer will often omit forms of the verb to be from a sentence, as in these examples: “What [omitted is] he talking about?” “She [omitted was] the one who took it.”\n\n[openstax-writing-guide:p71:B:4 | page 71 | chapter 2]\nWhile the American Midwest has what might be considered the closest variation to General American English, the language spoken by most Americans, it has its own regional and cultural dialect variations. In characteristic Midwest American English words such as cot and caught are pronounced as homophones. As",
+  "context_chars": 1875,
+  "usage": {
+   "prompt_tokens": 895,
+   "completion_tokens": 62,
+   "cost_usd": 0.00017145,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.78
+ },
+ {
+  "query_id": "q13",
+  "split": "dev",
+  "answerable": true,
+  "question": "In chapter 1, what is a writing portfolio in the simplest terms?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "In simplest terms, a writing portfolio is a collection of your writing contained within a single binder or folder [openstax-writing-guide:p48:B:0].",
+  "citations": [
+   "openstax-writing-guide:p48:B:0"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p48:B:0"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "In chapter 1, what is a writing portfolio in the simplest terms?",
+    "seeded_original_question": true,
+    "filter": {
+     "chapter": 1
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p48:B:0",
+      "page": 48,
+      "rank": 1,
+      "score": 6.39705
+     },
+     {
+      "id": "openstax-writing-guide:p48:B:1",
+      "page": 48,
+      "rank": 2,
+      "score": 2.63107
+     },
+     {
+      "id": "openstax-writing-guide:p48:B:2",
+      "page": 48,
+      "rank": 3,
+      "score": 0.4635
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p48:B:0",
+     "openstax-writing-guide:p48:B:1",
+     "openstax-writing-guide:p48:B:2"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 505.1
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p48:B:0",
+   "openstax-writing-guide:p48:B:1",
+   "openstax-writing-guide:p48:B:2"
+  ],
+  "context": "[openstax-writing-guide:p48:B:0 | page 48 | chapter 1]\nconvey information will continue to be an essential element of your education and your life, so be sure to practice it. 1.8 Portfolio: Tracing Writing Development LEARNING OUTCOMES By the end of this section, you will be able to: • Reflect on the development of composing processes. • Reflect on how those composing processes affect your work. FIGURE 1.10 (credit: “Carbon fiber keyboard” by H. Sterling Cross/Wikimedia Commons, CC BY 2.0) The Portfolio: And So It Begins . . . In simplest terms, a writing portfolio is a collection of your writing contained within a single binder or folder.\n\n[openstax-writing-guide:p48:B:1 | page 48 | chapter 1]\nThis writing may have been done over a number of weeks, months, or even years. It may be organized chronologically, thematically, or according to quality. A private writing portfolio may contain writing that you wish to keep only for yourself. In this case, you decide what is in it and what it looks like. However, a writing portfolio assigned for a class will contain writing to be shared with an audience to demonstrate the growth of your writing and reasoning abilities. One kind of writing portfolio, accumulated during a college course, presents a record of your work over a semester, and your instructor may be use it to assign a grade. Another type of portfolio presents a condensed, edited story of your semester’s progress in a more narrative form.\n\n[openstax-writing-guide:p48:B:2 | page 48 | chapter 1]\nThe most common type of portfolio assigned in a writing course combines the cumulative work collected over the semester, plus a cover letter in which you explain the nature and value of these papers. Sometimes you will be asked to assign yourself a grade on the basis of your own assessment. The following suggestions may help you prepare a course portfolio:",
+  "context_chars": 1877,
+  "usage": {
+   "prompt_tokens": 895,
+   "completion_tokens": 33,
+   "cost_usd": 0.00015405,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.15
+ },
+ {
+  "query_id": "q14",
+  "split": "dev",
+  "answerable": true,
+  "question": "In the evaluation section of chapter 1, what is the difference between intention and execution?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "In the evaluation section of chapter 1, intention refers to what you mean, while execution refers to how you say it. There can be a gap between the two, meaning that your intended meaning may not always be effectively conveyed through your execution, necessitating a focus on aligning the two for clearer communication [openstax-writing-guide:p44:B:1].",
+  "citations": [
+   "openstax-writing-guide:p44:B:1"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p44:B:1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "In the evaluation section of chapter 1, what is the difference between intention and execution?",
+    "seeded_original_question": true,
+    "filter": {
+     "chapter": 1
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p44:B:0",
+      "page": 44,
+      "rank": 1,
+      "score": 2.66266
+     },
+     {
+      "id": "openstax-writing-guide:p44:B:1",
+      "page": 44,
+      "rank": 2,
+      "score": 2.56342
+     },
+     {
+      "id": "openstax-writing-guide:p23:B:0",
+      "page": 23,
+      "rank": 3,
+      "score": 0.19853
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p44:B:0",
+     "openstax-writing-guide:p44:B:1",
+     "openstax-writing-guide:p23:B:0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 581.3
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p44:B:0",
+   "openstax-writing-guide:p44:B:1",
+   "openstax-writing-guide:p23:B:0"
+  ],
+  "context": "[openstax-writing-guide:p44:B:0 | page 44 | chapter 1]\nAs an example, the author says, “________.” (Be sure to provide accurate citation!) The sentence “________” suggests that ________. The use of the word “________” creates the impression that ________. As often as possible, use the author’s name rather than a pronoun. The first time you mention it, write the full name as it is listed on the source you are using. Then, use the last name only, and be certain to cite properly. Finally, edit and revise your work to catch any oversights. 1.6 Evaluation: Intention vs. Execution LEARNING OUTCOMES By the end of this section, you will be able to: • Distinguish variations in genre conventions. • Differentiate between intention and execution with regard to intended meaning.\n\n[openstax-writing-guide:p44:B:1 | page 44 | chapter 1]\n• Articulate how rubrics provide insight into the final outcomes of an assignment. When you write, you try to convert what is in your mind into words on paper or on a screen. Because you are writing for others, your thoughts must be understandable to them. Have you ever said, “I know what I mean; I just don’t know how to say it”? Your intention is what you mean, and your execution is how you say it. Sometimes, however, intention and execution don’t convey the same thing. When this gap occurs, your intention needs some focus so that you can execute.\n\n[openstax-writing-guide:p23:B:0 | page 23 | chapter 1]\nFIGURE 1.1 Whether these students realize it or not, they are engaging in rhetoric by consuming and posting information on social media. (credit: \"Together and Alone\" by Garry Knight/flickr, CC-BY) INTRODUCTION CHAPTER OUTLINE 1.1 \"Reading\" to Understand and Respond 1.2 Social Media Trailblazer: Selena Gomez 1.3 Glance at Critical Response: Rhetoric and Critical Thinking 1.4 Annotated Student Sample: Social Media Post and Responses on Voter Suppression 1.5 Writing Process: Thinking Critically About a “Text” 1.6 Evaluation: Intention vs. Execution 1.7 Spotlight on … Academia 1.8 Portfolio: Tracing Writing Development Your past experiences with computers, cell phones, and other electronic devices represent your conscious choice to connect with a global community.",
+  "context_chars": 2215,
+  "usage": {
+   "prompt_tokens": 1013,
+   "completion_tokens": 73,
+   "cost_usd": 0.00019575,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.51
+ },
+ {
+  "query_id": "q15",
+  "split": "dev",
+  "answerable": true,
+  "question": "Who is the trailblazer profiled in chapter 2?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The trailblazer profiled in chapter 2 is Cathy Park Hong, an Asian American poet, writer, and educator who explores themes of racism from the perspective of Asians and Asian Americans [openstax-writing-guide:p57:B:0].",
+  "citations": [
+   "openstax-writing-guide:p57:B:0"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p57:B:0"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "Who is the trailblazer profiled in chapter 2?",
+    "seeded_original_question": true,
+    "filter": {
+     "chapter": 2
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p57:B:0",
+      "page": 57,
+      "rank": 1,
+      "score": 1.14968
+     },
+     {
+      "id": "openstax-writing-guide:p53:B:0",
+      "page": 53,
+      "rank": 2,
+      "score": 0.02419
+     },
+     {
+      "id": "openstax-writing-guide:p64:B:2",
+      "page": 64,
+      "rank": 3,
+      "score": -4.66256
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p57:B:0",
+     "openstax-writing-guide:p53:B:0",
+     "openstax-writing-guide:p64:B:2"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 501.5
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p57:B:0",
+   "openstax-writing-guide:p53:B:0",
+   "openstax-writing-guide:p64:B:2"
+  ],
+  "context": "[openstax-writing-guide:p57:B:0 | page 57 | chapter 2]\n2.2 Trailblazer Trailblazer Identity Trailblazer: Cathy Park Hong LEARNING OUTCOMES By the end of this section, you will be able to: • Explain how authors weave identity into their compositions. • Articulate how genre conventions are shaped by purpose, culture, and expectation. FIGURE 2.3 Cathy Park Hong (https://openstax.org/r/ cathyparkhong) writes about racism from the perspective of Asians and Asian Americans. (credit: “Racism is not an option” by GoToVan/flickr, CC BY 2.0) “Sometimes you need to explain your experiences in order to understand them yourself.” Fear: The Enemy Within Cathy Park Hong (b. 1976) is an Asian American poet, writer, and educator committed to exploring living art.\n\n[openstax-writing-guide:p53:B:0 | page 53 | chapter 2]\nFIGURE 2.1 In a 19th-century lithograph, Cherokee leader Sequoyah, unable to read or write, is shown with a table depicting the writing system he created for his native Cherokee language. His invention of the Cherokee syllabary, a collection of symbols representing the syllables of the spoken language, would provide a divided Cherokee nation with a way to communicate and thus create a sense of identity and unity. (credit: “Sequoyah” by Lehman and Duval/ Wikimedia Commons, Public Domain) INTRODUCTION CHAPTER OUTLINE 2.1 Seeds of Self 2.2 Identity Trailblazer: Cathy Park Hong 2.3 Glance at the Issues: Oppression and Reclamation 2.4 Annotated Sample Reading from The Souls of Black Folk by W. E. B.\n\n[openstax-writing-guide:p64:B:2 | page 64 | chapter 2]\nUnfortunately, such assumptions and stereotypes still exist in America today. In Chapter 2, you have begun to learn about the impact of language on culture and about how developing anti-racist and inclusive ideas is an important part of the composition process. Read the following scenario. Mark is an assistant manager at a neighborhood convenience store. At the end of the evening, his inventory count is short. After an examination of the store, Mark notices that a large display of novelty items is nearly empty. Knowing his store sells only a few of those items each day, Mark identifies theft of the items as the likely source of the discrepancy. He thinks back through the customers he served that day.",
+  "context_chars": 2282,
+  "usage": {
+   "prompt_tokens": 1016,
+   "completion_tokens": 50,
+   "cost_usd": 0.0001824,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.24
+ },
+ {
+  "query_id": "q16",
+  "split": "dev",
+  "answerable": true,
+  "question": "What do we call a statement asserting that something is valid or that some action ought to be taken?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "A statement asserting that something is true (or valid) or that some action should be taken is called a \"claim\" [openstax-writing-guide:p37:B:6].",
+  "citations": [
+   "openstax-writing-guide:p37:B:6"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p37:B:6"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "What do we call a statement asserting that something is valid or that some action ought to be taken?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p37:B:6",
+      "page": 37,
+      "rank": 1,
+      "score": 6.88322
+     },
+     {
+      "id": "openstax-writing-guide:p28:B:0",
+      "page": 28,
+      "rank": 2,
+      "score": -4.85602
+     },
+     {
+      "id": "openstax-writing-guide:p34:B:1",
+      "page": 34,
+      "rank": 3,
+      "score": -6.52193
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p37:B:6",
+     "openstax-writing-guide:p28:B:0",
+     "openstax-writing-guide:p34:B:1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 522.9
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p37:B:6",
+   "openstax-writing-guide:p28:B:0",
+   "openstax-writing-guide:p34:B:1"
+  ],
+  "context": "[openstax-writing-guide:p37:B:6 | page 37 | chapter 1]\nIn an argument, a writer (or speaker) advances claims and supports them with logical reasoning and evidence. A claim is a statement that something is true (or valid) or that some action should be taken. Every claim in an argument should be supported by logical reasoning (e.g., cause and effect, comparison and\n\n[openstax-writing-guide:p28:B:0 | page 28 | chapter 1]\nhave a valid opinion, and maybe even issue a call to action. Obviously, you use words to communicate and present your position. But you may communicate effectively through images as well.\n\n[openstax-writing-guide:p34:B:1 | page 34 | chapter 1]\nMarco @DontMessWithMe That’s why we need to #StayInLine This responder presents a potential call to action—something people can do to fight voter suppression. This call to action assumes the audience within the given culture understands or can find out what #StayInLine means and how to become involved. Conclusion You are likely familiar with this type of social media thread—users from different cultures and with differing views coming together to comment on a post. What you may not have realized is that these users and others like them are engaging in rhetoric by responding to a text through summary, paraphrase, analysis, evaluation, calls for evidence, or proposals of action. Again, they demonstrate an understanding of the rhetorical situation and how to navigate within it.",
+  "context_chars": 1451,
+  "usage": {
+   "prompt_tokens": 797,
+   "completion_tokens": 37,
+   "cost_usd": 0.00014175,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.08
+ },
+ {
+  "query_id": "q17",
+  "split": "dev",
+  "answerable": true,
+  "question": "In what year did the CCCC adopt the statement “Students’ Right to Their Own Language”?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The CCCC adopted the statement “Students’ Right to Their Own Language” in 1974 [openstax-writing-guide:p73:B:1].",
+  "citations": [
+   "openstax-writing-guide:p73:B:1"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p73:B:1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "In what year did the CCCC adopt the statement “Students’ Right to Their Own Language”?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p73:B:1",
+      "page": 73,
+      "rank": 1,
+      "score": 8.61507
+     },
+     {
+      "id": "openstax-writing-guide:p72:B:6",
+      "page": 72,
+      "rank": 2,
+      "score": 4.32376
+     },
+     {
+      "id": "openstax-writing-guide:p73:B:3",
+      "page": 73,
+      "rank": 3,
+      "score": 2.96645
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p73:B:1",
+     "openstax-writing-guide:p72:B:6",
+     "openstax-writing-guide:p73:B:3"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 524.1
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p73:B:1",
+   "openstax-writing-guide:p72:B:6",
+   "openstax-writing-guide:p73:B:3"
+  ],
+  "context": "[openstax-writing-guide:p73:B:1 | page 73 | chapter 2]\nIn 1974, the Conference on College Composition and Communication adopted “Students’ Right to Their Own Language,” a statement that affirmed students’ rights to use “their own patterns and varieties of language—the dialects of their nurture” or those that help them create their own identity. The statement recognizes that so- called General American English is aligned with a dominant White majority and includes implicit bias against students from other backgrounds. Finally, the statement reinforces the idea that a nation that praises and encourages diversity, particularly in academic circles, should not only accept diversity in language and dialect but also celebrate it.\n\n[openstax-writing-guide:p72:B:6 | page 72 | chapter 2]\n“Students’ Right to Their Own Language” The Conference on College Composition and Communication (CCCC) is the world’s largest professional organization committed to writing research, theory, and teaching. It publishes the quarterly journal College Composition and Communication and holds an annual convention. The CCCC also publishes position\n\n[openstax-writing-guide:p73:B:3 | page 73 | chapter 2]\nDemand for Linguistic Justice One position statement released by the CCCC in July 2020 was “This Ain’t Another Statement! This Is a DEMAND for Black Linguistic Justice!” Responding to the historical and sociopolitical context of today’s world, this statement coincided with #BlackLivesMatter, a movement to fight racism directed at the Black community, often at the hands of police and vigilantes. The statement shifts the narrative to composition and communication, asking how Black lives matter in language education, research, and scholarship.",
+  "context_chars": 1734,
+  "usage": {
+   "prompt_tokens": 829,
+   "completion_tokens": 32,
+   "cost_usd": 0.00014355,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.04
+ },
+ {
+  "query_id": "q18",
+  "split": "dev",
+  "answerable": true,
+  "question": "What term describes unfairly preferring one person or idea over another?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The term that describes unfairly preferring one person or idea over another is \"bias.\" A bias occurs when you prejudicially favor one person, place, thing, or idea over another [openstax-writing-guide:p59:B:5].",
+  "citations": [
+   "openstax-writing-guide:p59:B:5"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p59:B:5"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "What term describes unfairly preferring one person or idea over another?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p59:B:5",
+      "page": 59,
+      "rank": 1,
+      "score": 2.50535
+     },
+     {
+      "id": "openstax-writing-guide:p61:B:1",
+      "page": 61,
+      "rank": 2,
+      "score": -3.2398
+     },
+     {
+      "id": "openstax-writing-guide:p54:B:2",
+      "page": 54,
+      "rank": 3,
+      "score": -6.03551
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p59:B:5",
+     "openstax-writing-guide:p61:B:1",
+     "openstax-writing-guide:p54:B:2"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 488.5
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p59:B:5",
+   "openstax-writing-guide:p61:B:1",
+   "openstax-writing-guide:p54:B:2"
+  ],
+  "context": "[openstax-writing-guide:p59:B:5 | page 59 | chapter 2]\nReclaiming Humanity One way to help restructure the world to reduce or even eliminate oppression is to explore your own biases. A bias occurs when you prejudicially favor one person, place, thing, or idea over another. People are naturally conditioned to favor the familiar over the unfamiliar. If you begin to question why you think as you do or make the decisions you make, you may begin to view others as equal, even though they may look different, live differently, and experience the world differently.\n\n[openstax-writing-guide:p61:B:1 | page 61 | chapter 2]\nice based on race, gender, ability, age, or other aspects of identity, often but not always without an individual’s conscious intention (For example, the drill team director instructs all members to wear their hair straight for competition.) • Neurodiversity: the idea that humans have a range of differences in neurological functioning that should be respected • Unconscious bias: any implicit, unfair preferences that people hold without being aware of them 2.4 Annotated Sample Reading from The Souls of Black Folk by W. E. B. Du Bois LEARNING OUTCOMES By the end of this section, you will be able to: • Articulate how conventions are shaped by purpose, language, culture, and expectation. • Analyze relationships between ideas and patterns of organization.\n\n[openstax-writing-guide:p54:B:2 | page 54 | chapter 2]\nHaving a variety of identities might result in both advantages and disadvantages associated with your lived experiences. Those advantages are called privileges, and the disadvantages discrimination. When you consider that people have multiple identities, also consider that these multiple identities lead to various points of intersection among lived experiences. The idea of intersectionality, then, helps you consider systems of privilege or discrimination projected onto people as a consequence of their identities.",
+  "context_chars": 1954,
+  "usage": {
+   "prompt_tokens": 872,
+   "completion_tokens": 51,
+   "cost_usd": 0.0001614,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.12
+ },
+ {
+  "query_id": "q19",
+  "split": "dev",
+  "answerable": true,
+  "question": "When writing inclusively, which matters more: the impact of your language or your good intentions?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "When writing inclusively, the impact of your language is more important than your good intentions. This means that how your language affects your reader takes precedence over the intentions behind your words [openstax-writing-guide:p60:B:4].",
+  "citations": [
+   "openstax-writing-guide:p60:B:4"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p60:B:4"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "When writing inclusively, which matters more: the impact of your language or your good intentions?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p58:B:3",
+      "page": 58,
+      "rank": 1,
+      "score": 3.1015
+     },
+     {
+      "id": "openstax-writing-guide:p60:B:4",
+      "page": 60,
+      "rank": 2,
+      "score": 3.02042
+     },
+     {
+      "id": "openstax-writing-guide:p69:B:5",
+      "page": 69,
+      "rank": 3,
+      "score": 2.91158
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p58:B:3",
+     "openstax-writing-guide:p60:B:4",
+     "openstax-writing-guide:p69:B:5"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 528.2
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p58:B:3",
+   "openstax-writing-guide:p60:B:4",
+   "openstax-writing-guide:p69:B:5"
+  ],
+  "context": "[openstax-writing-guide:p58:B:3 | page 58 | chapter 2]\n• Articulate how language conventions shape and are shaped by readers’ and writers’ practices and purposes. • Define oppression and explain its effects. • Define inclusion and summarize ways to write inclusively. Writing about identity and culture gives authors the opportunity to share personal experiences and provides a vehicle for storytelling. This storytelling can turn into a purposeful message with meaningful rhetorical impact. What Is Oppression?\n\n[openstax-writing-guide:p60:B:4 | page 60 | chapter 2]\n• Think about your adjectives. Some groups or people prefer not to be described by an adjective. It is important to follow individual groups’ preferences for being referred to in either person-first or identity- first language. • Avoid stereotyping; write about an individual as an individual, not as if they represent an entire group or culture. You may also choose to use gender-neutral pronouns. • Be precise with meaning. Rather than describing something as “crazy,” try a more precise term such as intense, uncontrolled, or foolish to give a more accurate description. • Impact overrules intent. The impact of your language on your reader is more important than your good intentions. When you learn better, do better.\n\n[openstax-writing-guide:p69:B:5 | page 69 | chapter 2]\nInclusive writing encourages writers to think about what readers need and how they interact with the content. Inclusive writing represents culture authentically, helping readers find common threads in the writer’s words, though they may not share a particular culture. Ask a peer to use the following rubric to evaluate your final draft. The rubric is designed to help you think about your writing in anti-racist and inclusive terms.",
+  "context_chars": 1780,
+  "usage": {
+   "prompt_tokens": 843,
+   "completion_tokens": 48,
+   "cost_usd": 0.00015525,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.38
+ },
+ {
+  "query_id": "q20",
+  "split": "dev",
+  "answerable": true,
+  "question": "In chapter 2, what is the evaluation rubric designed to help you think about?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": true,
+  "status": "answered",
+  "answer": "The evaluation rubric in chapter 2 is designed to help you think about your writing in anti-racist and inclusive terms, encouraging you to consider what readers need and how they interact with the content [openstax-writing-guide:p69:B:5].",
+  "citations": [
+   "openstax-writing-guide:p69:B:5"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p69:B:5"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "In chapter 2, what is the evaluation rubric designed to help you think about?",
+    "seeded_original_question": true,
+    "filter": {
+     "chapter": 2
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p69:B:5",
+      "page": 69,
+      "rank": 1,
+      "score": 3.36255
+     },
+     {
+      "id": "openstax-writing-guide:p54:B:5",
+      "page": 54,
+      "rank": 2,
+      "score": -4.55311
+     },
+     {
+      "id": "openstax-writing-guide:p64:B:2",
+      "page": 64,
+      "rank": 3,
+      "score": -4.81334
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p69:B:5",
+     "openstax-writing-guide:p54:B:5",
+     "openstax-writing-guide:p64:B:2"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 644.1
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p69:B:5",
+   "openstax-writing-guide:p54:B:5",
+   "openstax-writing-guide:p64:B:2"
+  ],
+  "context": "[openstax-writing-guide:p69:B:5 | page 69 | chapter 2]\nInclusive writing encourages writers to think about what readers need and how they interact with the content. Inclusive writing represents culture authentically, helping readers find common threads in the writer’s words, though they may not share a particular culture. Ask a peer to use the following rubric to evaluate your final draft. The rubric is designed to help you think about your writing in anti-racist and inclusive terms.\n\n[openstax-writing-guide:p54:B:5 | page 54 | chapter 2]\nThe goal of this chapter in particular, and this text in general, is to help you think critically about language, culture, and identity in ways that make room for everyone’s lived experiences. In this chapter, you will learn how authors use language to communicate their sense of cultural identity. You will read about Cathy Park Hong and W. E. B. Du Bois, activists who have used writing to explore identity and culture. You will examine your own culture as well as your personal, unconscious bias, reflecting on both of these aspects of identity to increase your understanding of the world. 2.1 Seeds of Self LEARNING OUTCOMES By the end of this section, you will be able to: • Explain the importance of communication in various cultural, language-related, and rhetorical situations.\n\n[openstax-writing-guide:p64:B:2 | page 64 | chapter 2]\nUnfortunately, such assumptions and stereotypes still exist in America today. In Chapter 2, you have begun to learn about the impact of language on culture and about how developing anti-racist and inclusive ideas is an important part of the composition process. Read the following scenario. Mark is an assistant manager at a neighborhood convenience store. At the end of the evening, his inventory count is short. After an examination of the store, Mark notices that a large display of novelty items is nearly empty. Knowing his store sells only a few of those items each day, Mark identifies theft of the items as the likely source of the discrepancy. He thinks back through the customers he served that day.",
+  "context_chars": 2096,
+  "usage": {
+   "prompt_tokens": 922,
+   "completion_tokens": 51,
+   "cost_usd": 0.0001689,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.42
+ },
+ {
+  "query_id": "u01",
+  "split": "dev",
+  "answerable": false,
+  "question": "How many TikTok followers did Selena Gomez have in 2021?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": null,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The search did not provide information about Selena Gomez's TikTok followers in 2021.",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "How many TikTok followers did Selena Gomez have in 2021?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p26:B:1",
+      "page": 26,
+      "rank": 1,
+      "score": 7.37705
+     },
+     {
+      "id": "openstax-writing-guide:p27:B:3",
+      "page": 27,
+      "rank": 2,
+      "score": -2.44977
+     },
+     {
+      "id": "openstax-writing-guide:p27:B:2",
+      "page": 27,
+      "rank": 3,
+      "score": -5.05994
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p26:B:1",
+     "openstax-writing-guide:p27:B:3",
+     "openstax-writing-guide:p27:B:2"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 662.2
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "Selena Gomez TikTok followers 2021",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p26:B:1",
+      "page": 26,
+      "rank": 1,
+      "score": 6.78841
+     },
+     {
+      "id": "openstax-writing-guide:p26:B:2",
+      "page": 26,
+      "rank": 2,
+      "score": -1.9336
+     },
+     {
+      "id": "openstax-writing-guide:p27:B:0",
+      "page": 27,
+      "rank": 3,
+      "score": -2.61236
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [
+     "openstax-writing-guide:p26:B:1"
+    ],
+    "skipped_budget": [
+     "openstax-writing-guide:p26:B:2",
+     "openstax-writing-guide:p27:B:0"
+    ],
+    "retrieval_ms": 559.0
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p26:B:1",
+   "openstax-writing-guide:p27:B:3",
+   "openstax-writing-guide:p27:B:2"
+  ],
+  "context": "[openstax-writing-guide:p26:B:1 | page 26 | chapter 1]\nAuthenticity as Rhetoric By any standard, singer, actor, and philanthropist Selena Gomez (b. 1992) is an influencer. By 2021, Gomez had amassed around 65 million Twitter (https://openstax.org/r/selenagomeztwitter) followers and over 260 million Instagram (https://openstax.org/r/selenagomezinsta) followers, placing her among celebrities with top follower counts. Gomez was born in Grand Prairie, Texas, but raised outside of Dallas. She is named after the popular Tejano singer Selena Quintanilla-Perez (1971–1995), who was murdered by her fan club president but still maintains an avid following. Gomez entered show business as a child, inspired by the single mother, an amateur actress, who raised her.\n\n[openstax-writing-guide:p27:B:3 | page 27 | chapter 1]\nShe claims that the move has been liberating: “I suddenly had to learn how to be with myself.” She reflects that there were 150 million people on her phone, and “I just put it down. . . . That was such a relief.” Despite the shift in approach, Gomez’s relationship with social media remains strong. She actively cultivates a “deliberate . . . vulnerability” through her unwillingness to shy away from tough or important issues. Regardless of which of Gomez’s assistants hits the “post” button, Gomez’s focus on giving of herself to improve society resonates with her fans. Discussion Questions 1 . Have you heard of Selena Gomez? What did you know about her before reading this feature?\n\n[openstax-writing-guide:p27:B:2 | page 27 | chapter 1]\nHowever, the most radical action that Gomez may have committed with regard to social media was her decision to quit it. Suffering from publicity overload, cyberbullying, and a negatively changing sense of self, Gomez handed over her Instagram account to her assistant in 2017. She has also handed her Instagram account over to people such as Georgia voting rights advocate Stacey Abrams (https://openstax.org/r/ staceyabrams) (b. 1973) as part of the #ShareTheMicNow (https://openstax.org/r/sharethemicnow) campaign, which amplifies the voices of Black women. Gomez deleted social media apps from her smartphone and gave up knowledge of her passwords.",
+  "context_chars": 2211,
+  "usage": {
+   "prompt_tokens": 2021,
+   "completion_tokens": 49,
+   "cost_usd": 0.00033255000000000003,
+   "llm_calls": 2
+  },
+  "elapsed_s": 4.44
+ },
+ {
+  "query_id": "u02",
+  "split": "dev",
+  "answerable": false,
+  "question": "What is the required word count for the chapter 1 critical response assignment?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": null,
+  "status": "answered",
+  "answer": "The required word count for the chapter 1 critical response assignment is 1–2 pages, which typically translates to approximately 250–500 words, depending on formatting [openstax-writing-guide:p35:B:1].",
+  "citations": [
+   "openstax-writing-guide:p35:B:1"
+  ],
+  "raw_citations": [
+   "openstax-writing-guide:p35:B:1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "What is the required word count for the chapter 1 critical response assignment?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p35:B:0",
+      "page": 35,
+      "rank": 1,
+      "score": -1.17938
+     },
+     {
+      "id": "openstax-writing-guide:p23:B:0",
+      "page": 23,
+      "rank": 2,
+      "score": -2.36981
+     },
+     {
+      "id": "openstax-writing-guide:p35:B:1",
+      "page": 35,
+      "rank": 3,
+      "score": -3.69164
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p35:B:0",
+     "openstax-writing-guide:p23:B:0",
+     "openstax-writing-guide:p35:B:1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 642.9
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p35:B:0",
+   "openstax-writing-guide:p23:B:0",
+   "openstax-writing-guide:p35:B:1"
+  ],
+  "context": "[openstax-writing-guide:p35:B:0 | page 35 | chapter 1]\nlanguage, the more you will learn about the texts you read. Summary of Assignment: Critical Response Select a short “text” for response. The “text” may be written, visual, or a combination of both. Keeping in mind the example of Selena Gomez or other social media activists (such as Swedish environmentalist Greta Thunberg [b. 2003] or conservative speaker and entrepreneur Wayne Dupree [b. 1968]), focus on a text, perhaps a meme or social media post, that addresses an aspect of social activism. First, read it completely for understanding. Summarize or paraphrase the main ideas of the text to check for comprehension. Second, read it critically to determine its purpose, to analyze its use of language (or another element), and to evaluate it.\n\n[openstax-writing-guide:p23:B:0 | page 23 | chapter 1]\nFIGURE 1.1 Whether these students realize it or not, they are engaging in rhetoric by consuming and posting information on social media. (credit: \"Together and Alone\" by Garry Knight/flickr, CC-BY) INTRODUCTION CHAPTER OUTLINE 1.1 \"Reading\" to Understand and Respond 1.2 Social Media Trailblazer: Selena Gomez 1.3 Glance at Critical Response: Rhetoric and Critical Thinking 1.4 Annotated Student Sample: Social Media Post and Responses on Voter Suppression 1.5 Writing Process: Thinking Critically About a “Text” 1.6 Evaluation: Intention vs. Execution 1.7 Spotlight on … Academia 1.8 Portfolio: Tracing Writing Development Your past experiences with computers, cell phones, and other electronic devices represent your conscious choice to connect with a global community.\n\n[openstax-writing-guide:p35:B:1 | page 35 | chapter 1]\nFinally, write a short (1–2 pages) critical response to the text, perhaps recommending or not recommending it to other readers, explaining its significance in a particular area of life or field of study, or even commenting on the diction or style of the communication and its potential impact on readers. Another Lens. When you consider another perspective, you often learn information you have not considered before. Look at Figure 1.6:",
+  "context_chars": 2124,
+  "usage": {
+   "prompt_tokens": 963,
+   "completion_tokens": 46,
+   "cost_usd": 0.00017205,
+   "llm_calls": 1
+  },
+  "elapsed_s": 2.41
+ },
+ {
+  "query_id": "u03",
+  "split": "dev",
+  "answerable": false,
+  "question": "Which literary award did Cathy Park Hong's Minor Feelings win?",
+  "config": "agent_rerank_b2400_v2_seed",
+  "model": "openai/gpt-4o-mini",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "prompt": "v2",
+  "seed_original": true,
+  "context_evidence_hit": null,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The search did not provide information about any literary awards won by Cathy Park Hong's \"Minor Feelings.\"",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "Which literary award did Cathy Park Hong's Minor Feelings win?",
+    "seeded_original_question": true,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p57:B:3",
+      "page": 57,
+      "rank": 1,
+      "score": 1.42413
+     },
+     {
+      "id": "openstax-writing-guide:p58:B:0",
+      "page": 58,
+      "rank": 2,
+      "score": -0.64209
+     },
+     {
+      "id": "openstax-writing-guide:p57:B:0",
+      "page": 57,
+      "rank": 3,
+      "score": -1.20768
+     }
+    ],
+    "added_to_context": [
+     "openstax-writing-guide:p57:B:3",
+     "openstax-writing-guide:p58:B:0",
+     "openstax-writing-guide:p57:B:0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 572.6
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "hybrid_rerank",
+    "query": "Cathy Park Hong Minor Feelings literary award",
+    "seeded_original_question": false,
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-writing-guide:p57:B:3",
+      "page": 57,
+      "rank": 1,
+      "score": 3.28991
+     },
+     {
+      "id": "openstax-writing-guide:p58:B:0",
+      "page": 58,
+      "rank": 2,
+      "score": 1.25173
+     },
+     {
+      "id": "openstax-writing-guide:p57:B:0",
+      "page": 57,
+      "rank": 3,
+      "score": 1.19118
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [
+     "openstax-writing-guide:p57:B:3",
+     "openstax-writing-guide:p58:B:0",
+     "openstax-writing-guide:p57:B:0"
+    ],
+    "skipped_budget": [],
+    "retrieval_ms": 485.7
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p57:B:3",
+   "openstax-writing-guide:p58:B:0",
+   "openstax-writing-guide:p57:B:0"
+  ],
+  "context": "[openstax-writing-guide:p57:B:3 | page 57 | chapter 2]\nHong most recently published a collection of essays titled Minor Feelings: An Asian American Reckoning (2020), a memoir that takes on the lens of cultural criticism. Writing from her personal experiences as an Asian American woman growing up and living in America, Hong delves into deeply painful and often unseen racial trauma experienced by Asians and Asian Americans. Published as anti-Asian hate crimes gained increasing national attention, Hong’s essays help readers understand the curious place that Asian Americans inhabit in American race relations, where they are viewed as caricatures of the “model minority” and face\n\n[openstax-writing-guide:p58:B:0 | page 58 | chapter 2]\ninvisible racism. The title of Minor Feelings comes from the word han, which Koreans use to describe emotions that include anger, melancholy, envy, and shame. Hong believes these same emotions are shared by minorities in America today. She expresses difficulty in using the pronoun we in her writing because of the diversity of Asian Americans. Yet she notes that what this diverse population has in common is that even as second- and third- generation Americans, Asian Americans find they still don’t enjoy first-class status in American life in the same way that White Americans do. She proposes thinking of the label Asian Americans as “less of an identity, and more as a coalition” (Hong, “Why”) in order to seek common ground with others who share similar experiences.\n\n[openstax-writing-guide:p57:B:0 | page 57 | chapter 2]\n2.2 Trailblazer Trailblazer Identity Trailblazer: Cathy Park Hong LEARNING OUTCOMES By the end of this section, you will be able to: • Explain how authors weave identity into their compositions. • Articulate how genre conventions are shaped by purpose, culture, and expectation. FIGURE 2.3 Cathy Park Hong (https://openstax.org/r/ cathyparkhong) writes about racism from the perspective of Asians and Asian Americans. (credit: “Racism is not an option” by GoToVan/flickr, CC BY 2.0) “Sometimes you need to explain your experiences in order to understand them yourself.” Fear: The Enemy Within Cathy Park Hong (b. 1976) is an Asian American poet, writer, and educator committed to exploring living art.",
+  "context_chars": 2270,
+  "usage": {
+   "prompt_tokens": 1979,
+   "completion_tokens": 52,
+   "cost_usd": 0.00032805,
+   "llm_calls": 2
+  },
+  "elapsed_s": 3.99
+ }
+]

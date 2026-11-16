@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.4",
+ "page": 227,
+ "crop": "data/advanced/crops/fig8.4_p227.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:09:08",
+ "latency_s": 6.03,
+ "usage": {
+  "completion_tokens": 368,
+  "prompt_tokens": 1394,
+  "total_tokens": 1762
+ },
+ "description": "TYPE: bar chart\nTITLE: Likelihood of Financial Performance above Industry Median by Company Diversity Quartile\nTEXT IN IMAGE: \nLikelihood of Financial Performance above Industry Median by Company Diversity Quartile\n+15%\n47\n54\n4th quartile\n1st quartile\nGender-diverse companies\n+35%\n43\n58\n4th quartile\n1st quartile\nEthnically diverse companies\nSource: Hunt, Vivian, Dennis Layton, and Sara Prince. McKinsey & Company. \"Why Diversity Matters.\" Feb 2, 2015.\nDATA: \nCategories: Gender-diverse companies, Ethnically diverse companies\nFor Gender-diverse companies:\n- 4th quartile: 47 (with an additional +15% highlighted above)\n- 1st quartile: 54\nFor Ethnically diverse companies:\n- 4th quartile: 43 (with an additional +35% highlighted above)\n- 1st quartile: 58\nKEY FACTS:\n- Companies in the 1st quartile for gender diversity have a 54 likelihood of financial performance above the industry median, compared to 47 for the 4th quartile (a +15% difference).\n- Companies in the 1st quartile for ethnic diversity have a 58 likelihood of financial performance above the industry median, compared to 43 for the 4th quartile (a +35% difference).\n- Ethnically diverse companies in the 1st quartile show the highest likelihood (58) among all categories shown.\n- Ethnically diverse companies show a larger percentage gap between the 4th and 1st quartiles (+35%) compared to gender-diverse companies (+15%)."
+}

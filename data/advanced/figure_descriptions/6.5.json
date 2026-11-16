@@ -1,0 +1,14 @@
+{
+ "figure_id": "6.5",
+ "page": 162,
+ "crop": "data/advanced/crops/fig6.5_p162.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:57:56",
+ "latency_s": 5.34,
+ "usage": {
+  "completion_tokens": 127,
+  "prompt_tokens": 1407,
+  "total_tokens": 1534
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: none\nDATA: none\nKEY FACTS:\n- Shows a modern office or \"workplace/clubhouse\" recreation area with a foosball table in the foreground.\n- Features a long wooden shuffleboard table behind the foosball table.\n- The room has exposed red brick walls, with a section of the brick wall painted white and featuring a red line-art city skyline mural.\n- In the background left, there is a window with bar-style seating and two high stools.\n- The flooring is a light-colored herringbone wood pattern."
+}

@@ -1,0 +1,14 @@
+{
+ "figure_id": "7.7",
+ "page": 208,
+ "crop": "data/advanced/crops/fig7.7_p208.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:08:05",
+ "latency_s": 4.15,
+ "usage": {
+  "completion_tokens": 160,
+  "prompt_tokens": 1403,
+  "total_tokens": 1563
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: \n$100\n$100\nUNITED STATES OF AMERICA\n100\nHB 83327460 I\n100\nHUNDRED DOLLARS\nDATA: none\nKEY FACTS:\n- A stack of United States one hundred dollar bills is partially protruding from an open manila envelope.\n- The cash is bundled with a blue currency strap printed with \"$100\".\n- The top visible bill shows serial number HB 83327460 I and text indicating \"ONE HUNDRED DOLLARS\".\n- The envelope is sealed with a metal clasp on the flap.\n- The items are resting on a dark wooden surface."
+}

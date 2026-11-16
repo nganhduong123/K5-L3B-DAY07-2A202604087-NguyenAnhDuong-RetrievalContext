@@ -1,0 +1,14 @@
+{
+ "figure_id": "10.2",
+ "page": 284,
+ "crop": "data/advanced/crops/fig10.2_p284.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:54:47",
+ "latency_s": 6.98,
+ "usage": {
+  "completion_tokens": 238,
+  "prompt_tokens": 1360,
+  "total_tokens": 1598
+ },
+ "description": "TYPE: infographic\n\nTITLE: Percentage of Employers Offering Telework Options\n\nTEXT IN IMAGE:\nPercentage of Employers Offering Telework Options\n90% United States\n85% China\n77% India\n72% United Kingdom\n71% France\n71% Germany\nSource: Hess, Ken. “Death of the Office and Rise of the Telecommuter.” Consumerization: BYOD. ZD Net. June 2, 2014. (Some data from Intuit.)\n\nDATA:\nDonut chart graphic displaying percentages of employers offering telework options by country:\n- United States: 90%\n- China: 85%\n- India: 77%\n- United Kingdom: 72%\n- France: 71%\n- Germany: 71%\n\nKEY FACTS:\n- The United States has the highest percentage of employers offering telework options at 90%.\n- China is second highest with 85%, followed by India at 77%.\n- France and Germany share the lowest percentage displayed among the listed countries at 71% each."
+}

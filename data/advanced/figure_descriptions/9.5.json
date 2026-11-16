@@ -1,0 +1,14 @@
+{
+ "figure_id": "9.5",
+ "page": 270,
+ "crop": "data/advanced/crops/fig9.5_p270.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:55:23",
+ "latency_s": 10.16,
+ "usage": {
+  "completion_tokens": 159,
+  "prompt_tokens": 1436,
+  "total_tokens": 1595
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\n(a)\nTHE STRENGTH IT TAKES.\nUniversity Hospital\nIndiana University Hospital\nTo form powerful teams. To strive for better results. To forge new frontiers.\n\n(b)\nGemelli\n\nDATA: N/A\n\nKEY FACTS:\n* Image (a) shows an exterior overhead view of the Indiana University Health University Hospital building and entrance canopy, along with surrounding campus roads and parking structures.\n* Image (b) shows an interior view of a modern, high-tech operating suite at Gemelli University Hospital, featuring surgical lights, monitors, imaging equipment, and an operating table under blue ambient lighting.\n* The figure contrasts a US university hospital building complex with an advanced Italian operating room facility."
+}

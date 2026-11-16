@@ -1,0 +1,14 @@
+{
+ "figure_id": "10.5",
+ "page": 289,
+ "crop": "data/advanced/crops/fig10.5_p289.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:54:06",
+ "latency_s": 3.78,
+ "usage": {
+  "completion_tokens": 112,
+  "prompt_tokens": 1437,
+  "total_tokens": 1549
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE: none\n\nDATA: not applicable\n\nKEY FACTS:\n- The photograph shows an outdoor garden area containing rows of dark planting tubs set on gravel.\n- Metal grid trellises stand between the rows to support growing plants, including leafy green crops and flowers like sunflowers.\n- A wooden bench is visible in the foreground on the left.\n- In the background, modern building architecture with glass windows, columns, and an outdoor walkway can be seen alongside several people standing near a podium/display."
+}

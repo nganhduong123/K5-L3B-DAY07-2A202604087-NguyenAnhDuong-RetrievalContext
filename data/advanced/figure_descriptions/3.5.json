@@ -1,0 +1,14 @@
+{
+ "figure_id": "3.5",
+ "page": 80,
+ "crop": "data/advanced/crops/fig3.5_p80.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:55:01",
+ "latency_s": 2.23,
+ "usage": {
+  "completion_tokens": 324,
+  "prompt_tokens": 1407,
+  "total_tokens": 1731
+ },
+ "description": "TYPE: diagram\nTITLE: none\nTEXT IN IMAGE: \n- Low interest\n- High interest\n- Stakeholder power (y-axis label, oriented vertically)\n- Stakeholder interest (x-axis label)\n- High power\n- Low power\n- Top-left quadrant: Keep satisfied, meet needs.\n- Top-right quadrant: Keep engaged, manage closely.\n- Bottom-left quadrant: Monitor lightly.\n- Bottom-right quadrant: Keep informed, respect interests.\n\nDATA: \nA 2x2 matrix representing stakeholder priority based on two axes:\n- Y-axis: Stakeholder power (High power, Low power)\n- X-axis: Stakeholder interest (Low interest, High interest)\n- Quadrant 1 (High power, Low interest): Keep satisfied, meet needs.\n- Quadrant 2 (High power, High interest): Keep engaged, manage closely.\n- Quadrant 3 (Low power, Low interest): Monitor lightly.\n- Quadrant 4 (Low power, High interest): Keep informed, respect interests.\n\nKEY FACTS:\n- The diagram categorizes stakeholder management strategies into a 2x2 grid based on power and interest.\n- Stakeholders with high power and high interest should be kept engaged and managed closely.\n- Stakeholders with high power and low interest should be kept satisfied and their needs met.\n- Stakeholders with low power and high interest should be kept informed and their interests respected.\n- Stakeholders with low power and low interest require only light monitoring."
+}

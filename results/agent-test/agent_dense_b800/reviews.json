@@ -1,0 +1,86 @@
+[
+ {
+  "query_id": "t01",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "t02",
+  "citation_support": [],
+  "answer_grade": 0,
+  "reason": "Refused an answerable question (graded 0). Final context: gold absent"
+ },
+ {
+  "query_id": "t03",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "t04",
+  "citation_support": [],
+  "answer_grade": 0,
+  "reason": "Refused an answerable question (graded 0). Final context: gold absent"
+ },
+ {
+  "query_id": "t05",
+  "citation_support": [],
+  "answer_grade": 0,
+  "reason": "Refused an answerable question (graded 0). Final context: gold absent"
+ },
+ {
+  "query_id": "t06",
+  "citation_support": [],
+  "answer_grade": 0,
+  "reason": "Refused an answerable question (graded 0). Final context: gold absent"
+ },
+ {
+  "query_id": "t07",
+  "citation_support": [],
+  "answer_grade": 0,
+  "reason": "Refused an answerable question (graded 0). Final context: gold absent"
+ },
+ {
+  "query_id": "t08",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "t09",
+  "citation_support": [],
+  "answer_grade": 0,
+  "reason": "Refused an answerable question (graded 0). Final context: gold absent"
+ },
+ {
+  "query_id": "t10",
+  "citation_support": [],
+  "answer_grade": 0,
+  "reason": "Refused an answerable question (graded 0). Final context: gold absent"
+ },
+ {
+  "query_id": "u04",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Searched, then abstained without adding claims."
+ },
+ {
+  "query_id": "u05",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Searched, then abstained without adding claims."
+ },
+ {
+  "query_id": "u06",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Searched, then abstained without adding claims."
+ }
+]

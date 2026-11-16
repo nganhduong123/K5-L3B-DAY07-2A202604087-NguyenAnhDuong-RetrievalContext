@@ -1,0 +1,14 @@
+{
+ "figure_id": "1.2",
+ "page": 18,
+ "crop": "data/advanced/crops/fig1.2_p18.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:42:43",
+ "latency_s": 30.6,
+ "usage": {
+  "completion_tokens": 222,
+  "prompt_tokens": 1422,
+  "total_tokens": 1644
+ },
+ "description": "TYPE: diagram\n\nTITLE: none\n\nTEXT IN IMAGE:\nCompany\nClients\nCustomers\nSuppliers\nInvestors\nRetailers\nEmployees\nMedia\nGovernment\nEnvironment\nCommunity\nCompetitors\n\nDATA:\nThe diagram consists of a central circular node labeled \"Company\" connected by straight blue line spokes to 11 surrounding stylized human icons arranged in a circle, each representing a stakeholder:\n- Central node: Company\n- Connected nodes (clockwise starting from the top):\n  - Clients\n  - Customers\n  - Suppliers\n  - Investors\n  - Retailers\n  - Employees\n  - Media\n  - Government\n  - Environment\n  - Community\n  - Competitors\n\nKEY FACTS:\n- Illustrates a central business (\"Company\") directly connected to 11 distinct stakeholder groups radiating outward.\n- Stakeholders represented include internal and external entities: Clients, Customers, Suppliers, Investors, Retailers, Employees, Media, Government, Environment, Community, and Competitors.\n- Every stakeholder category is represented visually by an identical light-blue human pictogram icon."
+}

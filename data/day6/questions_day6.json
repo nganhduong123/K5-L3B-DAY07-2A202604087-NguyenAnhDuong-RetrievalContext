@@ -1,0 +1,162 @@
+[
+  {
+    "id": "q01", "split": "dev", "type": "direct",
+    "question": "What are the two elements of a rhetorical situation?",
+    "expected_answer": "Agents and conditions",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [24],
+    "evidence_quote": "In the most basic terms, a rhetorical situation has two elements: agents and conditions.",
+    "filter": null
+  },
+  {
+    "id": "q02", "split": "dev", "type": "direct",
+    "question": "What do the conditions of a rhetorical situation refer to?",
+    "expected_answer": "Genre, purpose, stance, context, and culture",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [24],
+    "evidence_quote": "The conditions of a rhetorical situation refer to the genre, purpose, stance, context, and culture.",
+    "filter": null
+  },
+  {
+    "id": "q03", "split": "dev", "type": "paraphrase",
+    "question": "What is the name for the total trace of everything a person does online?",
+    "expected_answer": "A digital footprint",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [25],
+    "evidence_quote": "every post you make on any social media platform leaves a digital footprint—the sum of your online behavior.",
+    "filter": null
+  },
+  {
+    "id": "q04", "split": "dev", "type": "direct",
+    "question": "In what year did Selena Gomez hand her Instagram account over to her assistant?",
+    "expected_answer": "2017",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [27],
+    "evidence_quote": "Gomez handed over her Instagram account to her assistant in 2017.",
+    "filter": null
+  },
+  {
+    "id": "q05", "split": "dev", "type": "direct",
+    "question": "Who created the term meme, and how did he describe it?",
+    "expected_answer": "Richard Dawkins, in the 1970s, as “a unit of cultural transmission”",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [29],
+    "evidence_quote": "British evolutionary biologist and author Richard Dawkins (b. 1941) created the term for use as “a unit of cultural transmission,”",
+    "filter": null
+  },
+  {
+    "id": "q06", "split": "dev", "type": "condition",
+    "question": "Under what condition does a paraphrase require a citation of the original source?",
+    "expected_answer": "When the paraphrase is part of your text",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [31],
+    "evidence_quote": "When they are part of your text, paraphrases require a citation of the original source.",
+    "filter": null
+  },
+  {
+    "id": "q07", "split": "dev", "type": "paraphrase",
+    "question": "Is a restatement written in your own words usually shorter than the source text?",
+    "expected_answer": "No; a paraphrase is usually about the same length as the original, although it can be longer or shorter",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [37],
+    "evidence_quote": "A paraphrase is usually about the same length as the original text, although it can be either longer or shorter.",
+    "filter": null
+  },
+  {
+    "id": "q08", "split": "dev", "type": "direct",
+    "question": "How long should the critical response written for the chapter assignment be?",
+    "expected_answer": "Short, 1–2 pages",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [35],
+    "evidence_quote": "write a short (1–2 pages) critical response to the text",
+    "filter": null
+  },
+  {
+    "id": "q09", "split": "dev", "type": "direct",
+    "question": "What object is often used as a metaphor for culture?",
+    "expected_answer": "An iceberg",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [55],
+    "evidence_quote": "The iceberg is often used as a metaphor for culture.",
+    "filter": null
+  },
+  {
+    "id": "q10", "split": "dev", "type": "paraphrase",
+    "question": "Which word covers all the parts of yourself that make you who you are?",
+    "expected_answer": "Identity",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [54],
+    "evidence_quote": "Identity is the word that encompasses all the parts of yourself that make you who you are.",
+    "filter": null
+  },
+  {
+    "id": "q11", "split": "dev", "type": "paraphrase",
+    "question": "What is the term for the hidden mental strain marginalized people carry while trying to feel included and safe?",
+    "expected_answer": "Emotional tax",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [61],
+    "evidence_quote": "Emotional tax: the invisible mental stress taken on by people of marginalized backgrounds in an attempt to feel included, respected, and safe",
+    "filter": null
+  },
+  {
+    "id": "q12", "split": "dev", "type": "condition",
+    "question": "How does the meaning of “He been married” in AAVE differ from “He was married” in General American English?",
+    "expected_answer": "In General American English the man is no longer married; in AAVE he is still married",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [72],
+    "evidence_quote": "In General American English, the sentence implies that the man is no longer married, whereas the sentence in AAVE indicates that the man is still married.",
+    "filter": null
+  },
+  {
+    "id": "q13", "split": "dev", "type": "metadata",
+    "question": "In chapter 1, what is a writing portfolio in the simplest terms?",
+    "expected_answer": "A collection of your writing contained within a single binder or folder",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [48],
+    "evidence_quote": "In simplest terms, a writing portfolio is a collection of your writing contained within a single binder or folder.",
+    "filter": {"chapter": 1}
+  },
+  {
+    "id": "q14", "split": "dev", "type": "metadata",
+    "question": "In the evaluation section of chapter 1, what is the difference between intention and execution?",
+    "expected_answer": "Intention is what you mean; execution is how you say it",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [44],
+    "evidence_quote": "Your intention is what you mean, and your execution is how you say it.",
+    "filter": {"chapter": 1}
+  },
+  {
+    "id": "q15", "split": "dev", "type": "metadata",
+    "question": "Who is the trailblazer profiled in chapter 2?",
+    "expected_answer": "Cathy Park Hong, an Asian American poet, writer, and educator",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [57],
+    "evidence_quote": "Cathy Park Hong (b. 1976) is an Asian American poet, writer, and educator committed to exploring living art.",
+    "filter": {"chapter": 2}
+  },
+  {
+    "id": "q16", "split": "test", "type": "paraphrase",
+    "question": "What do we call a statement asserting that something is valid or that some action ought to be taken?",
+    "expected_answer": "A claim",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [37],
+    "evidence_quote": "A claim is a statement that something is true (or valid) or that some action should be taken.",
+    "filter": null
+  },
+  {
+    "id": "q17", "split": "test", "type": "direct",
+    "question": "In what year did the CCCC adopt the statement “Students’ Right to Their Own Language”?",
+    "expected_answer": "1974",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [73],
+    "evidence_quote": "In 1974, the Conference on College Composition and Communication adopted “Students’ Right to Their Own Language,”",
+    "filter": null
+  },
+  {
+    "id": "q18", "split": "test", "type": "paraphrase",
+    "question": "What term describes unfairly preferring one person or idea over another?",
+    "expected_answer": "Bias",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [59],
+    "evidence_quote": "bias occurs when you prejudicially favor one person, place, thing, or idea over another.",
+    "filter": null
+  },
+  {
+    "id": "q19", "split": "test", "type": "condition",
+    "question": "When writing inclusively, which matters more: the impact of your language or your good intentions?",
+    "expected_answer": "Impact; the impact on the reader is more important than good intentions",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [60],
+    "evidence_quote": "The impact of your language on your reader is more important than your good intentions.",
+    "filter": null
+  },
+  {
+    "id": "q20", "split": "test", "type": "metadata",
+    "question": "In chapter 2, what is the evaluation rubric designed to help you think about?",
+    "expected_answer": "Your writing in anti-racist and inclusive terms",
+    "gold_source_id": "openstax-writing-guide", "gold_page": [69],
+    "evidence_quote": "The rubric is designed to help you think about your writing in anti-racist and inclusive terms.",
+    "filter": {"chapter": 2}
+  }
+]

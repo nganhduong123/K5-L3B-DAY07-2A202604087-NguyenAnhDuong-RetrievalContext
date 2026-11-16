@@ -1,0 +1,14 @@
+{
+ "figure_id": "5.4",
+ "page": 135,
+ "crop": "data/advanced/crops/fig5.4_p135.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:56:32",
+ "latency_s": 9.27,
+ "usage": {
+  "completion_tokens": 168,
+  "prompt_tokens": 1391,
+  "total_tokens": 1559
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: \"UNDERWOOD & UNDERWOOD STUDIOS, N. Y.\"\nDATA: none\nKEY FACTS:\n- A black and white studio portrait of a woman standing and wearing a large, light-colored fur stole around her neck and shoulders.\n- She is wearing a dark, belted coat or dress with decorative buttons down the front, a multi-strand necklace, and a wide-brimmed hat with a striped pattern.\n- She is wearing light-colored gloves and holding a small dark object or purse in her right hand.\n- The background is a plain, dark curtain or backdrop, with a piece of furniture visible in the lower left.\n- Text in the lower left corner indicates the photo was taken by Underwood & Underwood Studios, N.Y."
+}

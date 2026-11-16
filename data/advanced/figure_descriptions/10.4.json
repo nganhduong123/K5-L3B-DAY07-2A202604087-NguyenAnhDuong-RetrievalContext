@@ -1,0 +1,14 @@
+{
+ "figure_id": "10.4",
+ "page": 288,
+ "crop": "data/advanced/crops/fig10.4_p288.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:54:35",
+ "latency_s": 28.07,
+ "usage": {
+  "completion_tokens": 138,
+  "prompt_tokens": 1420,
+  "total_tokens": 1558
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\nAT&T\n8:51 AM\n80%\nJOBY\n\nDATA:\nN/A\n\nKEY FACTS:\n- The image displays a smartphone mounted on a flexible tripod (JOBY brand) during a video call or teleconference.\n- The phone screen shows a live video feed of an office environment with multiple participants sitting around a table or desk, along with small thumbnail video feeds at the top left.\n- A charging or audio cable is plugged into the side of the smartphone.\n- A desk phone (office telephone unit) is visible in the background to the right of the smartphone."
+}

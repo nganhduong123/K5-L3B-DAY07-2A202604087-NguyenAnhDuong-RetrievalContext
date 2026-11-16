@@ -1,0 +1,183 @@
+[
+ {
+  "query_id": "q01",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q02",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q03",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q04",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q05",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q06",
+  "citation_support": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "p31:B:0 states the condition (part of your text); 2nd citation p40:B:4 supports the extra sentence that all paraphrases need citation."
+ },
+ {
+  "query_id": "q07",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q08",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q09",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q10",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q11",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q12",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q13",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q14",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q15",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q16",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q17",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q18",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q19",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "q20",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "u01",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Searched, then abstained without adding claims."
+ },
+ {
+  "query_id": "u02",
+  "citation_support": [
+   false
+  ],
+  "abstention_correct": false,
+  "reason": "Should abstain. Corpus gives pages (1-2), not words; '250-500 words' is outside knowledge. p35:B:1 does not support the word count."
+ },
+ {
+  "query_id": "u03",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Searched, then abstained without adding claims."
+ }
+]

@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.8",
+ "page": 236,
+ "crop": "data/advanced/crops/fig8.8_p236.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:09:47",
+ "latency_s": 4.86,
+ "usage": {
+  "completion_tokens": 305,
+  "prompt_tokens": 1435,
+  "total_tokens": 1740
+ },
+ "description": "TYPE: bar chart\nTITLE: States with the Most Corporate Equality Index (CEI) Companies\nTEXT IN IMAGE: \nPercentage of Companies Scoring 100\nMaryland 67\nMassachusetts 65\nNevada 57\nMinnesota 55\nNew York 53\nWashington 53\nIllinois 51\nCalifornia 49\nConnecticut 43\nKentucky 43\nSource: Brant, Bobbi. \"Best States to be Gay in Corporate America.\" Expert Market. (Based on data from Human Rights Foundation CEI 2015 and Human Rights Foundation SEI 2014.)\n\nDATA:\nCategories (States) and values (Percentage of Companies Scoring 100):\n- Maryland: 67\n- Massachusetts: 65\n- Nevada: 57\n- Minnesota: 55\n- New York: 53\n- Washington: 53\n- Illinois: 51\n- California: 49\n- Connecticut: 43\n- Kentucky: 43\n\nKEY FACTS:\n- Maryland has the highest percentage of companies scoring 100 on the Corporate Equality Index at 67%.\n- Massachusetts follows closely behind in second place with 65%.\n- Connecticut and Kentucky tie for the lowest percentage among the top ten states listed, both at 43%.\n- New York and Washington share the same percentage at 53%."
+}

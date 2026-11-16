@@ -1,0 +1,14 @@
+{
+ "figure_id": "3.4",
+ "page": 76,
+ "crop": "data/advanced/crops/fig3.4_p76.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:54:53",
+ "latency_s": 2.16,
+ "usage": {
+  "completion_tokens": 295,
+  "prompt_tokens": 1398,
+  "total_tokens": 1693
+ },
+ "description": "TYPE: diagram\nTITLE: none\nTEXT IN IMAGE: \n- Organization (in central circle)\n- Enabling Stakeholders: stockholders, legislatures, government regulators, boards of directors\n- Normative Stakeholders: competitors, peers, professional associations\n- Diffused Stakeholders: nongovernmental organizations, voters, mass media\n- Functional Stakeholders: suppliers, employees, unions, customers, distributors, retailers\n\nDATA: \n- Central node: \"Organization\" connected by chain links to four surrounding stakeholder categories.\n- Top box: \"Enabling Stakeholders\" with bullet points: stockholders, legislatures, government regulators, boards of directors.\n- Left box: \"Normative Stakeholders\" with bullet points: competitors, peers, professional associations.\n- Right box: \"Diffused Stakeholders\" with bullet points: nongovernmental organizations, voters, mass media.\n- Bottom box: \"Functional Stakeholders\" with bullet points: suppliers, employees, unions, customers, distributors, retailers.\n\nKEY FACTS:\n- The central organization is connected to four distinct categories of stakeholders via chain links.\n- Enabling Stakeholders include stockholders, legislatures, government regulators, and boards of directors.\n- Normative Stakeholders include competitors, peers, and professional associations.\n- Diffused Stakeholders include nongovernmental organizations, voters, and mass media.\n- Functional Stakeholders include suppliers, employees, unions, customers, distributors, and retailers."
+}

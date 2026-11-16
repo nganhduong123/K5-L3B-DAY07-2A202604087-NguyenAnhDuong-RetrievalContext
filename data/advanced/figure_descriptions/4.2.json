@@ -1,0 +1,14 @@
+{
+ "figure_id": "4.2",
+ "page": 94,
+ "crop": "data/advanced/crops/fig4.2_p94.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:55:32",
+ "latency_s": 4.17,
+ "usage": {
+  "completion_tokens": 238,
+  "prompt_tokens": 1409,
+  "total_tokens": 1647
+ },
+ "description": "TYPE: diagram\nTITLE: none\nTEXT IN IMAGE: \n- Shareholders\n- Corporation\n- Directors\n- Officers\n- Liability Is Limited to Corporate Assets\nDATA: \n- Nodes/Circles:\n  - \"Shareholders\" (top blue circle)\n  - \"Corporation\" (large central grey circle)\n  - \"Directors\" (left green circle)\n  - \"Officers\" (right green circle)\n  - \"Liability Is Limited to Corporate Assets\" (bottom orange circle inside the corporation)\n- Relations/Arrows:\n  - Arrow originating from \"Shareholders\" pointing to \"Directors\" (representing shareholders electing directors).\n  - Arrow originating from \"Directors\" pointing to \"Officers\" (representing directors appointing officers).\nKEY FACTS:\n- The diagram places the \"Corporation\" at the center, encompassing or intersecting with shareholders, directors, officers, and liability.\n- Shareholders are positioned at the top and point an arrow toward the directors.\n- Directors are on the left and point an arrow across to the officers on the right.\n- A distinct inner circle states that \"Liability Is Limited to Corporate Assets\"."
+}

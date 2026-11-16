@@ -1,0 +1,14 @@
+{
+ "figure_id": "10.1",
+ "page": 283,
+ "crop": "data/advanced/crops/fig10.1_p283.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:54:54",
+ "latency_s": 6.74,
+ "usage": {
+  "completion_tokens": 130,
+  "prompt_tokens": 1410,
+  "total_tokens": 1540
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\n10\n\nDATA:\nN/A\n\nKEY FACTS:\n- The image depicts a human hand extending its index finger from the left side.\n- A robotic/cybernetic white and mechanical hand extends its index finger from the right side.\n- The two index fingertips are pointing directly toward each other and almost touching, evoking Michelangelo's *Creation of Adam*.\n- The background consists of a bright blue and dark blue gradient with light rays radiating behind the hands.\n- The number \"10\" appears inside a white circle at the bottom left of the image."
+}

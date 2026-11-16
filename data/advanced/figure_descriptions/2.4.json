@@ -1,0 +1,14 @@
+{
+ "figure_id": "2.4",
+ "page": 41,
+ "crop": "data/advanced/crops/fig2.4_p41.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:45:29",
+ "latency_s": 25.1,
+ "usage": {
+  "completion_tokens": 105,
+  "prompt_tokens": 1424,
+  "total_tokens": 1529
+ },
+ "description": "**TYPE:** photo\n\n**TITLE:** none\n\n**TEXT IN IMAGE:** none\n\n**DATA:** none\n\n**KEY FACTS:**\n* The photo presents a close-up, front-angle view of a stone statue depicting Confucius with a long beard and hands held together in front.\n* In the background behind the statue is traditional Chinese architecture featuring a roof with yellow/gold tiles and ornate blue and green decorative details.\n* The statue is positioned outdoors, set against the building facade under a light background sky."
+}

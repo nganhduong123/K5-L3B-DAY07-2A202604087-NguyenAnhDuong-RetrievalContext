@@ -1,0 +1,14 @@
+{
+ "figure_id": "10.6",
+ "page": 292,
+ "crop": "data/advanced/crops/fig10.6_p292.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:54:03",
+ "latency_s": 3.33,
+ "usage": {
+  "completion_tokens": 104,
+  "prompt_tokens": 1393,
+  "total_tokens": 1497
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE: none\n\nDATA: not applicable\n\nKEY FACTS:\n- Aerial stylized view depicting the Apple Park campus (often referred to as the \"Apple Ring\").\n- Features a large circular main building with a central courtyard containing greenery and a small body of water.\n- Two long rectangular parking structures with solar panels on top are visible adjacent to the main ring structure near a major road.\n- Surrounding area consists of suburban developments, roads, and green landscaping."
+}

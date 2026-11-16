@@ -1,0 +1,14 @@
+{
+ "figure_id": "6.7",
+ "page": 166,
+ "crop": "data/advanced/crops/fig6.7_p166.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:58:17",
+ "latency_s": 4.23,
+ "usage": {
+  "completion_tokens": 516,
+  "prompt_tokens": 1422,
+  "total_tokens": 1938
+ },
+ "description": "TYPE: bar chart\nTITLE: Median Household Worth prior to and after the Great Recession\nTEXT IN IMAGE:\nMedian household net worth ($)\n900K\n800K\n700K\n600K\n500K\n400K\n300K\n200K\n100K\n0\n2007 2013 2016\nLower income\n2007 2013 2016\nMiddle income\n2007 2013 2016\nUpper income\nSource: Kochhar, Rakesh, and Anthony Cilluffo. \"How Wealth Inequality Has Changed in the U.S. since the Great Recession, by Race, Ethnicity and Income.\" Pew Research Center. Nov 1, 2017.\nDATA:\n- Y-axis: Median household net worth ($) from 0 to 900K in increments of 100K.\n- X-axis categories and years:\n  - Lower income:\n    - 2007: ≈ 18K\n    - 2013: ≈ 9K\n    - 2016: ≈ 10K\n  - Middle income:\n    - 2007: ≈ 164K\n    - 2013: ≈ 101K\n    - 2016: ≈ 110K\n  - Upper income:\n    - 2007: ≈ 740K\n    - 2013: ≈ 660K\n    - 2016: ≈ 810K\nKEY FACTS:\n- Upper-income households have significantly higher median net worth than lower- and middle-income households across all years shown (2007, 2013, and 2016).\n- For all three income groups, median household net worth dropped between 2007 and 2013 following the Great Recession.\n- Upper-income households experienced a strong recovery and growth by 2016, surpassing their 2007 levels.\n- Lower- and middle-income households saw partial or minimal recovery by 2016, remaining well below their 2007 pre-recession levels."
+}

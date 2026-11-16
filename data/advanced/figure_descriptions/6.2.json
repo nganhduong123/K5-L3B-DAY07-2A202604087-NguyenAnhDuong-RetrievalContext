@@ -1,0 +1,14 @@
+{
+ "figure_id": "6.2",
+ "page": 157,
+ "crop": "data/advanced/crops/fig6.2_p157.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:57:27",
+ "latency_s": 2.47,
+ "usage": {
+  "completion_tokens": 245,
+  "prompt_tokens": 1415,
+  "total_tokens": 1660
+ },
+ "description": "TYPE: diagram\nTITLE: none\nTEXT IN IMAGE:\nNotice required (60 days)\n100 or more total employees\n50 or more employees laid off\nExceptions\nDoes not include part-time workers (<20 hours)\nDoes not include new workers (<6 months)\n\nDATA:\n- Box 1: \"Notice required (60 days)\" points via a right-facing arrow to a box containing:\n  - 100 or more total employees\n  - 50 or more employees laid off\n- Box 2: \"Exceptions\" points via a right-facing arrow to a box containing:\n  - Does not include part-time workers (<20 hours)\n  - Does not include new workers (<6 months)\n\nKEY FACTS:\n- A 60-day advance notice is required under the WARN law.\n- The notice requirement applies to employers with 100 or more total employees experiencing 50 or more layoffs.\n- Exceptions to the employee count include part-time workers working fewer than 20 hours.\n- Exceptions also include new workers who have been employed for less than 6 months."
+}

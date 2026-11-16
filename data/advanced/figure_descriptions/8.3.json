@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.3",
+ "page": 226,
+ "crop": "data/advanced/crops/fig8.3_p226.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:08:56",
+ "latency_s": 2.16,
+ "usage": {
+  "completion_tokens": 247,
+  "prompt_tokens": 1426,
+  "total_tokens": 1673
+ },
+ "description": "TYPE: pie chart\nTITLE: Google Workforce by Gender\nTEXT IN IMAGE: \nGoogle Workforce by Gender\nOverall\n31% Women\n69% Men\nTechnology\n20%\n80%\nLeadership\n25%\n75%\nSource: Donnelly, Grace. \"Google's 2017 Diversity Report Shows Progress Hiring Women, Little Changes for Minority Workers.\" Fortune. June 29, 2017.\n\nDATA:\n- Overall: 31% Women, 69% Men\n- Technology: 20% (darker blue slice), 80% (lighter blue slice)\n- Leadership: 25% (darker green slice), 75% (lighter green slice)\n\nKEY FACTS:\n- Overall Google workforce consists of 69% men and 31% women.\n- In the technology sector of Google, women make up 20% while the remaining 80% are men.\n- In Google leadership roles, women hold 25% and men hold 75%.\n- Leadership and technology sectors show higher percentages of men compared to the overall company workforce."
+}

@@ -1,0 +1,512 @@
+[
+ {
+  "query_id": "t01",
+  "question": "Where was Selena Gomez born?",
+  "filter": null,
+  "gold_pages": [
+   26
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p26:B:1",
+    "page": 26,
+    "rank": 1,
+    "score": 0.03279,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p26:B:0",
+    "page": 26,
+    "rank": 2,
+    "score": 0.03175,
+    "hit": false,
+    "ranks": {
+     "dense": 4,
+     "bm25": 2
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p26:B:2",
+    "page": 26,
+    "rank": 3,
+    "score": 0.03175,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 4
+    }
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p26:B:1"
+  ],
+  "context_chars": 763,
+  "elapsed_ms": 21.5,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "t02",
+  "question": "How does the textbook define authority in its list of rhetorical key terms?",
+  "filter": null,
+  "gold_pages": [
+   30
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p30:B:2",
+    "page": 30,
+    "rank": 1,
+    "score": 0.03154,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 6
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p30:B:1",
+    "page": 30,
+    "rank": 2,
+    "score": 0.03101,
+    "hit": false,
+    "ranks": {
+     "dense": 4,
+     "bm25": 5
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p31:B:1",
+    "page": 31,
+    "rank": 3,
+    "score": 0.02904,
+    "hit": false,
+    "ranks": {
+     "dense": 6,
+     "bm25": 12
+    }
+   }
+  ],
+  "context_ids": [],
+  "context_chars": 0,
+  "elapsed_ms": 25.1,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": false
+ },
+ {
+  "query_id": "t03",
+  "question": "When and where did Jean Gianini murder his former teacher?",
+  "filter": null,
+  "gold_pages": [
+   40
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p40:B:6",
+    "page": 40,
+    "rank": 1,
+    "score": 0.03279,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p41:B:1",
+    "page": 41,
+    "rank": 2,
+    "score": 0.03226,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 2
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p41:B:0",
+    "page": 41,
+    "rank": 3,
+    "score": 0.03175,
+    "hit": false,
+    "ranks": {
+     "dense": 3,
+     "bm25": 3
+    }
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p40:B:6"
+  ],
+  "context_chars": 577,
+  "elapsed_ms": 26.2,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "t04",
+  "question": "If the text you are responding to is argumentative, what should you examine?",
+  "filter": null,
+  "gold_pages": [
+   40
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p40:B:2",
+    "page": 40,
+    "rank": 1,
+    "score": 0.03279,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p38:B:0",
+    "page": 38,
+    "rank": 2,
+    "score": 0.03175,
+    "hit": false,
+    "ranks": {
+     "dense": 3,
+     "bm25": 3
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p40:B:1",
+    "page": 40,
+    "rank": 3,
+    "score": 0.03128,
+    "hit": false,
+    "ranks": {
+     "dense": 6,
+     "bm25": 2
+    }
+   }
+  ],
+  "context_ids": [],
+  "context_chars": 0,
+  "elapsed_ms": 24.6,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": false
+ },
+ {
+  "query_id": "t05",
+  "question": "What does the term academia refer to?",
+  "filter": null,
+  "gold_pages": [
+   46
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p46:B:3",
+    "page": 46,
+    "rank": 1,
+    "score": 0.03279,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p40:B:0",
+    "page": 40,
+    "rank": 2,
+    "score": 0.03078,
+    "hit": false,
+    "ranks": {
+     "dense": 4,
+     "bm25": 6
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p24:B:1",
+    "page": 24,
+    "rank": 3,
+    "score": 0.02939,
+    "hit": false,
+    "ranks": {
+     "dense": 3,
+     "bm25": 14
+    }
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p40:B:0"
+  ],
+  "context_chars": 488,
+  "elapsed_ms": 25.6,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": false
+ },
+ {
+  "query_id": "t06",
+  "question": "In which book did the former First Lady write that your personal story is something to own?",
+  "filter": null,
+  "gold_pages": [
+   56
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p56:B:2",
+    "page": 56,
+    "rank": 1,
+    "score": 0.03279,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p57:B:2",
+    "page": 57,
+    "rank": 2,
+    "score": 0.032,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 3
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p56:B:1",
+    "page": 56,
+    "rank": 3,
+    "score": 0.03175,
+    "hit": false,
+    "ranks": {
+     "dense": 4,
+     "bm25": 2
+    }
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p56:B:2"
+  ],
+  "context_chars": 767,
+  "elapsed_ms": 27.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "t07",
+  "question": "At approximately what mental age did Goddard estimate Jean Gianini?",
+  "filter": null,
+  "gold_pages": [
+   42
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p41:B:0",
+    "page": 41,
+    "rank": 1,
+    "score": 0.03252,
+    "hit": false,
+    "ranks": {
+     "dense": 1,
+     "bm25": 2
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p42:B:0",
+    "page": 42,
+    "rank": 2,
+    "score": 0.03252,
+    "hit": true,
+    "ranks": {
+     "dense": 2,
+     "bm25": 1
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p40:B:6",
+    "page": 40,
+    "rank": 3,
+    "score": 0.03175,
+    "hit": false,
+    "ranks": {
+     "dense": 3,
+     "bm25": 3
+    }
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p41:B:0"
+  ],
+  "context_chars": 741,
+  "elapsed_ms": 24.3,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": false
+ },
+ {
+  "query_id": "t08",
+  "question": "In chapter 1, how is a meme defined in the list of key terms?",
+  "filter": {
+   "chapter": 1
+  },
+  "gold_pages": [
+   30
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p29:B:3",
+    "page": 29,
+    "rank": 1,
+    "score": 0.03178,
+    "hit": false,
+    "ranks": {
+     "dense": 1,
+     "bm25": 5
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p30:B:1",
+    "page": 30,
+    "rank": 2,
+    "score": 0.03178,
+    "hit": false,
+    "ranks": {
+     "dense": 5,
+     "bm25": 1
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p29:B:2",
+    "page": 29,
+    "rank": 3,
+    "score": 0.03128,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 6
+    }
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p29:B:3"
+  ],
+  "context_chars": 782,
+  "elapsed_ms": 25.1,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "t09",
+  "question": "In chapter 2, is culture described as something static?",
+  "filter": {
+   "chapter": 2
+  },
+  "gold_pages": [
+   56
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p56:B:0",
+    "page": 56,
+    "rank": 1,
+    "score": 0.03252,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 2
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p64:B:2",
+    "page": 64,
+    "rank": 2,
+    "score": 0.03105,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 7
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p54:B:5",
+    "page": 54,
+    "rank": 3,
+    "score": 0.0308,
+    "hit": false,
+    "ranks": {
+     "dense": 7,
+     "bm25": 3
+    }
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p56:B:0"
+  ],
+  "context_chars": 521,
+  "elapsed_ms": 27.6,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "t10",
+  "question": "What verdict did the jury reach in the Jean Gianini murder case?",
+  "filter": null,
+  "gold_pages": [
+   41
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p41:B:1",
+    "page": 41,
+    "rank": 1,
+    "score": 0.03279,
+    "hit": false,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p40:B:6",
+    "page": 40,
+    "rank": 2,
+    "score": 0.03226,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 2
+    }
+   },
+   {
+    "id": "openstax-writing-guide:p41:B:4",
+    "page": 41,
+    "rank": 3,
+    "score": 0.0315,
+    "hit": false,
+    "ranks": {
+     "dense": 4,
+     "bm25": 3
+    }
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p41:B:1"
+  ],
+  "context_chars": 356,
+  "elapsed_ms": 42.8,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ }
+]

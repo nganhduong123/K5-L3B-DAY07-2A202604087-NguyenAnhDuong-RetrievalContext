@@ -1,0 +1,14 @@
+{
+ "figure_id": "6.14",
+ "page": 179,
+ "crop": "data/advanced/crops/fig6.14_p179.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:59:22",
+ "latency_s": 2.91,
+ "usage": {
+  "completion_tokens": 460,
+  "prompt_tokens": 1452,
+  "total_tokens": 1912
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: \nLeft side: none\nRight side (browser window):\n- Gmail - Compose Mail - accountsn@gmail.com - Mozilla Firefox (Private Browsing)\n- File Edit View History Bookmarks Tools Help\n- https://mail.google.com/mail/?shva=1#drafts/1279a48a8d\n- Gmail - Compose Mail\n- Inbox, Buzz, Starred, Chats, Sent Mail, Drafts (5), All Mail, Spam, Bin, More..., Contacts, Tasks\n- Test Account (Search, add or invite)\n- Invite a friend (Give Gmail to:, Send Invite 50 left)\n- To: DealerRoom@wallstreettrade.com\n- Add Cc, Add Bcc\n- Subject: Confidential email.\n- Attach a file\n- Formatting toolbar icons (B, I, U, S, text color, font size, etc.)\n- Plain Text, Check Spelling\n- Body text:\n  \"Hello John,\n  Please buy 1000 stock shares of our company.\n  Don't tell anyone, because it will influence the stock.\n  And ofcourse it is illegal to trade stock with pre knowledge :-)\n  Use my credit card number:\n  1234 5678 9123 4567\n  which expires 10/10.\n  The card security code on the back is: 123.\n  Thanks,\n  Bob\"\n- Bottom taskbar: Start, Gmail - Compose Mail - te..., 12:56\n\nDATA: none\nKEY FACTS:\n- The image is a composite showing two forms of electronic monitoring and data capture.\n- The left photo shows three surveillance video cameras mounted on a pole against a clear blue sky.\n- The right screenshot shows a webmail interface (Gmail in Mozilla Firefox Private Browsing) composing an email containing sensitive and potentially illicit information, including stock purchase instructions and credit card details.\n- Together, the images illustrate the dual nature of workplace electronic monitoring involving physical surveillance and computer/digital activity tracking."
+}

@@ -1,0 +1,14 @@
+{
+ "figure_id": "1.4",
+ "page": 24,
+ "crop": "data/advanced/crops/fig1.4_p24.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:43:25",
+ "latency_s": 16.75,
+ "usage": {
+  "completion_tokens": 113,
+  "prompt_tokens": 1448,
+  "total_tokens": 1561
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE: none\n\nDATA: N/A\n\nKEY FACTS:\n- Photograph shows Warren Buffett on the left and President Barack Obama on the right seated in close conversation.\n- Warren Buffett is wearing a dark suit, white shirt, patterned red tie, and eyeglasses, holding a stack of papers.\n- President Barack Obama is wearing a dark suit, white shirt, and blue striped tie, leaning forward to listen.\n- The setting is the Oval Office, indicated by the background fireplace mantel and interior decor."
+}

@@ -1,0 +1,206 @@
+[
+ {
+  "query_id": "ad07",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "What percentage of women and of men rank work-from-home options as a highly influential benefit?",
+  "config": "adv_rerank_view",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "hybrid_rerank",
+  "allow_view": true,
+  "status": "answered",
+  "answer": "Based on Figure 6.6, 55% of women and 40% of men rank work-from-home options as a highly influential benefit [openstax-business-ethics:p163:fig6.6].",
+  "citations": [
+   "openstax-business-ethics:p163:fig6.6"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p163:fig6.6"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "What percentage of women and of men rank work-from-home options as a highly influential benefit?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p162:t1",
+      "rank": 1,
+      "score": 3.58445,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p163:fig6.6",
+      "rank": 2,
+      "score": 2.47617,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p163:t0",
+      "rank": 3,
+      "score": -0.19749,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p250:t0",
+      "rank": 4,
+      "score": -3.32737,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p225:t0",
+      "rank": 5,
+      "score": -3.5841,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p162:t1",
+     "openstax-business-ethics:p163:fig6.6",
+     "openstax-business-ethics:p163:t0",
+     "openstax-business-ethics:p250:t0",
+     "openstax-business-ethics:p225:t0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 1311.1
+   },
+   {
+    "event": "view_figure",
+    "unit_id": "openstax-business-ethics:p163:fig6.6",
+    "question": "What percentage of women and of men rank work-from-home options as a highly influential benefit?",
+    "crop": "data/advanced/crops/fig6.6_p163.jpg",
+    "bbox": [
+     109.8,
+     57.6,
+     502.2,
+     540.0
+    ],
+    "reading": "Based on the image provided:\n\n* **Women:** 55%\n* **Men:** 40%",
+    "latency_s": 3.71
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p162:t1",
+   "openstax-business-ethics:p163:fig6.6",
+   "openstax-business-ethics:p163:t0",
+   "openstax-business-ethics:p250:t0",
+   "openstax-business-ethics:p225:t0"
+  ],
+  "context_chars": 4278,
+  "usage": {
+   "prompt_tokens": 4453,
+   "completion_tokens": 135,
+   "llm_calls": 2,
+   "vision_calls": 1
+  },
+  "elapsed_s": 7.56,
+  "required_units": [
+   "openstax-business-ethics:p163:fig6.6"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true
+ },
+ {
+  "query_id": "ad13",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "When was the WARN Act enacted and how much advance notice does it require, for which events?",
+  "config": "adv_rerank_view",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "hybrid_rerank",
+  "allow_view": true,
+  "status": "answered",
+  "answer": "The Worker Adjustment and Retraining Notification (WARN) Act was enacted in 1989 [openstax-business-ethics:p157:t1]. It requires employers to provide sixty days of advance notice for mass layoffs and plant closings [openstax-business-ethics:p157:t1].",
+  "citations": [
+   "openstax-business-ethics:p157:t1"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p157:t1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "When was the WARN Act enacted and how much advance notice does it require, for which events?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p157:t1",
+      "rank": 1,
+      "score": 5.68311,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p157:fig6.2",
+      "rank": 2,
+      "score": 2.21153,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p157:t2",
+      "rank": 3,
+      "score": 0.95254,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p180:t0",
+      "rank": 4,
+      "score": -5.60849,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p157:t3",
+      "rank": 5,
+      "score": -6.30105,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p157:t1",
+     "openstax-business-ethics:p157:fig6.2",
+     "openstax-business-ethics:p157:t2",
+     "openstax-business-ethics:p180:t0",
+     "openstax-business-ethics:p157:t3"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 973.4
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p157:t1",
+   "openstax-business-ethics:p157:fig6.2",
+   "openstax-business-ethics:p157:t2",
+   "openstax-business-ethics:p180:t0",
+   "openstax-business-ethics:p157:t3"
+  ],
+  "context_chars": 3182,
+  "usage": {
+   "prompt_tokens": 1226,
+   "completion_tokens": 70,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 2.17,
+  "required_units": [
+   "openstax-business-ethics:p157:t1"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true
+ }
+]

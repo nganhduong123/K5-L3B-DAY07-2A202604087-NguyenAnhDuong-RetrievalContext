@@ -9,3 +9,6 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Advanced: source PDF (51MB, re-download from OpenStax) and rendered crops
+data/advanced/source/

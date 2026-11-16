@@ -1,0 +1,1124 @@
+[
+ {
+  "query_id": "q01",
+  "question": "What are the two elements of a rhetorical situation?",
+  "filter": null,
+  "gold_pages": [
+   24
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p24:B:5",
+    "page": 24,
+    "rank": 1,
+    "score": 8.87885,
+    "hit": true,
+    "ranks": {
+     "dense": 2,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p41:B:3",
+    "page": 41,
+    "rank": 2,
+    "score": 7.4739,
+    "hit": false,
+    "ranks": {
+     "dense": 15,
+     "bm25": 4
+    },
+    "pre_rerank_rank": 8
+   },
+   {
+    "id": "openstax-writing-guide:p24:B:7",
+    "page": 24,
+    "rank": 3,
+    "score": 6.4027,
+    "hit": false,
+    "ranks": {
+     "dense": 1,
+     "bm25": 19
+    },
+    "pre_rerank_rank": 6
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p24:B:5",
+   "openstax-writing-guide:p41:B:3",
+   "openstax-writing-guide:p24:B:7"
+  ],
+  "context_chars": 1748,
+  "elapsed_ms": 501.3,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q02",
+  "question": "What do the conditions of a rhetorical situation refer to?",
+  "filter": null,
+  "gold_pages": [
+   24
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p24:B:7",
+    "page": 24,
+    "rank": 1,
+    "score": 9.47724,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p24:B:0",
+    "page": 24,
+    "rank": 2,
+    "score": 5.82346,
+    "hit": false,
+    "ranks": {
+     "dense": 5,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p24:B:5",
+    "page": 24,
+    "rank": 3,
+    "score": 5.55658,
+    "hit": false,
+    "ranks": {
+     "dense": 3,
+     "bm25": 5
+    },
+    "pre_rerank_rank": 3
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p24:B:7",
+   "openstax-writing-guide:p24:B:0",
+   "openstax-writing-guide:p24:B:5"
+  ],
+  "context_chars": 1679,
+  "elapsed_ms": 510.3,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q03",
+  "question": "What is the name for the total trace of everything a person does online?",
+  "filter": null,
+  "gold_pages": [
+   25
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p25:B:3",
+    "page": 25,
+    "rank": 1,
+    "score": -7.74267,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p24:B:6",
+    "page": 24,
+    "rank": 2,
+    "score": -10.82918,
+    "hit": false,
+    "ranks": {
+     "dense": 14,
+     "bm25": 8
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p65:B:5",
+    "page": 65,
+    "rank": 3,
+    "score": -10.90092,
+    "hit": false,
+    "ranks": {
+     "bm25": 9
+    },
+    "pre_rerank_rank": 17
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p25:B:3",
+   "openstax-writing-guide:p24:B:6",
+   "openstax-writing-guide:p65:B:5"
+  ],
+  "context_chars": 1997,
+  "elapsed_ms": 778.8,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q04",
+  "question": "In what year did Selena Gomez hand her Instagram account over to her assistant?",
+  "filter": null,
+  "gold_pages": [
+   27
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p27:B:2",
+    "page": 27,
+    "rank": 1,
+    "score": 8.89263,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p26:B:1",
+    "page": 26,
+    "rank": 2,
+    "score": 1.85307,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p27:B:3",
+    "page": 27,
+    "rank": 3,
+    "score": -2.09477,
+    "hit": false,
+    "ranks": {
+     "dense": 3,
+     "bm25": 5
+    },
+    "pre_rerank_rank": 4
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p27:B:2",
+   "openstax-writing-guide:p26:B:1",
+   "openstax-writing-guide:p27:B:3"
+  ],
+  "context_chars": 2220,
+  "elapsed_ms": 758.2,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q05",
+  "question": "Who created the term meme, and how did he describe it?",
+  "filter": null,
+  "gold_pages": [
+   29
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p29:B:2",
+    "page": 29,
+    "rank": 1,
+    "score": 7.73245,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p29:B:3",
+    "page": 29,
+    "rank": 2,
+    "score": 0.90507,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 4
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p30:B:4",
+    "page": 30,
+    "rank": 3,
+    "score": -1.2289,
+    "hit": false,
+    "ranks": {
+     "dense": 3,
+     "bm25": 3
+    },
+    "pre_rerank_rank": 3
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p29:B:2",
+   "openstax-writing-guide:p29:B:3",
+   "openstax-writing-guide:p30:B:4"
+  ],
+  "context_chars": 1535,
+  "elapsed_ms": 687.2,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q06",
+  "question": "Under what condition does a paraphrase require a citation of the original source?",
+  "filter": null,
+  "gold_pages": [
+   31
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p31:B:0",
+    "page": 31,
+    "rank": 1,
+    "score": 5.90297,
+    "hit": true,
+    "ranks": {
+     "dense": 3,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p40:B:4",
+    "page": 40,
+    "rank": 2,
+    "score": 3.30709,
+    "hit": false,
+    "ranks": {
+     "dense": 1,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p37:B:1",
+    "page": 37,
+    "rank": 3,
+    "score": 1.76963,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 3
+    },
+    "pre_rerank_rank": 3
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p31:B:0",
+   "openstax-writing-guide:p40:B:4",
+   "openstax-writing-guide:p37:B:1"
+  ],
+  "context_chars": 2201,
+  "elapsed_ms": 808.7,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q07",
+  "question": "Is a restatement written in your own words usually shorter than the source text?",
+  "filter": null,
+  "gold_pages": [
+   37
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p37:B:1",
+    "page": 37,
+    "rank": 1,
+    "score": 7.81779,
+    "hit": true,
+    "ranks": {
+     "dense": 2,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p36:B:3",
+    "page": 36,
+    "rank": 2,
+    "score": 2.25269,
+    "hit": false,
+    "ranks": {
+     "dense": 1,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p40:B:4",
+    "page": 40,
+    "rank": 3,
+    "score": 1.40191,
+    "hit": false,
+    "ranks": {
+     "dense": 3,
+     "bm25": 3
+    },
+    "pre_rerank_rank": 3
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p37:B:1",
+   "openstax-writing-guide:p36:B:3",
+   "openstax-writing-guide:p40:B:4"
+  ],
+  "context_chars": 1686,
+  "elapsed_ms": 581.6,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q08",
+  "question": "How long should the critical response written for the chapter assignment be?",
+  "filter": null,
+  "gold_pages": [
+   35
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p35:B:1",
+    "page": 35,
+    "rank": 1,
+    "score": 0.5666,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 18
+    },
+    "pre_rerank_rank": 6
+   },
+   {
+    "id": "openstax-writing-guide:p35:B:0",
+    "page": 35,
+    "rank": 2,
+    "score": -0.96781,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p50:B:0",
+    "page": 50,
+    "rank": 3,
+    "score": -4.19859,
+    "hit": false,
+    "ranks": {
+     "dense": 8,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 2
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p35:B:1",
+   "openstax-writing-guide:p35:B:0",
+   "openstax-writing-guide:p50:B:0"
+  ],
+  "context_chars": 2115,
+  "elapsed_ms": 594.1,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q09",
+  "question": "What object is often used as a metaphor for culture?",
+  "filter": null,
+  "gold_pages": [
+   55
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p55:B:2",
+    "page": 55,
+    "rank": 1,
+    "score": 6.55334,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p55:B:3",
+    "page": 55,
+    "rank": 2,
+    "score": 5.30278,
+    "hit": false,
+    "ranks": {
+     "dense": 4,
+     "bm25": 3
+    },
+    "pre_rerank_rank": 3
+   },
+   {
+    "id": "openstax-writing-guide:p65:B:0",
+    "page": 65,
+    "rank": 3,
+    "score": 4.75002,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 2
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p55:B:2",
+   "openstax-writing-guide:p55:B:3",
+   "openstax-writing-guide:p65:B:0"
+  ],
+  "context_chars": 2176,
+  "elapsed_ms": 563.1,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q10",
+  "question": "Which word covers all the parts of yourself that make you who you are?",
+  "filter": null,
+  "gold_pages": [
+   54
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p54:B:1",
+    "page": 54,
+    "rank": 1,
+    "score": 4.56614,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p56:B:2",
+    "page": 56,
+    "rank": 2,
+    "score": -3.6139,
+    "hit": false,
+    "ranks": {
+     "dense": 6,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p54:B:4",
+    "page": 54,
+    "rank": 3,
+    "score": -4.68646,
+    "hit": false,
+    "ranks": {
+     "dense": 7
+    },
+    "pre_rerank_rank": 13
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p54:B:1",
+   "openstax-writing-guide:p56:B:2",
+   "openstax-writing-guide:p54:B:4"
+  ],
+  "context_chars": 2326,
+  "elapsed_ms": 580.9,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q11",
+  "question": "What is the term for the hidden mental strain marginalized people carry while trying to feel included and safe?",
+  "filter": null,
+  "gold_pages": [
+   61
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p61:B:0",
+    "page": 61,
+    "rank": 1,
+    "score": 0.38458,
+    "hit": true,
+    "ranks": {
+     "dense": 3,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p60:B:5",
+    "page": 60,
+    "rank": 2,
+    "score": -8.46147,
+    "hit": false,
+    "ranks": {
+     "dense": 14,
+     "bm25": 7
+    },
+    "pre_rerank_rank": 3
+   },
+   {
+    "id": "openstax-writing-guide:p58:B:0",
+    "page": 58,
+    "rank": 3,
+    "score": -9.74136,
+    "hit": false,
+    "ranks": {
+     "dense": 1
+    },
+    "pre_rerank_rank": 5
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p61:B:0",
+   "openstax-writing-guide:p60:B:5",
+   "openstax-writing-guide:p58:B:0"
+  ],
+  "context_chars": 2221,
+  "elapsed_ms": 650.4,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q12",
+  "question": "How does the meaning of “He been married” in AAVE differ from “He was married” in General American English?",
+  "filter": null,
+  "gold_pages": [
+   72
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p72:B:2",
+    "page": 72,
+    "rank": 1,
+    "score": 8.58811,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p72:B:1",
+    "page": 72,
+    "rank": 2,
+    "score": -1.19451,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p71:B:4",
+    "page": 71,
+    "rank": 3,
+    "score": -5.20077,
+    "hit": false,
+    "ranks": {
+     "dense": 13,
+     "bm25": 3
+    },
+    "pre_rerank_rank": 4
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p72:B:2",
+   "openstax-writing-guide:p72:B:1",
+   "openstax-writing-guide:p71:B:4"
+  ],
+  "context_chars": 1884,
+  "elapsed_ms": 614.3,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q13",
+  "question": "In chapter 1, what is a writing portfolio in the simplest terms?",
+  "filter": {
+   "chapter": 1
+  },
+  "gold_pages": [
+   48
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p48:B:0",
+    "page": 48,
+    "rank": 1,
+    "score": 6.39705,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p48:B:1",
+    "page": 48,
+    "rank": 2,
+    "score": 2.63107,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 5
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p48:B:2",
+    "page": 48,
+    "rank": 3,
+    "score": 0.4635,
+    "hit": false,
+    "ranks": {
+     "dense": 7,
+     "bm25": 10
+    },
+    "pre_rerank_rank": 5
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p48:B:0",
+   "openstax-writing-guide:p48:B:1",
+   "openstax-writing-guide:p48:B:2"
+  ],
+  "context_chars": 1886,
+  "elapsed_ms": 555.0,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q14",
+  "question": "In the evaluation section of chapter 1, what is the difference between intention and execution?",
+  "filter": {
+   "chapter": 1
+  },
+  "gold_pages": [
+   44
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p44:B:0",
+    "page": 44,
+    "rank": 1,
+    "score": 2.66266,
+    "hit": false,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p44:B:1",
+    "page": 44,
+    "rank": 2,
+    "score": 2.56342,
+    "hit": true,
+    "ranks": {
+     "dense": 2,
+     "bm25": 3
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p23:B:0",
+    "page": 23,
+    "rank": 3,
+    "score": 0.19853,
+    "hit": false,
+    "ranks": {
+     "dense": 8,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 3
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p44:B:0",
+   "openstax-writing-guide:p44:B:1",
+   "openstax-writing-guide:p23:B:0"
+  ],
+  "context_chars": 2224,
+  "elapsed_ms": 662.1,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q15",
+  "question": "Who is the trailblazer profiled in chapter 2?",
+  "filter": {
+   "chapter": 2
+  },
+  "gold_pages": [
+   57
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p57:B:0",
+    "page": 57,
+    "rank": 1,
+    "score": 1.14968,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p53:B:0",
+    "page": 53,
+    "rank": 2,
+    "score": 0.02419,
+    "hit": false,
+    "ranks": {
+     "dense": 4,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p64:B:2",
+    "page": 64,
+    "rank": 3,
+    "score": -4.66256,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 5
+    },
+    "pre_rerank_rank": 4
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p57:B:0",
+   "openstax-writing-guide:p53:B:0",
+   "openstax-writing-guide:p64:B:2"
+  ],
+  "context_chars": 2291,
+  "elapsed_ms": 582.3,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q16",
+  "question": "What do we call a statement asserting that something is valid or that some action ought to be taken?",
+  "filter": null,
+  "gold_pages": [
+   37
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p37:B:6",
+    "page": 37,
+    "rank": 1,
+    "score": 6.88322,
+    "hit": true,
+    "ranks": {
+     "dense": 2,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p28:B:0",
+    "page": 28,
+    "rank": 2,
+    "score": -4.85602,
+    "hit": false,
+    "ranks": {
+     "dense": 1,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p34:B:1",
+    "page": 34,
+    "rank": 3,
+    "score": -6.52193,
+    "hit": false,
+    "ranks": {
+     "dense": 3,
+     "bm25": 3
+    },
+    "pre_rerank_rank": 3
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p37:B:6",
+   "openstax-writing-guide:p28:B:0",
+   "openstax-writing-guide:p34:B:1"
+  ],
+  "context_chars": 1460,
+  "elapsed_ms": 482.2,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q17",
+  "question": "In what year did the CCCC adopt the statement “Students’ Right to Their Own Language”?",
+  "filter": null,
+  "gold_pages": [
+   73
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p73:B:1",
+    "page": 73,
+    "rank": 1,
+    "score": 8.61507,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p72:B:6",
+    "page": 72,
+    "rank": 2,
+    "score": 4.32376,
+    "hit": false,
+    "ranks": {
+     "dense": 3,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p73:B:3",
+    "page": 73,
+    "rank": 3,
+    "score": 2.96645,
+    "hit": false,
+    "ranks": {
+     "dense": 4,
+     "bm25": 4
+    },
+    "pre_rerank_rank": 4
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p73:B:1",
+   "openstax-writing-guide:p72:B:6",
+   "openstax-writing-guide:p73:B:3"
+  ],
+  "context_chars": 1743,
+  "elapsed_ms": 502.2,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q18",
+  "question": "What term describes unfairly preferring one person or idea over another?",
+  "filter": null,
+  "gold_pages": [
+   59
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p59:B:5",
+    "page": 59,
+    "rank": 1,
+    "score": 2.50535,
+    "hit": true,
+    "ranks": {
+     "dense": 13,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p61:B:1",
+    "page": 61,
+    "rank": 2,
+    "score": -3.2398,
+    "hit": false,
+    "ranks": {
+     "dense": 7
+    },
+    "pre_rerank_rank": 16
+   },
+   {
+    "id": "openstax-writing-guide:p54:B:2",
+    "page": 54,
+    "rank": 3,
+    "score": -6.03551,
+    "hit": false,
+    "ranks": {
+     "dense": 1
+    },
+    "pre_rerank_rank": 8
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p59:B:5",
+   "openstax-writing-guide:p61:B:1",
+   "openstax-writing-guide:p54:B:2"
+  ],
+  "context_chars": 1963,
+  "elapsed_ms": 525.6,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q19",
+  "question": "When writing inclusively, which matters more: the impact of your language or your good intentions?",
+  "filter": null,
+  "gold_pages": [
+   60
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p58:B:3",
+    "page": 58,
+    "rank": 1,
+    "score": 3.1015,
+    "hit": false,
+    "ranks": {
+     "dense": 2,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 2
+   },
+   {
+    "id": "openstax-writing-guide:p60:B:4",
+    "page": 60,
+    "rank": 2,
+    "score": 3.02042,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p69:B:5",
+    "page": 69,
+    "rank": 3,
+    "score": 2.91158,
+    "hit": false,
+    "ranks": {
+     "dense": 3
+    },
+    "pre_rerank_rank": 7
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p58:B:3",
+   "openstax-writing-guide:p60:B:4",
+   "openstax-writing-guide:p69:B:5"
+  ],
+  "context_chars": 1789,
+  "elapsed_ms": 525.0,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q20",
+  "question": "In chapter 2, what is the evaluation rubric designed to help you think about?",
+  "filter": {
+   "chapter": 2
+  },
+  "gold_pages": [
+   69
+  ],
+  "results": [
+   {
+    "id": "openstax-writing-guide:p69:B:5",
+    "page": 69,
+    "rank": 1,
+    "score": 3.36255,
+    "hit": true,
+    "ranks": {
+     "dense": 1,
+     "bm25": 1
+    },
+    "pre_rerank_rank": 1
+   },
+   {
+    "id": "openstax-writing-guide:p54:B:5",
+    "page": 54,
+    "rank": 2,
+    "score": -4.55311,
+    "hit": false,
+    "ranks": {
+     "dense": 10,
+     "bm25": 2
+    },
+    "pre_rerank_rank": 3
+   },
+   {
+    "id": "openstax-writing-guide:p64:B:2",
+    "page": 64,
+    "rank": 3,
+    "score": -4.81334,
+    "hit": false,
+    "ranks": {
+     "dense": 3,
+     "bm25": 13
+    },
+    "pre_rerank_rank": 4
+   }
+  ],
+  "context_ids": [
+   "openstax-writing-guide:p69:B:5",
+   "openstax-writing-guide:p54:B:5",
+   "openstax-writing-guide:p64:B:2"
+  ],
+  "context_chars": 2105,
+  "elapsed_ms": 525.2,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ }
+]

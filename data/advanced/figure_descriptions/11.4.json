@@ -1,0 +1,14 @@
+{
+ "figure_id": "11.4",
+ "page": 316,
+ "crop": "data/advanced/crops/fig11.4_p316.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:11:57",
+ "latency_s": 9.33,
+ "usage": {
+  "completion_tokens": 98,
+  "prompt_tokens": 1414,
+  "total_tokens": 1512
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: none\nDATA: none\nKEY FACTS:\n- Shows a hallway with a series of closed wooden doors with gold-colored trim and handles, receding into the distance.\n- The floor is made of shiny marble or tiled stone reflecting the light.\n- The lighting comes from above, creating a spotlight effect near the back and casting soft shadows.\n- Symbolizes choices, career decisions, or options available in business ethics."
+}

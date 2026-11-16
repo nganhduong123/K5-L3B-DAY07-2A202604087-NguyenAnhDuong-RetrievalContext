@@ -1,0 +1,14 @@
+{
+ "figure_id": "9.4",
+ "page": 266,
+ "crop": "data/advanced/crops/fig9.4_p266.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:55:26",
+ "latency_s": 3.06,
+ "usage": {
+  "completion_tokens": 86,
+  "prompt_tokens": 1397,
+  "total_tokens": 1483
+ },
+ "description": "TYPE: other\n\nTITLE: none\n\nTEXT IN IMAGE:\nNATIONAL FLOOD\nINSURANCE PROGRAM\n\nDATA: none\n\nKEY FACTS:\n- The image features the logo for the National Flood Insurance Program.\n- The graphic displays three black house silhouettes standing partially submerged behind blue wavy lines representing water waves.\n- Below the graphic, the text \"NATIONAL FLOOD INSURANCE PROGRAM\" is written in bold, uppercase black letters."
+}

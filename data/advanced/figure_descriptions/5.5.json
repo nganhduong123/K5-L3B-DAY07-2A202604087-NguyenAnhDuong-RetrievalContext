@@ -1,0 +1,14 @@
+{
+ "figure_id": "5.5",
+ "page": 137,
+ "crop": "data/advanced/crops/fig5.5_p137.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:56:41",
+ "latency_s": 2.59,
+ "usage": {
+  "completion_tokens": 107,
+  "prompt_tokens": 1453,
+  "total_tokens": 1560
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: \n(a)\n(b)\nDATA: none\nKEY FACTS:\n- Panel (a) shows a black-and-white historical photograph of a woman, identified in the caption as Ida Tarbell, seated at a desk writing papers with a map and window in the background.\n- Panel (b) shows a black-and-white historical portrait of a man, identified in the caption as John D. Rockefeller, wearing a suit and mustache."
+}

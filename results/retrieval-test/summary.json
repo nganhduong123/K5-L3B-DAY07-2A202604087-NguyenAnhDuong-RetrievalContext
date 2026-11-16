@@ -1,0 +1,62 @@
+[
+ {
+  "config": "dense_k3_b800",
+  "retriever": "dense",
+  "top_k_context": 3,
+  "budget_chars": 800,
+  "n": 10,
+  "Hit@1": "7/10 (70%)",
+  "Evidence Hit@3": "10/10 (100%)",
+  "Context Evidence Rate": "4/10 (40%)",
+  "avg_context_chars": 684,
+  "avg_context_tokens_approx": 171,
+  "avg_chunks_in_context": 1,
+  "median_ms": 26.3,
+  "cost_usd": 0.0
+ },
+ {
+  "config": "bm25_k3_b800",
+  "retriever": "bm25",
+  "top_k_context": 3,
+  "budget_chars": 800,
+  "n": 10,
+  "Hit@1": "6/10 (60%)",
+  "Evidence Hit@3": "7/10 (70%)",
+  "Context Evidence Rate": "3/10 (30%)",
+  "avg_context_chars": 583,
+  "avg_context_tokens_approx": 146,
+  "avg_chunks_in_context": 0.9,
+  "median_ms": 0.5,
+  "cost_usd": 0.0
+ },
+ {
+  "config": "hybrid_rrf_k3_b800",
+  "retriever": "hybrid_rrf",
+  "top_k_context": 3,
+  "budget_chars": 800,
+  "n": 10,
+  "Hit@1": "7/10 (70%)",
+  "Evidence Hit@3": "8/10 (80%)",
+  "Context Evidence Rate": "4/10 (40%)",
+  "avg_context_chars": 500,
+  "avg_context_tokens_approx": 125,
+  "avg_chunks_in_context": 0.8,
+  "median_ms": 25.4,
+  "cost_usd": 0.0
+ },
+ {
+  "config": "hybrid_rerank_k3_b2400",
+  "retriever": "hybrid_rerank",
+  "top_k_context": 3,
+  "budget_chars": 2400,
+  "n": 10,
+  "Hit@1": "8/10 (80%)",
+  "Evidence Hit@3": "10/10 (100%)",
+  "Context Evidence Rate": "10/10 (100%)",
+  "avg_context_chars": 1930,
+  "avg_context_tokens_approx": 483,
+  "avg_chunks_in_context": 2.8,
+  "median_ms": 509.9,
+  "cost_usd": 0.0
+ }
+]

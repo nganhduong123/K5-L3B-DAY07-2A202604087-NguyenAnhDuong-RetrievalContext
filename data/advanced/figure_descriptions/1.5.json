@@ -1,0 +1,14 @@
+{
+ "figure_id": "1.5",
+ "page": 25,
+ "crop": "data/advanced/crops/fig1.5_p25.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:43:57",
+ "latency_s": 31.39,
+ "usage": {
+  "completion_tokens": 187,
+  "prompt_tokens": 1368,
+  "total_tokens": 1555
+ },
+ "description": "TYPE: table image\n\nTITLE: Considering Stakeholder Impact\n\nTEXT IN IMAGE:\nConsidering Stakeholder Impact\nStakeholders (in order of perceived priority)\nInterests and Goals of Stakeholder\nImpact of Action/Decision on Stakeholder\n\nDATA:\nThe image depicts a blank three-column template presented on a yellow lined notepad page:\n- Column 1 Header: Stakeholders (in order of perceived priority)\n- Column 2 Header: Interests and Goals of Stakeholder\n- Column 3 Header: Impact of Action/Decision on Stakeholder\nThe rows beneath the column headers are currently blank lines intended for writing.\n\nKEY FACTS:\n- Displays a blank tabular worksheet styled to look like handwritten text on a yellow legal pad.\n- Designed for evaluating stakeholder priorities, their respective interests/goals, and the impact of decisions on them.\n- Contains three distinct analytical columns with no data entries filled in."
+}

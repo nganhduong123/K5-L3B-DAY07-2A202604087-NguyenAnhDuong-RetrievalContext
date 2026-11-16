@@ -1,0 +1,14 @@
+{
+ "figure_id": "4.8",
+ "page": 107,
+ "crop": "data/advanced/crops/fig4.8_p107.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:55:06",
+ "latency_s": 9.14,
+ "usage": {
+  "completion_tokens": 383,
+  "prompt_tokens": 1395,
+  "total_tokens": 1778
+ },
+ "description": "TYPE: bar chart\n\nTITLE: Countries with the Most ISO 14000–Certified Companies\n\nTEXT IN IMAGE:\nCountries with the Most ISO 14000–Certified Companies\n1. Japan 2600\n2. Germany 1600\n3. UK 1200\n4. Sweden 650\n5. USA 590\n6. Taiwan 500\n7. Netherlands 475\n8. Korea 460\n9. Switzerland 400\n10. France 360\nSource: International Organization for Standardization. ISO Survey 2016. ISO Certifications to Management System Standards. https://www.iso.org/the-iso-survey.html.\n\nDATA:\nHorizontal bar chart displaying the number of ISO 14000–certified companies by country:\n- 1. Japan: 2600\n- 2. Germany: 1600\n- 3. UK: 1200\n- 4. Sweden: 650\n- 5. USA: 590\n- 6. Taiwan: 500\n- 7. Netherlands: 475\n- 8. Korea: 460\n- 9. Switzerland: 400\n- 10. France: 360\n\nKEY FACTS:\n- Japan has the highest number of ISO 14000–certified companies among the listed countries, at 2600.\n- Germany ranks second with 1600 certified companies, followed by the UK in third place with 1200.\n- France ranks tenth with the lowest listed count of 360 certified companies."
+}

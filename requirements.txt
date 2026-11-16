@@ -1,0 +1,9 @@
+# Python 3.11+ (tested on 3.13.0, Windows 11)
+psycopg[binary]==3.3.8
+sentence-transformers==6.3.0   # E5 query embedding (Day 6 model) + cross-encoder reranker
+torch==2.15.0
+transformers==5.23.0
+rank-bm25==0.2.2
+pypdf==6.21.4                  # only needed to rebuild the Day 6 index
+pymupdf==1.26.5                # advanced: PDF parsing, tables, figure crops
+# LLM calls use the standard library (urllib) against OpenRouter; no SDK needed.

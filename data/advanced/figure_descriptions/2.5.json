@@ -1,0 +1,14 @@
+{
+ "figure_id": "2.5",
+ "page": 44,
+ "crop": "data/advanced/crops/fig2.5_p44.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:46:08",
+ "latency_s": 39.94,
+ "usage": {
+  "completion_tokens": 148,
+  "prompt_tokens": 1436,
+  "total_tokens": 1584
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\n论语\n卷二\n八佾\n掃葉山房藏板\n\nDATA:\nNone.\n\nKEY FACTS:\n* The image shows an open historical book printed with traditional Chinese characters arranged vertically in columns, representing a page from the Analects of Confucius (Rongo Analects).\n* The central binding strip shows the text title \"论语\" (Analects), volume number \"卷二\" (Volume 2), chapter \"八佾\" (Ba Yi), and publisher marking \"掃葉山房藏板\".\n* The page displays double-page layout printed in black ink on traditional paper with annotations and commentary accompanying the main classical text."
+}

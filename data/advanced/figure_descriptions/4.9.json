@@ -1,0 +1,14 @@
+{
+ "figure_id": "4.9",
+ "page": 113,
+ "crop": "data/advanced/crops/fig4.9_p113.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:55:10",
+ "latency_s": 3.45,
+ "usage": {
+  "completion_tokens": 112,
+  "prompt_tokens": 1407,
+  "total_tokens": 1519
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE: none\n\nDATA: not applicable\n\nKEY FACTS:\n- The photograph shows a two-story residential house built with red brick walls and a dark tiled roof.\n- Multiple large arrays of blue solar photovoltaic panels are installed covering a significant portion of the pitched roof surfaces.\n- A satellite dish is mounted on the roof near the chimney between sections of solar panels.\n- The property features brick pillars, a concrete wall boundary, patio chairs beneath an overhang, and lush green bushes in the foreground."
+}

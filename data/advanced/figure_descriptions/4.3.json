@@ -1,0 +1,14 @@
+{
+ "figure_id": "4.3",
+ "page": 95,
+ "crop": "data/advanced/crops/fig4.3_p95.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:55:40",
+ "latency_s": 2.01,
+ "usage": {
+  "completion_tokens": 131,
+  "prompt_tokens": 1412,
+  "total_tokens": 1543
+ },
+ "description": "TYPE: diagram\nTITLE: none\nTEXT IN IMAGE: \n- Business Corporations\n- Government\n- Environment\n- Community\n- Media\n- Customers\n- Employees\n\nDATA: \n- Central node: Business Corporations\n- Outer nodes connected in a circle around the central node: Government, Environment, Community, Media, Customers, Employees.\n\nKEY FACTS:\n- A central circle represents \"Business Corporations\".\n- Six surrounding circles represent typical stakeholders: Government, Environment, Community, Media, Customers, and Employees.\n- The diagram illustrates the relationship or positioning of a corporation relative to its various stakeholders in a circular, interconnected arrangement."
+}

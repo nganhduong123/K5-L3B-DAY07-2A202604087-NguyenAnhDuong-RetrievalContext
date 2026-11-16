@@ -1,0 +1,14 @@
+{
+ "figure_id": "1.3",
+ "page": 21,
+ "crop": "data/advanced/crops/fig1.3_p21.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:43:09",
+ "latency_s": 25.27,
+ "usage": {
+  "completion_tokens": 187,
+  "prompt_tokens": 1430,
+  "total_tokens": 1617
+ },
+ "description": "TYPE: infographic\n\nTITLE: Kantianism (Deontology)\n\nTEXT IN IMAGE:\nKantianism (Deontology)\nImmanuel Kant (1724–1804)\nHuman beings are creatures with reason.\nReason depends on respect for rules.\nAs creatures with reason, we are “duty bound” to follow logical ethical principles and avoid contradiction.\n\nDATA:\nNot applicable\n\nKEY FACTS:\n* The image provides core concepts of Kantianism (Deontology), associated with Immanuel Kant (1724–1804).\n* It asserts that human beings are creatures possessing reason, and that reason relies on respect for rules.\n* It states that as creatures with reason, humans are \"duty bound\" to follow logical ethical principles and avoid contradiction.\n* A portrait painting on the right shows Immanuel Kant dressed in 18th-century attire."
+}

@@ -1,0 +1,100 @@
+[
+ {
+  "query_id": "t01",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "t02",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "t03",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "t04",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "t05",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "t06",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct (Becoming, 2018). Name 'Michelle Obama' is in p56:B:1, not the cited p56:B:2; not asked, so grade kept 2."
+ },
+ {
+  "query_id": "t07",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "t08",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "t09",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Correct and complete; cited chunk contains the evidence sentence."
+ },
+ {
+  "query_id": "t10",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Verdict 'not guilty as charged' correct and in p41:B:0; 'due to' insanity claim is a slight causal inference (chunk says defense claimed insanity). Grade 2, noted."
+ },
+ {
+  "query_id": "u04",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Searched, then abstained without adding claims."
+ },
+ {
+  "query_id": "u05",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Searched, then abstained without adding claims."
+ },
+ {
+  "query_id": "u06",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Searched, then abstained without adding claims."
+ }
+]

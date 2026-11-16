@@ -1,0 +1,14 @@
+{
+ "figure_id": "7.6",
+ "page": 201,
+ "crop": "data/advanced/crops/fig7.6_p201.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:07:55",
+ "latency_s": 2.87,
+ "usage": {
+  "completion_tokens": 115,
+  "prompt_tokens": 1399,
+  "total_tokens": 1514
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: none\nDATA: not applicable\nKEY FACTS:\n- Shows a grid of four vertical stacks, each containing four LEGO minifigure heads, for a total of 16 different heads.\n- The LEGO heads display a wide variety of facial expressions, skin tones, ages, genders, and facial hair or accessories (such as glasses and sunglasses).\n- The heads are arranged against a plain, light-colored background.\n- Each head features a unique printed face design, illustrating human diversity and personality differences."
+}

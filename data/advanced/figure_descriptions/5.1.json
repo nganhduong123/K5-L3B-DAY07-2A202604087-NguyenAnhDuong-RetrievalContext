@@ -1,0 +1,14 @@
+{
+ "figure_id": "5.1",
+ "page": 127,
+ "crop": "data/advanced/crops/fig5.1_p127.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:55:27",
+ "latency_s": 4.33,
+ "usage": {
+  "completion_tokens": 189,
+  "prompt_tokens": 1448,
+  "total_tokens": 1637
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\nEVROPA\nAFRICA\nINDIA\nW, E (on compass rose)\n[Additional vintage map labels are present but largely illegible due to resolution/styling, including \"Russia\", \"zona frigida ex parte polare...\", etc.]\n\nDATA:\nN/A\n\nKEY FACTS:\n- The image displays a stylized, antique-looking world map with a warm golden/brown tone set against a dark background with speckles.\n- Continents shown include North America, South America, Europe, Africa, Asia, and Australia.\n- Decorative vintage elements, such as compass roses and traditional regional labels (e.g., \"AFRICA\", \"EVROPA\", \"INDIA\"), are visible on the landmasses.\n- A cardinal directional compass rose showing \"W\" and \"E\" is located in the bottom-left corner."
+}

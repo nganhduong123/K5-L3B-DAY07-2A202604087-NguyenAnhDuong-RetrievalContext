@@ -1,0 +1,16 @@
+{
+ "figure_id": "7.4",
+ "page": 196,
+ "crop": "data/advanced/crops/fig7.4_p196.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "prompt_variant": "summary (2nd RECITATION fallback)",
+ "finish_reason": "stop",
+ "described_at": "2026-11-16T17:13:57",
+ "latency_s": 1.63,
+ "usage": {
+  "completion_tokens": 289,
+  "prompt_tokens": 1198,
+  "total_tokens": 1487
+ },
+ "description": "**Figure Type:** Informational diagram / text boxes illustrating standard employment contract clauses.\n\n**Headings and Labels (Exact):**\n* Non-Compete Clause\n* Nonsolicitation of Customers/Employees Clause\n* Confidentiality/Non-Disclosure Clause\n\n**Summary and Key Details:**\nThe graphic displays three distinct restrictive provisions commonly included in employment agreements, detailing specific post-employment limitations, durations, geographic ranges, and conditions:\n\n1. **Non-Compete Clause:** \n   * **Condition:** Following the end of employment, the worker is barred from performing identical or comparable work for any competing business.\n   * **Duration:** 1 year post-termination.\n   * **Distance:** Within a 100-mile radius of the employer.\n\n2. **Nonsolicitation of Customers/Employees Clause:**\n   * **Condition:** Post-termination, the individual is prohibited from reaching out to or poaching the employer's consumer base, buyers, clientele, or staff members.\n   * **Duration:** 2 years post-termination.\n\n3. **Confidentiality/Non-Disclosure Clause:**\n   * **Condition:** The worker is restricted from sharing, leaking, exploiting, or taking proprietary data, trade secrets, or intellectual property.\n   * **Duration:** Active throughout the duration of employment as well as indefinitely (unlimited term) after the employment relationship ends."
+}

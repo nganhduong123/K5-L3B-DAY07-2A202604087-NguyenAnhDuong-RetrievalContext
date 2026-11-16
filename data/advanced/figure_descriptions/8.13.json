@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.13",
+ "page": 246,
+ "crop": "data/advanced/crops/fig8.13_p246.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:59:57",
+ "latency_s": 2.84,
+ "usage": {
+  "completion_tokens": 121,
+  "prompt_tokens": 1398,
+  "total_tokens": 1519
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\nnone\n\nDATA:\nnot applicable\n\nKEY FACTS:\n- The photograph shows two women interacting at an outdoor event near a folding table.\n- One woman with curly gray hair is crouching on the left, holding a brochure or small pamphlet and facing the other woman.\n- The second woman on the right is kneeling on the ground while holding a small beagle wearing a harness and leash.\n- Other people and event materials (such as signs with a picture of a dog) are visible in the background in front of a building entrance."
+}

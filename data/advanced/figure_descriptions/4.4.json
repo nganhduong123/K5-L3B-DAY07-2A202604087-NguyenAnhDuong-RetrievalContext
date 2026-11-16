@@ -1,0 +1,14 @@
+{
+ "figure_id": "4.4",
+ "page": 96,
+ "crop": "data/advanced/crops/fig4.4_p96.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:53:12",
+ "latency_s": 4.68,
+ "usage": {
+  "completion_tokens": 125,
+  "prompt_tokens": 1470,
+  "total_tokens": 1595
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\n(a)\n(b)\n\nDATA: N/A\n\nKEY FACTS:\n- Image (a) shows a black-and-white historical photograph of factory workers laboring along a long assembly line filled with automotive parts and machinery.\n- Image (b) shows a black-and-white studio portrait of Henry Ford wearing a suit, high-collared shirt, tie, and lapel flower.\n- The composite image is labeled with sub-captions \"(a)\" under the assembly line photograph and \"(b)\" under the portrait."
+}

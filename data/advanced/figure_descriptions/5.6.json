@@ -1,0 +1,14 @@
+{
+ "figure_id": "5.6",
+ "page": 141,
+ "crop": "data/advanced/crops/fig5.6_p141.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:56:53",
+ "latency_s": 5.79,
+ "usage": {
+  "completion_tokens": 131,
+  "prompt_tokens": 1438,
+  "total_tokens": 1569
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: none\nDATA: none\nKEY FACTS:\n- The image shows a side-by-side comparison of two distinct architectural structures.\n- The left photo depicts the Taj Mahal, featuring its large central dome, symmetrical minarets, and a long reflecting pool framed by gardens and pathways.\n- The right photo depicts a section of the Palace of Versailles, featuring ornate European architecture with detailed stonework, large windows, gold detailing, and a paved courtyard with a geometric pattern.\n- The two buildings illustrate how concepts of design, culture, and tradition vary significantly between different geographic regions."
+}

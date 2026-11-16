@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.10",
+ "page": 238,
+ "crop": "data/advanced/crops/fig8.10_p238.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:10:06",
+ "latency_s": 3.96,
+ "usage": {
+  "completion_tokens": 635,
+  "prompt_tokens": 1436,
+  "total_tokens": 2071
+ },
+ "description": "TYPE: bar chart\nTITLE: Median Net Worth of Families by Income Tier\nTEXT IN IMAGE:\nMedian Net Worth of Families by Income Tier\nMedian household net worth ($)\n800K\n700K\n600K\n500K\n400K\n300K\n200K\n100K\n0\n1983\n1992\n2001\n2007\n2010\n2013\nLower income\nMiddle income\nUpper income\nSource: Pew Research Center Analysis of Survey of Consumer Finances public-use data.\n\nDATA:\n- X-axis: Years (1983, 1992, 2001, 2007, 2010, 2013)\n- Y-axis: Median household net worth ($) from 0 to 800K in increments of 100K\n- Lower income:\n  - 1983: ≈ 12K\n  - 1992: ≈ 14K\n  - 2001: ≈ 20K\n  - 2007: ≈ 18K\n  - 2010: ≈ 11K\n  - 2013: ≈ 10K\n- Middle income:\n  - 1983: ≈ 97K\n  - 1992: ≈ 96K\n  - 2001: ≈ 137K\n  - 2007: ≈ 161K\n  - 2010: ≈ 99K\n  - 2013: ≈ 100K\n- Upper income:\n  - 1983: ≈ 323K\n  - 1992: ≈ 344K\n  - 2001: ≈ 600K\n  - 2007: ≈ 730K\n  - 2010: ≈ 606K\n  - 2013: ≈ 650K\n\nKEY FACTS:\n- Upper-income families consistently have a significantly higher median net worth than middle- and lower-income families across all years shown.\n- Upper-income median net worth grew substantially from 323K in 1983 to a peak of 730K in 2007, before dropping slightly and ending at 650K in 2013.\n- Middle-income median net worth remained relatively stagnant, hovering around 100K for most years, with a small peak at 161K in 2007.\n- Lower-income median net worth stayed extremely low, remaining under 25K across all recorded years."
+}

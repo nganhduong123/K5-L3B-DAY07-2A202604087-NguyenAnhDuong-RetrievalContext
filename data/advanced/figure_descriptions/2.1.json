@@ -1,0 +1,14 @@
+{
+ "figure_id": "2.1",
+ "page": 33,
+ "crop": "data/advanced/crops/fig2.1_p33.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:44:24",
+ "latency_s": 26.8,
+ "usage": {
+  "completion_tokens": 89,
+  "prompt_tokens": 1441,
+  "total_tokens": 1530
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\nnone\n\nDATA:\nN/A\n\nKEY FACTS:\n* The photo displays a golden statue representing the figure of Justice (Lady Justice) set against a pale blue sky.\n* The statue is blindfolded, wearing a crown, and holding a balanced pair of scales aloft in her left hand.\n* The statue stands atop a stone pedestal base adorned with decorative trim."
+}

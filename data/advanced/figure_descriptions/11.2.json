@@ -1,0 +1,14 @@
+{
+ "figure_id": "11.2",
+ "page": 314,
+ "crop": "data/advanced/crops/fig11.2_p314.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:11:17",
+ "latency_s": 1.95,
+ "usage": {
+  "completion_tokens": 120,
+  "prompt_tokens": 1409,
+  "total_tokens": 1529
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: \"The Cheesecake Factory\" (logo on restaurant storefront)\nDATA: none\nKEY FACTS:\n- Shows the interior of The Cheesecake Factory restaurant located in Dubai.\n- Features ornate Middle Eastern architectural elements including large white columns, pointed arches, and intricate wall patterns.\n- Warm, glowing lighting emanates from large, decorative chandeliers and wall sconces.\n- Green plants are visible in the foreground at the bottom of the frame.\n- The red cursive logo \"The Cheesecake Factory\" is illuminated above the restaurant's entrance."
+}

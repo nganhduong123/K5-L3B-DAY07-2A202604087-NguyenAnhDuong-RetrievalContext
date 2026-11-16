@@ -1,0 +1,14 @@
+{
+ "figure_id": "7.1",
+ "page": 189,
+ "crop": "data/advanced/crops/fig7.1_p189.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:59:32",
+ "latency_s": 4.82,
+ "usage": {
+  "completion_tokens": 127,
+  "prompt_tokens": 1518,
+  "total_tokens": 1645
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: \"7\"\nDATA: none\nKEY FACTS:\n- A composite image showing various workplace settings and employees performing different jobs.\n- Top-left panel shows a large call center with workers at individual computer terminals.\n- Center and top-middle panels show food service or bakery workers in white chef hats preparing food.\n- Bottom-left panel shows a construction worker operating a jackhammer on a street.\n- Bottom-right panel shows workers operating sewing machines in a textile factory setting.\n- Other panels depict office training, meetings, and individual work environments."
+}

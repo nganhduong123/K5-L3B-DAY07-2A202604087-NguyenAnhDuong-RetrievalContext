@@ -1,0 +1,14 @@
+{
+ "figure_id": "6.1",
+ "page": 155,
+ "crop": "data/advanced/crops/fig6.1_p155.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:57:19",
+ "latency_s": 2.28,
+ "usage": {
+  "completion_tokens": 135,
+  "prompt_tokens": 1430,
+  "total_tokens": 1565
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: none (Calendars visible on the wall show months like February 1974 and March 1974, but text is not fully legible).\nDATA: none\nKEY FACTS:\n- A black-and-white historical photo showing a large group of people seated around a massive, polished conference table.\n- The attendees are almost exclusively men dressed in suits and ties.\n- One Black man is visible among the participants seated near the center-left.\n- The meeting setting includes microphones on the table, papers, and calendars hanging on the wood-paneled wall in the background."
+}

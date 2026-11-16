@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.9",
+ "page": 237,
+ "crop": "data/advanced/crops/fig8.9_p237.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:09:56",
+ "latency_s": 2.79,
+ "usage": {
+  "completion_tokens": 473,
+  "prompt_tokens": 1400,
+  "total_tokens": 1873
+ },
+ "description": "TYPE: bar chart\n\nTITLE: Average U.S. Income, 2015\n\nTEXT IN IMAGE:\n- Average U.S. Income, 2015\n- Income ($)\n- 7,000,000\n- 6,000,000\n- 5,000,000\n- 4,000,000\n- 3,000,000\n- 2,000,000\n- 1,000,000\n- 0\n- Bottom 90%\n- Top 10%\n- Top 5%\n- Top 1%\n- Top 0.1%\n- Earners\n- Source: Saez, Emmanuel. \"Income and Wealth Inequality: Evidence and Policy Implications.\" Contemporary Economic Policy 35, no. 1 (Jan 2017): 7–25.\n\nDATA:\n- Y-axis: Income ($), ranging from 0 to 7,000,000 in increments of 1,000,000\n- X-axis (Earners): Categories and approximate values:\n  - Bottom 90%: ≈ 50,000\n  - Top 10%: ≈ 300,000\n  - Top 5%: ≈ 500,000\n  - Top 1%: ≈ 1,400,000\n  - Top 0.1%: ≈ 6,750,000\n\nKEY FACTS:\n- The chart shows average U.S. income in 2015 across different percentages of earners.\n- The bottom 90% of earners have the lowest average income, close to zero relative to the top tiers (approximately $50,000).\n- Average income increases sharply for higher percentiles, particularly in the top 1% and top 0.1% categories.\n- The top 0.1% of earners have the highest average income by a wide margin, at approximately $6.75 million."
+}

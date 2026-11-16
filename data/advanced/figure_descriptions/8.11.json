@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.11",
+ "page": 243,
+ "crop": "data/advanced/crops/fig8.11_p243.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:10:16",
+ "latency_s": 3.99,
+ "usage": {
+  "completion_tokens": 220,
+  "prompt_tokens": 1418,
+  "total_tokens": 1638
+ },
+ "description": "TYPE: diagram\nTITLE: none\nTEXT IN IMAGE: \n- Responsible use of natural resources\n- Informed choices by consumers\n- Safe food production\n- Responsible animal husbandry\n- Recognition of social welfare issues\n\nDATA: \nThe diagram consists of five interconnected circular nodes arranged in a circular, interdependent loop:\n1. \"Responsible use of natural resources\" connected to \"Informed choices by consumers\"\n2. \"Informed choices by consumers\" connected to \"Safe food production\"\n3. \"Safe food production\" connected to \"Responsible animal husbandry\"\n4. \"Responsible animal husbandry\" connected to \"Recognition of social welfare issues\"\n5. \"Recognition of social welfare issues\" connected to \"Responsible use of natural resources\"\n\nKEY FACTS:\n- The diagram illustrates five interconnected ethical considerations in agribusiness arranged in a circular chain.\n- The five components are: Responsible use of natural resources, Informed choices by consumers, Safe food production, Responsible animal husbandry, and Recognition of social welfare issues.\n- All elements are linked together, emphasizing their mutual interdependence in agribusiness."
+}

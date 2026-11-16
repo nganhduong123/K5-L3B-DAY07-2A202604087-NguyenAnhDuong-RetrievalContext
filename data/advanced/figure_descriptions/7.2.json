@@ -1,0 +1,14 @@
+{
+ "figure_id": "7.2",
+ "page": 191,
+ "crop": "data/advanced/crops/fig7.2_p191.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:07:28",
+ "latency_s": 1.94,
+ "usage": {
+  "completion_tokens": 222,
+  "prompt_tokens": 1374,
+  "total_tokens": 1596
+ },
+ "description": "TYPE: infographic\n\nTITLE: none\n\nTEXT IN IMAGE:\nMillennials\n3× more likely to change jobs\n90% change jobs within first 3 years\n4 different jobs in first 10 years (by age 32)\nSource: Murdock, P. \"The New Reality of Employee Loyalty.\" Forbes. Dec 12, 2017.\n\nDATA:\n- Millennials are 3× more likely to change jobs.\n- 90% change jobs within the first 3 years.\n- Have 4 different jobs in the first 10 years (by age 32).\n\nKEY FACTS:\n- Millennials are three times more likely to change jobs compared to predecessors.\n- 90 percent of millennials change jobs within their first three years of employment.\n- Millennials hold an average of four different jobs in their first ten years (by age 32).\n- Data source is attributed to P. Murdock, \"The New Reality of Employee Loyalty,\" Forbes, Dec 12, 2017."
+}

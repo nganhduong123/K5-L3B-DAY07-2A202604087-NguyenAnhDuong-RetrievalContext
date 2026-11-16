@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.6",
+ "page": 232,
+ "crop": "data/advanced/crops/fig8.6_p232.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:09:26",
+ "latency_s": 4.38,
+ "usage": {
+  "completion_tokens": 454,
+  "prompt_tokens": 1445,
+  "total_tokens": 1899
+ },
+ "description": "TYPE: infographic\nTITLE: 2019 / Holidays and Observances\nTEXT IN IMAGE: \nTop center: 2019\nTop right: Holidays and Observances\nMonths (January through December) with standard day-of-week headers (Sun, Mon, Tue, Wed, Thu, Fri, Sat) and dates 1-31.\nRight-hand list of holidays and dates (color-coded matching calendar highlights):\n1/1 New Year's Day\n1/21 Martin Luther King Jr. Day\n2/5 Lunar New Year\n2/18 Presidents' Day\n4/19 Good Friday\n4/20–4/27 Pesach/Passover\n4/21 Easter\n4/28 Orthodox Easter\n5/6–6/4 Ramadan\n5/27 Memorial Day\n5/31–6/1 Laylat al-Qadr\n6/3–6/4 Eid al-Fitr\n6/19 Juneteenth\n7/4 Independence Day\n9/2 Labor Day\n9/30–10/1 Rosh Hashanah\n10/9 Yom Kippur\n10/14 Columbus/Indigenous Peoples' Day\n10/23 Diwali\n11/11 Veterans Day\n11/28 Thanksgiving\n12/23–12/30 Chanukah\n12/25 Christmas\n\nDATA: \nThe image displays a 12-month calendar for the year 2019 with various dates highlighted in different colors to represent different types of holidays and observances (secular, Christian, Jewish, Muslim, Hindu, Asian cultural).\n\nKEY FACTS:\n- Displays a full 12-month calendar for the year 2019.\n- Lists numerous secular, federal, and religious holidays spanning Christianity, Judaism, Islam, Hinduism, and other observances.\n- Demonstrates the high frequency of holidays and observances throughout the year that employers must navigate regarding time-off policies.\n- Highlights overlapping holiday seasons, such as multiple spring holidays in April and May, and winter holidays in late December."
+}

@@ -1,0 +1,14 @@
+{
+ "figure_id": "2.6",
+ "page": 45,
+ "crop": "data/advanced/crops/fig2.6_p45.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:46:28",
+ "latency_s": 19.2,
+ "usage": {
+  "completion_tokens": 241,
+  "prompt_tokens": 1390,
+  "total_tokens": 1631
+ },
+ "description": "TYPE: table image\n\nTITLE: none\n\nTEXT IN IMAGE:\nCONTROL\nAristotle\nConfucius\nCharacteristics\nBehavior\nphrónēsis\nself-restraint\ntemperance\nself-regulation\nability\ncourage\nvirtuous living\nharmony\nhappiness\njunzi\nru (humanity)\n\nDATA:\n- Header: CONTROL\n- Columns: Aristotle, Confucius\n- Rows:\n  - Characteristics:\n    - Aristotle: phrónēsis, self-restraint, temperance\n    - Confucius: self-regulation, ability, courage\n  - Behavior:\n    - Aristotle: virtuous living, harmony, happiness\n    - Confucius: junzi, ru (humanity)\n\nKEY FACTS:\n- The table compares the virtue ethics systems of Aristotle and Confucius under the main theme of \"CONTROL\".\n- Under Characteristics, Aristotle emphasizes *phrónēsis*, self-restraint, and temperance, whereas Confucius emphasizes self-regulation, ability, and courage.\n- Under Behavior, Aristotle includes virtuous living, harmony, and happiness, whereas Confucius includes *junzi* and *ru* (humanity)."
+}

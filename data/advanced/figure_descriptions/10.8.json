@@ -1,0 +1,14 @@
+{
+ "figure_id": "10.8",
+ "page": 298,
+ "crop": "data/advanced/crops/fig10.8_p298.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:10:48",
+ "latency_s": 3.09,
+ "usage": {
+  "completion_tokens": 256,
+  "prompt_tokens": 1410,
+  "total_tokens": 1666
+ },
+ "description": "TYPE: diagram\nTITLE: Employment Relationships\nTEXT IN IMAGE:\nEmployment Relationships\nEmployees\n- Full-time\n- Single employer\n- Benefits\n- Employment taxes are split between employee and employer\n\nNon-employees (Contractors, Freelancers, Gig workers)\n- Part-time\n- Multiple employers (clients)\n- No benefits\n- Employment taxes must be paid entirely by employee\n\nDATA:\n- Category 1: Employees\n  - Full-time\n  - Single employer\n  - Benefits\n  - Employment taxes are split between employee and employer\n- Category 2: Non-employees (Contractors, Freelancers, Gig workers)\n  - Part-time\n  - Multiple employers (clients)\n  - No benefits\n  - Employment taxes must be paid entirely by employee\n\nKEY FACTS:\n- The diagram divides employment relationships into two primary categories: Employees and Non-employees.\n- Employees typically work full-time for a single employer, receive benefits, and share employment taxes with their employer.\n- Non-employees include contractors, freelancers, and gig workers who often work part-time for multiple employers or clients.\n- Non-employees generally do not receive benefits and must pay their employment taxes entirely by themselves."
+}

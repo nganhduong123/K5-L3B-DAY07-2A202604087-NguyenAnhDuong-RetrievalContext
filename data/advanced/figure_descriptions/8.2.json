@@ -1,0 +1,14 @@
+{
+ "figure_id": "8.2",
+ "page": 225,
+ "crop": "data/advanced/crops/fig8.2_p225.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:08:47",
+ "latency_s": 6.27,
+ "usage": {
+  "completion_tokens": 650,
+  "prompt_tokens": 1378,
+  "total_tokens": 2028
+ },
+ "description": "TYPE: pie chart\nTITLE: Workforce Makeup by Race, 2010 to 2050 / Workforce Makeup by Ethnicity, 2010 to 2050\nTEXT IN IMAGE:\n Workforce Makeup by Race, 2010 to 2050\n 2010 (donut chart center and label)\n 2050 Projected (donut chart center and label)\n 12% (Black, 2010)\n 5% (Asian, 2010)\n 2% (All Other, 2010)\n 81% (White, 2010)\n 12% (Black, 2050)\n 8% (Asian, 2050)\n 5% (All Other, 2050)\n 75% (White, 2050)\n Legend: Asian, Black, White, All Other\n Workforce Makeup by Ethnicity, 2010 to 2050\n 2010 (donut chart center)\n Projected 2050 (donut chart center)\n 15% (Hispanic, 2010)\n 85% (Non-Hispanic, 2010)\n 30% (Hispanic, 2050)\n 70% (Non-Hispanic, 2050)\n Legend: Hispanic, Non-Hispanic\n Source: Toossi, Mitra. \"Projections of the Labor Force to 2050: A Visual Essay.\" Monthly Labor Review. Oct. 2012. Data from U.S. Bureau of Labor Statistics.\n\nDATA:\n Workforce Makeup by Race:\n - 2010: White 81%, Black 12%, Asian 5%, All Other 2%\n - Projected 2050: White 75%, Black 12%, Asian 8%, All Other 5%\n Workforce Makeup by Ethnicity:\n - 2010: Non-Hispanic 85%, Hispanic 15%\n - Projected 2050: Non-Hispanic 70%, Hispanic 30%\n\nKEY FACTS:\n- The percentage of White workers is projected to decrease from 81% in 2010 to 75% in 2050.\n- The percentage of Asian workers is projected to increase from 5% in 2010 to 8% in 2050.\n- The percentage of Black workers remains unchanged at 12% between 2010 and 2050.\n- The percentage of Hispanic workers is projected to double from 15% in 2010 to 30% in 2050.\n- Non-Hispanic workers make up the majority of the workforce in both years, decreasing from 85% in 2010 to 70% in 2050."
+}

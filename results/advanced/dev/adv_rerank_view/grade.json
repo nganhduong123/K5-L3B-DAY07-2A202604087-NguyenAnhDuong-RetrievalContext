@@ -1,0 +1,21 @@
+{
+ "split": "dev",
+ "config": "adv_rerank_view",
+ "passed": "18/18",
+ "pass_rate_pct": 100.0,
+ "threshold_90pct_needs": 17,
+ "meets_90pct": true,
+ "by_group": {
+  "table": "3/3",
+  "image": "3/3",
+  "chart": "4/4",
+  "multihop": "2/2",
+  "text": "3/3",
+  "unanswerable": "3/3"
+ },
+ "system_errors": 0,
+ "median_latency_s": 5.33,
+ "llm_calls": 34,
+ "vision_calls": 13,
+ "cost_usd": 0.0
+}

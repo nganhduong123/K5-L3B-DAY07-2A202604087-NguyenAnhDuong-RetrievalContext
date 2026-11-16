@@ -1,0 +1,14 @@
+{
+ "figure_id": "3.2",
+ "page": 71,
+ "crop": "data/advanced/crops/fig3.2_p71.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:49:48",
+ "latency_s": 24.84,
+ "usage": {
+  "completion_tokens": 113,
+  "prompt_tokens": 1442,
+  "total_tokens": 1555
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE: none\n\nDATA: none\n\nKEY FACTS:\n* The image shows a group of people seated around a conference table engaged in a roundtable discussion.\n* Anthony Brown, wearing a suit, tie, and glasses, is gesturing with both hands while speaking.\n* Next to him sits a woman in a blue top and pearl necklace, listening intently with her hand near her chin while holding a pen over a notepad.\n* An American flag stands vertically in the background on the right side of the frame."
+}

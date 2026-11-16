@@ -1,5 +1,7 @@
 # Day 7 — Agentic RAG
 
+> **Bài làm của Nguyễn Anh Dương (2A202604087):** code ở [src/](src/README.md) (cách chạy lại), benchmark ở [data/benchmark/](data/benchmark/), trace và kết quả ở [results/](results/), cấu hình chốt trước test ở [results/SELECTION.md](results/SELECTION.md), báo cáo ở [report/individual/2A202604087_NguyenAnhDuong.md](report/individual/2A202604087_NguyenAnhDuong.md).
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

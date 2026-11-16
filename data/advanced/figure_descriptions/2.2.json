@@ -1,0 +1,14 @@
+{
+ "figure_id": "2.2",
+ "page": 35,
+ "crop": "data/advanced/crops/fig2.2_p35.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:44:42",
+ "latency_s": 18.17,
+ "usage": {
+  "completion_tokens": 268,
+  "prompt_tokens": 1496,
+  "total_tokens": 1764
+ },
+ "description": "**TYPE:** photo\n\n**TITLE:** none\n\n**TEXT IN IMAGE:**\nARISTOTELIS DE MORIBVS AD NICOMACHVM LIBRI DECEM.\nGraecis Latina e regione respondent, interprete DIONYSIO LAMBINO: cum eiusdem Annotationibus, & THEOD. ZVINGGERI Scholiis.\nLIBER PRIMVS.\nCAPVT PRIMVM.\nTria veluti prolegomena declarat: Subiectum scilicet philosophiae Ethicae: Modum sive rationem eius tractandae & explicandae: & Qualem auditorem esse oporteat.\n(a)\n(b)\n\n**DATA:** \nN/A (This is a two-part image consisting of a bust photograph and a book page document).\n\n**KEY FACTS:**\n* Image (a) shows a marble bust depicting the ancient Greek philosopher Aristotle.\n* Image (b) shows the printed title page and text of a 1566 dual Greek-and-Latin edition of Aristotle's *Nicomachean Ethics* (*Aristotelis De Moribus ad Nicomachum*).\n* The text on page (b) features parallel columns printed in Greek script on the left and Latin script on the right, accompanied by decorative initial capitals."
+}

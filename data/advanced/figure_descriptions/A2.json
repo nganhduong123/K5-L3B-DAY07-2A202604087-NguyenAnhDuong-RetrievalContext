@@ -1,0 +1,14 @@
+{
+ "figure_id": "A2",
+ "page": 328,
+ "crop": "data/advanced/crops/figA2_p328.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:48:04",
+ "latency_s": 6.85,
+ "usage": {
+  "completion_tokens": 159,
+  "prompt_tokens": 1321,
+  "total_tokens": 1480
+ },
+ "description": "TYPE: diagram\n\nTITLE: none\n\nTEXT IN IMAGE:\nCowardice\nCourage\nFoolhardiness\n\nDATA:\nThe image depicts a horizontal double-headed arrow containing three terms representing a spectrum of virtue/vice:\n- Left side: Cowardice\n- Center/Right-of-center: Courage\n- Right side: Foolhardiness\n\nKEY FACTS:\n- Shows a horizontal continuum/spectrum bounded by arrows on both ends.\n- Contains three labeled points: \"Cowardice\" on the far left, \"Courage\" toward the middle, and \"Foolhardiness\" on the right.\n- Represents the Aristotelian golden mean concept, placing the virtue (Courage) between two extreme vices (Cowardice and Foolhardiness)."
+}

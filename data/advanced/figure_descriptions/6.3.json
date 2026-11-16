@@ -1,0 +1,14 @@
+{
+ "figure_id": "6.3",
+ "page": 158,
+ "crop": "data/advanced/crops/fig6.3_p158.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:57:35",
+ "latency_s": 2.11,
+ "usage": {
+  "completion_tokens": 106,
+  "prompt_tokens": 1480,
+  "total_tokens": 1586
+ },
+ "description": "TYPE: photo\nTITLE: none\nTEXT IN IMAGE: none\nDATA: none\nKEY FACTS:\n- A black-and-white historical photograph showing a young male sitting on a wooden chair, facing forward.\n- The individual is wearing a patterned button-down shirt, trousers, and suspenders.\n- The person's left arm is missing or severely injured/amputated near the shoulder.\n- The background features patterned wallpaper and a piece of furniture with a draped cloth and a clock on top."
+}

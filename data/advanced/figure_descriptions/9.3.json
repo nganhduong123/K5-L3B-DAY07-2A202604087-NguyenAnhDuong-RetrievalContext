@@ -1,0 +1,14 @@
+{
+ "figure_id": "9.3",
+ "page": 263,
+ "crop": "data/advanced/crops/fig9.3_p263.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:55:46",
+ "latency_s": 9.35,
+ "usage": {
+  "completion_tokens": 180,
+  "prompt_tokens": 1449,
+  "total_tokens": 1629
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\nMcDONALD'S® DOUBLES\nDOUBLE THE TASTE. DOUBLE THE ENJOYMENT.\nDOUBLE Spicy Chicken McDeluxe™\nDOUBLE McChicken®\nMEGA Mac™\nDOUBLE Filet-O-Fish®\n\nDATA: n/a\n\nKEY FACTS:\n- The image shows a promotional advertisement banner for McDonald's fast food items displayed outdoors next to a glass window.\n- The banner prominently advertises \"McDONALD'S® DOUBLES\" with the slogan \"DOUBLE THE TASTE. DOUBLE THE ENJOYMENT.\"\n- Featured prominently is a large image of the \"DOUBLE Spicy Chicken McDeluxe™\".\n- Three smaller images along the bottom display the \"DOUBLE McChicken®\", \"MEGA Mac™\", and \"DOUBLE Filet-O-Fish®\"."
+}

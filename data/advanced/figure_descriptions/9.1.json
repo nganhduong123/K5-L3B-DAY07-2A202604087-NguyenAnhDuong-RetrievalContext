@@ -1,0 +1,14 @@
+{
+ "figure_id": "9.1",
+ "page": 255,
+ "crop": "data/advanced/crops/fig9.1_p255.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:59:54",
+ "latency_s": 3.29,
+ "usage": {
+  "completion_tokens": 243,
+  "prompt_tokens": 1416,
+  "total_tokens": 1659
+ },
+ "description": "TYPE: infographic\n\nTITLE: none\n\nTEXT IN IMAGE:\n$\n\nDATA:\nThe image depicts an interconnected system of interlocking gear icons overlaid on a yellow silhouette map of the United States. The icons inside the gears represent various industries and concepts, including:\n- A smartphone\n- A computer monitor/desktop\n- A battery with a lightning bolt symbol\n- A fingerprint\n- A document with a pencil/contract icon\n- A lightbulb (ideas/innovation)\n- A wind turbine (renewable energy)\n- A microscope (science/research)\n- A beaker/flask (chemistry/medicine)\n- A stethoscope (healthcare)\n- A syringe/vaccine\n- A television/display screen\n- A Wi-Fi signal icon (telecommunications/internet)\n- A dollar sign ($) symbol (finance/economy)\n\nKEY FACTS:\n- The graphic shows multiple interlocking gears representing interconnected sectors such as technology, healthcare, energy, science, communication, and finance.\n- The gears are set against the background of a yellow map of the United States of America.\n- The color palette consists primarily of shades of blue, teal, dark navy, and yellow."
+}

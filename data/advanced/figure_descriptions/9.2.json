@@ -1,0 +1,14 @@
+{
+ "figure_id": "9.2",
+ "page": 257,
+ "crop": "data/advanced/crops/fig9.2_p257.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:59:51",
+ "latency_s": 2.92,
+ "usage": {
+  "completion_tokens": 97,
+  "prompt_tokens": 1459,
+  "total_tokens": 1556
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE: none\n\nDATA: not applicable\n\nKEY FACTS:\n* The image shows a small, single-car detached wooden garage structure with dark green painted double doors and green trim around the roofline.\n* The structure features brown vertical wooden siding and a pitched roof.\n* It is situated along a paved driveway flanked by wooden fencing, shrubs, and a portion of an adjacent wooden-shingled building on the right."
+}

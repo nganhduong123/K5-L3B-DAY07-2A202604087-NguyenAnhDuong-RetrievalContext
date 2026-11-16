@@ -1,0 +1,14 @@
+{
+ "figure_id": "4.10",
+ "page": 115,
+ "crop": "data/advanced/crops/fig4.10_p115.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:55:13",
+ "latency_s": 2.73,
+ "usage": {
+  "completion_tokens": 154,
+  "prompt_tokens": 1413,
+  "total_tokens": 1567
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\nKEYSTONE XL PIPELINE\nNOT \"in our NATIONAL INTEREST\"\nPARK\nBUS ONLY\nRESPECT INDIGENOUS\nWIND MILLS NOT OIL SPILLS\nSTANDING IN SOLIDARITY WITH CANADA'S FIRST NATIONS\n\nDATA: N/A\n\nKEY FACTS:\n- A crowd of protesters is gathered on a city sidewalk holding signs and a large white banner.\n- The prominent banner reads \"KEYSTONE XL PIPELINE NOT 'in our NATIONAL INTEREST'\".\n- Additional signs in the background mention topics such as wind energy, Indigenous rights, and solidarity with Canada's First Nations.\n- The setting appears to be an urban street next to tall buildings and traffic lanes."
+}

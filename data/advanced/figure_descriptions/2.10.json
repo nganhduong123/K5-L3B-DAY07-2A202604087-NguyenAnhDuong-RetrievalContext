@@ -1,0 +1,14 @@
+{
+ "figure_id": "2.10",
+ "page": 59,
+ "crop": "data/advanced/crops/fig2.10_p59.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:48:32",
+ "latency_s": 23.62,
+ "usage": {
+  "completion_tokens": 271,
+  "prompt_tokens": 1426,
+  "total_tokens": 1697
+ },
+ "description": "**TYPE:** diagram\n\n**TITLE:** none\n\n**TEXT IN IMAGE:**\n* Original position\n* Veil of Ignorance\n* $\n\n**DATA:**\n* **Left side of wall:** A single grey human pictogram labeled \"Original position\".\n* **Center:** A tall light-blue wall/screen labeled \"Veil of Ignorance\".\n* **Right side of wall:** A diverse group of human pictograms depicting different roles, ages, abilities, and characteristics, including:\n  * A female figure\n  * An elderly person with a cane\n  * A male figure standing\n  * A child figure\n  * A person with a guide dog and a cane\n  * A female figure with a dollar sign (\"$\") on her torso (wealthy)\n  * A small child/young person figure\n  * A person in a wheelchair\n\n**KEY FACTS:**\n* Illustrates John Rawls's conceptual model of the \"veil of ignorance\" in the \"original position\".\n* The individual on the left in the \"Original position\" does not know which specific persona/role on the right side of the wall they will inhabit once the veil is removed.\n* The right side shows varied social positions, ages, physical abilities, genders, and economic backgrounds (represented by the \"$\" symbol)."
+}

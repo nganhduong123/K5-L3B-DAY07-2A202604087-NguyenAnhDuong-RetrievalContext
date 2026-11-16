@@ -1,0 +1,14 @@
+{
+ "figure_id": "10.9",
+ "page": 303,
+ "crop": "data/advanced/crops/fig10.9_p303.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T17:10:57",
+ "latency_s": 2.16,
+ "usage": {
+  "completion_tokens": 228,
+  "prompt_tokens": 1399,
+  "total_tokens": 1627
+ },
+ "description": "TYPE: diagram\nTITLE: none\nTEXT IN IMAGE:\n- Central circle: Issues to be considered when expanding the use of artificial intelligence\n- Top circle: Company's core values\n- Right circle: Cybersecurity\n- Bottom circle: Pace and extent of the automation process\n- Left circle: Re-training and empowerment of workers\n\nDATA: \n- Central node: \"Issues to be considered when expanding the use of artificial intelligence\" connected to four surrounding nodes.\n- Surrounding nodes:\n  1. \"Company's core values\" (top)\n  2. \"Cybersecurity\" (right)\n  3. \"Pace and extent of the automation process\" (bottom)\n  4. \"Re-training and empowerment of workers\" (left)\n\nKEY FACTS:\n- The diagram illustrates four key issues surrounding the expansion of artificial intelligence in the workplace.\n- Central theme is the consideration of issues when expanding AI use.\n- The four surrounding variables are company's core values, cybersecurity, pace and extent of the automation process, and re-training and empowerment of workers."
+}

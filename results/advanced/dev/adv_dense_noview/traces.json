@@ -1,0 +1,1984 @@
+[
+ {
+  "query_id": "ad01",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "According to Table 6.2, what percentage of Germany's workforce is in unions?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "According to Table 6.2, 26 percent of Germany's workforce is in unions [openstax-business-ethics:p175:table6.2].",
+  "citations": [
+   "openstax-business-ethics:p175:table6.2"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p175:table6.2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "According to Table 6.2, what percentage of Germany's workforce is in unions?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p175:table6.2",
+      "rank": 1,
+      "score": 0.86649,
+      "type": "table"
+     },
+     {
+      "id": "openstax-business-ethics:p174:t0",
+      "rank": 2,
+      "score": 0.84819,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p176:t0",
+      "rank": 3,
+      "score": 0.83109,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p175:t2",
+      "rank": 4,
+      "score": 0.82359,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p175:t0",
+      "rank": 5,
+      "score": 0.81592,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p175:table6.2",
+     "openstax-business-ethics:p174:t0",
+     "openstax-business-ethics:p176:t0",
+     "openstax-business-ethics:p175:t2",
+     "openstax-business-ethics:p175:t0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 69.9
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p175:table6.2",
+   "openstax-business-ethics:p174:t0",
+   "openstax-business-ethics:p176:t0",
+   "openstax-business-ethics:p175:t2",
+   "openstax-business-ethics:p175:t0"
+  ],
+  "context_chars": 3685,
+  "usage": {
+   "prompt_tokens": 1307,
+   "completion_tokens": 39,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 1.89,
+  "required_units": [
+   "openstax-business-ethics:p175:table6.2"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad02",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "Which country has the lowest productivity in Table 6.3 (2015), and what is its value?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "Based on Table 6.3, South Korea has the lowest productivity in 2015, with a value of 97.60 [openstax-business-ethics:p176:table6.3].",
+  "citations": [
+   "openstax-business-ethics:p176:table6.3"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p176:table6.3"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Which country has the lowest productivity in Table 6.3 (2015), and what is its value?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p176:table6.3",
+      "rank": 1,
+      "score": 0.88525,
+      "type": "table"
+     },
+     {
+      "id": "openstax-business-ethics:p176:fig6.12",
+      "rank": 2,
+      "score": 0.83657,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p175:t2",
+      "rank": 3,
+      "score": 0.83362,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p300:t5",
+      "rank": 4,
+      "score": 0.83257,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p187:t4",
+      "rank": 5,
+      "score": 0.83254,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p176:table6.3",
+     "openstax-business-ethics:p176:fig6.12",
+     "openstax-business-ethics:p175:t2",
+     "openstax-business-ethics:p300:t5",
+     "openstax-business-ethics:p187:t4"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 35.5
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p176:table6.3",
+   "openstax-business-ethics:p176:fig6.12",
+   "openstax-business-ethics:p175:t2",
+   "openstax-business-ethics:p300:t5",
+   "openstax-business-ethics:p187:t4"
+  ],
+  "context_chars": 5284,
+  "usage": {
+   "prompt_tokens": 2000,
+   "completion_tokens": 50,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 0.96,
+  "required_units": [
+   "openstax-business-ethics:p176:table6.3"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad03",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "In the comparison of socially responsible and other index mutual funds, what was the 5-year return of the Vanguard FTSE Social Index?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "The 5-year return of the Vanguard FTSE Social Index was 96.7% [openstax-business-ethics:p101:fig4.5].",
+  "citations": [
+   "openstax-business-ethics:p101:fig4.5"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p101:fig4.5"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "In the comparison of socially responsible and other index mutual funds, what was the 5-year return of the Vanguard FTSE Social Index?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p101:fig4.5",
+      "rank": 1,
+      "score": 0.87903,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p101:t0",
+      "rank": 2,
+      "score": 0.83336,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p101:t1",
+      "rank": 3,
+      "score": 0.82758,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p137:t3",
+      "rank": 4,
+      "score": 0.81217,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p73:t0",
+      "rank": 5,
+      "score": 0.81201,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p101:fig4.5",
+     "openstax-business-ethics:p101:t0",
+     "openstax-business-ethics:p101:t1",
+     "openstax-business-ethics:p137:t3",
+     "openstax-business-ethics:p73:t0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 39.0
+   },
+   {
+    "event": "search",
+    "query": "Vanguard FTSE Social Index",
+    "seeded_original_question": false,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p101:fig4.5",
+      "rank": 1,
+      "score": 0.87368,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p336:t0",
+      "rank": 2,
+      "score": 0.82971,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p336:t6",
+      "rank": 3,
+      "score": 0.82961,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p186:t0",
+      "rank": 4,
+      "score": 0.82878,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p101:t1",
+      "rank": 5,
+      "score": 0.82423,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p336:t0",
+     "openstax-business-ethics:p336:t6",
+     "openstax-business-ethics:p186:t0"
+    ],
+    "skipped_duplicate": [
+     "openstax-business-ethics:p101:fig4.5",
+     "openstax-business-ethics:p101:t1"
+    ],
+    "skipped_budget": [],
+    "retrieval_ms": 26.2
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p101:fig4.5",
+   "openstax-business-ethics:p101:t0",
+   "openstax-business-ethics:p101:t1",
+   "openstax-business-ethics:p137:t3",
+   "openstax-business-ethics:p73:t0",
+   "openstax-business-ethics:p336:t0",
+   "openstax-business-ethics:p336:t6",
+   "openstax-business-ethics:p186:t0"
+  ],
+  "context_chars": 8183,
+  "usage": {
+   "prompt_tokens": 4449,
+   "completion_tokens": 58,
+   "llm_calls": 2,
+   "vision_calls": 0
+  },
+  "elapsed_s": 2.28,
+  "required_units": [
+   "openstax-business-ethics:p101:fig4.5"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad04",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "In the stakeholder power/interest grid, what approach is recommended for stakeholders with high power but low interest?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "For stakeholders with high power and low interest, the recommended approach is to keep them satisfied and meet their needs [openstax-business-ethics:p80:fig3.5].",
+  "citations": [
+   "openstax-business-ethics:p80:fig3.5"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p80:fig3.5"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "In the stakeholder power/interest grid, what approach is recommended for stakeholders with high power but low interest?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p80:t4",
+      "rank": 1,
+      "score": 0.90531,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p81:t0",
+      "rank": 2,
+      "score": 0.88578,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p80:fig3.5",
+      "rank": 3,
+      "score": 0.88196,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p74:t3",
+      "rank": 4,
+      "score": 0.85944,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p73:t5",
+      "rank": 5,
+      "score": 0.85704,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p80:t4",
+     "openstax-business-ethics:p81:t0",
+     "openstax-business-ethics:p80:fig3.5",
+     "openstax-business-ethics:p74:t3",
+     "openstax-business-ethics:p73:t5"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 35.2
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p80:t4",
+   "openstax-business-ethics:p81:t0",
+   "openstax-business-ethics:p80:fig3.5",
+   "openstax-business-ethics:p74:t3",
+   "openstax-business-ethics:p73:t5"
+  ],
+  "context_chars": 5384,
+  "usage": {
+   "prompt_tokens": 1561,
+   "completion_tokens": 39,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 1.16,
+  "required_units": [
+   "openstax-business-ethics:p80:fig3.5"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad05",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "According to the Employment Relationships figure, who pays employment taxes for non-employees such as contractors and gig workers?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "According to the Employment Relationships figure, employment taxes for non-employees such as contractors and gig workers must be paid entirely by the employee [openstax-business-ethics:p298:fig10.8].",
+  "citations": [
+   "openstax-business-ethics:p298:fig10.8"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p298:fig10.8"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "According to the Employment Relationships figure, who pays employment taxes for non-employees such as contractors and gig workers?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p298:fig10.8",
+      "rank": 1,
+      "score": 0.88857,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p298:t4",
+      "rank": 2,
+      "score": 0.86579,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p298:t1",
+      "rank": 3,
+      "score": 0.86155,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p192:t4",
+      "rank": 4,
+      "score": 0.85819,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p299:t0",
+      "rank": 5,
+      "score": 0.84907,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p298:fig10.8",
+     "openstax-business-ethics:p298:t4",
+     "openstax-business-ethics:p298:t1",
+     "openstax-business-ethics:p192:t4",
+     "openstax-business-ethics:p299:t0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 32.4
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p298:fig10.8",
+   "openstax-business-ethics:p298:t4",
+   "openstax-business-ethics:p298:t1",
+   "openstax-business-ethics:p192:t4",
+   "openstax-business-ethics:p299:t0"
+  ],
+  "context_chars": 5191,
+  "usage": {
+   "prompt_tokens": 1551,
+   "completion_tokens": 46,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 0.85,
+  "required_units": [
+   "openstax-business-ethics:p298:fig10.8"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad06",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "According to the map of states with right-to-work laws, which of these states has a right-to-work law: Colorado, Michigan, or New Mexico?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "According to the map of states with right-to-work laws (Figure 6.10), Michigan has a right-to-work law, while Colorado and New Mexico do not [openstax-business-ethics:p174:fig6.10].",
+  "citations": [
+   "openstax-business-ethics:p174:fig6.10"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p174:fig6.10"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "According to the map of states with right-to-work laws, which of these states has a right-to-work law: Colorado, Michigan, or New Mexico?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p209:t3",
+      "rank": 1,
+      "score": 0.83077,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p174:fig6.10",
+      "rank": 2,
+      "score": 0.82584,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p173:t4",
+      "rank": 3,
+      "score": 0.82157,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p236:fig8.8",
+      "rank": 4,
+      "score": 0.80192,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p220:t1",
+      "rank": 5,
+      "score": 0.80146,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p209:t3",
+     "openstax-business-ethics:p174:fig6.10",
+     "openstax-business-ethics:p173:t4",
+     "openstax-business-ethics:p236:fig8.8",
+     "openstax-business-ethics:p220:t1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 33.9
+   },
+   {
+    "event": "search",
+    "query": "Figure 6.10 States with Right-to-Work Laws",
+    "seeded_original_question": false,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p173:t4",
+      "rank": 1,
+      "score": 0.90069,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p174:fig6.10",
+      "rank": 2,
+      "score": 0.89366,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p186:t1",
+      "rank": 3,
+      "score": 0.85698,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p209:t3",
+      "rank": 4,
+      "score": 0.85671,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p350:t2",
+      "rank": 5,
+      "score": 0.85344,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p186:t1",
+     "openstax-business-ethics:p350:t2"
+    ],
+    "skipped_duplicate": [
+     "openstax-business-ethics:p173:t4",
+     "openstax-business-ethics:p174:fig6.10",
+     "openstax-business-ethics:p209:t3"
+    ],
+    "skipped_budget": [],
+    "retrieval_ms": 36.3
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p209:t3",
+   "openstax-business-ethics:p174:fig6.10",
+   "openstax-business-ethics:p173:t4",
+   "openstax-business-ethics:p236:fig8.8",
+   "openstax-business-ethics:p220:t1",
+   "openstax-business-ethics:p186:t1",
+   "openstax-business-ethics:p350:t2"
+  ],
+  "context_chars": 7500,
+  "usage": {
+   "prompt_tokens": 4785,
+   "completion_tokens": 87,
+   "llm_calls": 2,
+   "vision_calls": 0
+  },
+  "elapsed_s": 17.06,
+  "required_units": [
+   "openstax-business-ethics:p174:fig6.10"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad07",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "What percentage of women and of men rank work-from-home options as a highly influential benefit?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "55% of women and 40% of men rank work-from-home options as a highly influential benefit [openstax-business-ethics:p163:fig6.6].",
+  "citations": [
+   "openstax-business-ethics:p163:fig6.6"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p163:fig6.6"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "What percentage of women and of men rank work-from-home options as a highly influential benefit?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p162:t1",
+      "rank": 1,
+      "score": 0.86019,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p162:t0",
+      "rank": 2,
+      "score": 0.84117,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p163:fig6.6",
+      "rank": 3,
+      "score": 0.83821,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p285:t3",
+      "rank": 4,
+      "score": 0.83307,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p291:t2",
+      "rank": 5,
+      "score": 0.82902,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p162:t1",
+     "openstax-business-ethics:p162:t0",
+     "openstax-business-ethics:p163:fig6.6",
+     "openstax-business-ethics:p285:t3",
+     "openstax-business-ethics:p291:t2"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 30.0
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p162:t1",
+   "openstax-business-ethics:p162:t0",
+   "openstax-business-ethics:p163:fig6.6",
+   "openstax-business-ethics:p285:t3",
+   "openstax-business-ethics:p291:t2"
+  ],
+  "context_chars": 7125,
+  "usage": {
+   "prompt_tokens": 2286,
+   "completion_tokens": 43,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 1.22,
+  "required_units": [
+   "openstax-business-ethics:p163:fig6.6"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad08",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "What share of the U.S. workforce is projected to be Hispanic in 2050, compared with 2010?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "The share of the U.S. workforce that is Hispanic is projected to double from 15 percent in 2010 to 30 percent in 2050 [openstax-business-ethics:p225:fig8.2, openstax-business-ethics:p225:t1].",
+  "citations": [
+   "openstax-business-ethics:p225:fig8.2",
+   "openstax-business-ethics:p225:t1"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p225:fig8.2",
+   "openstax-business-ethics:p225:t1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "What share of the U.S. workforce is projected to be Hispanic in 2050, compared with 2010?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p225:fig8.2",
+      "rank": 1,
+      "score": 0.8823,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p225:t1",
+      "rank": 2,
+      "score": 0.87039,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p226:t2",
+      "rank": 3,
+      "score": 0.84384,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p251:t3",
+      "rank": 4,
+      "score": 0.82513,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p225:t0",
+      "rank": 5,
+      "score": 0.82188,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p225:fig8.2",
+     "openstax-business-ethics:p225:t1",
+     "openstax-business-ethics:p226:t2",
+     "openstax-business-ethics:p251:t3",
+     "openstax-business-ethics:p225:t0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 32.7
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "cited": []
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p225:fig8.2",
+   "openstax-business-ethics:p225:t1",
+   "openstax-business-ethics:p226:t2",
+   "openstax-business-ethics:p251:t3",
+   "openstax-business-ethics:p225:t0"
+  ],
+  "context_chars": 5465,
+  "usage": {
+   "prompt_tokens": 2112,
+   "completion_tokens": 73,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 1.24,
+  "required_units": [
+   "openstax-business-ethics:p225:fig8.2"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad09",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "Approximately what percentage of U.S. workers were union members in 1983?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "Approximately 20% of U.S. workers were union members in 1983 [openstax-business-ethics:p174:fig6.11].",
+  "citations": [
+   "openstax-business-ethics:p174:fig6.11"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p174:fig6.11"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Approximately what percentage of U.S. workers were union members in 1983?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p174:fig6.11",
+      "rank": 1,
+      "score": 0.85773,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p174:t0",
+      "rank": 2,
+      "score": 0.84786,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p173:t1",
+      "rank": 3,
+      "score": 0.83982,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p176:t0",
+      "rank": 4,
+      "score": 0.83057,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p175:t2",
+      "rank": 5,
+      "score": 0.82334,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p174:fig6.11",
+     "openstax-business-ethics:p174:t0",
+     "openstax-business-ethics:p173:t1",
+     "openstax-business-ethics:p176:t0",
+     "openstax-business-ethics:p175:t2"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 37.3
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p174:fig6.11",
+   "openstax-business-ethics:p174:t0",
+   "openstax-business-ethics:p173:t1",
+   "openstax-business-ethics:p176:t0",
+   "openstax-business-ethics:p175:t2"
+  ],
+  "context_chars": 4838,
+  "usage": {
+   "prompt_tokens": 1731,
+   "completion_tokens": 40,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 1.98,
+  "required_units": [
+   "openstax-business-ethics:p174:fig6.11"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad10",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "In the chart of employers offering telework options, which country is at 85%?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "In the chart of employers offering telework options, China is at 85% [openstax-business-ethics:p284:fig10.2].",
+  "citations": [
+   "openstax-business-ethics:p284:fig10.2"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p284:fig10.2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "In the chart of employers offering telework options, which country is at 85%?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p284:fig10.2",
+      "rank": 1,
+      "score": 0.90357,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p223:fig8.1",
+      "rank": 2,
+      "score": 0.83441,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p284:t3",
+      "rank": 3,
+      "score": 0.83423,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p286:fig10.3",
+      "rank": 4,
+      "score": 0.8309,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p189:fig7.1",
+      "rank": 5,
+      "score": 0.82887,
+      "type": "figure"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p284:fig10.2",
+     "openstax-business-ethics:p223:fig8.1",
+     "openstax-business-ethics:p284:t3",
+     "openstax-business-ethics:p286:fig10.3",
+     "openstax-business-ethics:p189:fig7.1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 29.4
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p284:fig10.2",
+   "openstax-business-ethics:p223:fig8.1",
+   "openstax-business-ethics:p284:t3",
+   "openstax-business-ethics:p286:fig10.3",
+   "openstax-business-ethics:p189:fig7.1"
+  ],
+  "context_chars": 7283,
+  "usage": {
+   "prompt_tokens": 2261,
+   "completion_tokens": 37,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 1.18,
+  "required_units": [
+   "openstax-business-ethics:p284:fig10.2"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad11",
+  "split": "dev",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Which stakeholder groups shown around the company in Figure 1.2 are classified as functional stakeholders in Figure 3.4?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "Based on Figure 3.4, functional stakeholders are those who influence inputs and outputs, specifically including suppliers, employees, customers, distributors, and retailers [openstax-business-ethics:p76:t1, openstax-business-ethics:p76:fig3.4]. Among the stakeholder groups shown around the company in Figure 1.2, the ones that are classified as functional stakeholders in Figure 3.4 are suppliers, employees, customers (and/or clients), and retailers [openstax-business-ethics:p18:fig1.2, openstax-business-ethics:p76:fig3.4].",
+  "citations": [
+   "openstax-business-ethics:p76:t1",
+   "openstax-business-ethics:p76:fig3.4",
+   "openstax-business-ethics:p18:fig1.2"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p76:t1",
+   "openstax-business-ethics:p76:fig3.4",
+   "openstax-business-ethics:p18:fig1.2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Which stakeholder groups shown around the company in Figure 1.2 are classified as functional stakeholders in Figure 3.4?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p76:t2",
+      "rank": 1,
+      "score": 0.8705,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p76:t1",
+      "rank": 2,
+      "score": 0.86233,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p18:fig1.2",
+      "rank": 3,
+      "score": 0.8559,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p95:fig4.3",
+      "rank": 4,
+      "score": 0.85528,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p76:fig3.4",
+      "rank": 5,
+      "score": 0.85505,
+      "type": "figure"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p76:t2",
+     "openstax-business-ethics:p76:t1",
+     "openstax-business-ethics:p18:fig1.2",
+     "openstax-business-ethics:p95:fig4.3",
+     "openstax-business-ethics:p76:fig3.4"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 31.7
+   },
+   {
+    "event": "search",
+    "query": "Figure 3.4 functional stakeholders suppliers employees customers retailers distributors",
+    "seeded_original_question": false,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p76:t2",
+      "rank": 1,
+      "score": 0.87614,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p18:fig1.2",
+      "rank": 2,
+      "score": 0.86398,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p95:fig4.3",
+      "rank": 3,
+      "score": 0.86266,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p76:fig3.4",
+      "rank": 4,
+      "score": 0.8589,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p76:t1",
+      "rank": 5,
+      "score": 0.85364,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [],
+    "skipped_duplicate": [
+     "openstax-business-ethics:p76:t2",
+     "openstax-business-ethics:p18:fig1.2",
+     "openstax-business-ethics:p95:fig4.3",
+     "openstax-business-ethics:p76:fig3.4",
+     "openstax-business-ethics:p76:t1"
+    ],
+    "skipped_budget": [],
+    "retrieval_ms": 28.4
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "cited": []
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p76:t2",
+   "openstax-business-ethics:p76:t1",
+   "openstax-business-ethics:p18:fig1.2",
+   "openstax-business-ethics:p95:fig4.3",
+   "openstax-business-ethics:p76:fig3.4"
+  ],
+  "context_chars": 6587,
+  "usage": {
+   "prompt_tokens": 3666,
+   "completion_tokens": 168,
+   "llm_calls": 2,
+   "vision_calls": 0
+  },
+  "elapsed_s": 19.3,
+  "required_units": [
+   "openstax-business-ethics:p18:fig1.2",
+   "openstax-business-ethics:p76:fig3.4"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad12",
+  "split": "dev",
+  "group": "multihop",
+  "answerable": true,
+  "question": "What share of millennials does the text say do not expect to stay in their current job longer than three years, and what figure does the millennials infographic give for changing jobs within the first three years?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "About nine in ten millennials (91 percent) say they do not expect to stay in their current job longer than three years [openstax-business-ethics:p191:t1], and the infographic states that 90% change jobs within the first three years [openstax-business-ethics:p191:fig7.2].",
+  "citations": [
+   "openstax-business-ethics:p191:t1",
+   "openstax-business-ethics:p191:fig7.2"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p191:t1",
+   "openstax-business-ethics:p191:fig7.2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "What share of millennials does the text say do not expect to stay in their current job longer than three years, and what figure does the millennials infographic give for changing jobs within the first three years?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p191:fig7.2",
+      "rank": 1,
+      "score": 0.89295,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p191:t1",
+      "rank": 2,
+      "score": 0.87412,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p325:t5",
+      "rank": 3,
+      "score": 0.86051,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p163:t0",
+      "rank": 4,
+      "score": 0.85187,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p161:t1",
+      "rank": 5,
+      "score": 0.85053,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p191:fig7.2",
+     "openstax-business-ethics:p191:t1",
+     "openstax-business-ethics:p325:t5",
+     "openstax-business-ethics:p163:t0",
+     "openstax-business-ethics:p161:t1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 36.8
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p191:fig7.2",
+   "openstax-business-ethics:p191:t1",
+   "openstax-business-ethics:p325:t5",
+   "openstax-business-ethics:p163:t0",
+   "openstax-business-ethics:p161:t1"
+  ],
+  "context_chars": 4742,
+  "usage": {
+   "prompt_tokens": 1587,
+   "completion_tokens": 77,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 2.15,
+  "required_units": [
+   "openstax-business-ethics:p191:t1",
+   "openstax-business-ethics:p191:fig7.2"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad13",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "When was the WARN Act enacted and how much advance notice does it require, for which events?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "The Worker Adjustment and Retraining Notification (WARN) Act was enacted in 1989 [openstax-business-ethics:p157:t1]. It requires employers to provide sixty days of advance notice for events such as mass layoffs and plant closings [openstax-business-ethics:p157:t1].",
+  "citations": [
+   "openstax-business-ethics:p157:t1"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p157:t1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "When was the WARN Act enacted and how much advance notice does it require, for which events?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p157:t1",
+      "rank": 1,
+      "score": 0.88611,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p157:t2",
+      "rank": 2,
+      "score": 0.85466,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p157:fig6.2",
+      "rank": 3,
+      "score": 0.8462,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p157:t3",
+      "rank": 4,
+      "score": 0.82832,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p180:t0",
+      "rank": 5,
+      "score": 0.81643,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p157:t1",
+     "openstax-business-ethics:p157:t2",
+     "openstax-business-ethics:p157:fig6.2",
+     "openstax-business-ethics:p157:t3",
+     "openstax-business-ethics:p180:t0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 36.9
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p157:t1",
+   "openstax-business-ethics:p157:t2",
+   "openstax-business-ethics:p157:fig6.2",
+   "openstax-business-ethics:p157:t3",
+   "openstax-business-ethics:p180:t0"
+  ],
+  "context_chars": 4083,
+  "usage": {
+   "prompt_tokens": 1315,
+   "completion_tokens": 73,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 2.73,
+  "required_units": [
+   "openstax-business-ethics:p157:t1"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad14",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "When were the ISO 14000 environmental standards developed and updated, and which standard covers eco-design?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "The ISO 14000 series of standards was developed in the 1990s and updated in 2015 [openstax-business-ethics:p107:t1]. The standard that covers eco-design is ISO 14006 [openstax-business-ethics:p107:t1].",
+  "citations": [
+   "openstax-business-ethics:p107:t1"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p107:t1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "When were the ISO 14000 environmental standards developed and updated, and which standard covers eco-design?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p107:t1",
+      "rank": 1,
+      "score": 0.89344,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p107:t0",
+      "rank": 2,
+      "score": 0.82771,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p107:fig4.8",
+      "rank": 3,
+      "score": 0.82485,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p108:t0",
+      "rank": 4,
+      "score": 0.80443,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p327:figA1",
+      "rank": 5,
+      "score": 0.79505,
+      "type": "figure"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p107:t1",
+     "openstax-business-ethics:p107:t0",
+     "openstax-business-ethics:p107:fig4.8",
+     "openstax-business-ethics:p108:t0",
+     "openstax-business-ethics:p327:figA1"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 32.4
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p107:t1",
+   "openstax-business-ethics:p107:t0",
+   "openstax-business-ethics:p107:fig4.8",
+   "openstax-business-ethics:p108:t0",
+   "openstax-business-ethics:p327:figA1"
+  ],
+  "context_chars": 5950,
+  "usage": {
+   "prompt_tokens": 2011,
+   "completion_tokens": 78,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 2.31,
+  "required_units": [
+   "openstax-business-ethics:p107:t1"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "ad15",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "What is the CEO-to-average-worker pay multiplier in Germany, and what was the U.S. ratio in 1965?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "answered",
+  "answer": "The CEO-to-average-worker pay multiplier in Germany is twelve [openstax-business-ethics:p177:t1]. The U.S. ratio in 1965 was twenty to one [openstax-business-ethics:p177:t1].",
+  "citations": [
+   "openstax-business-ethics:p177:t1"
+  ],
+  "raw_citations": [
+   "openstax-business-ethics:p177:t1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "What is the CEO-to-average-worker pay multiplier in Germany, and what was the U.S. ratio in 1965?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p177:t1",
+      "rank": 1,
+      "score": 0.91184,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p348:t3",
+      "rank": 2,
+      "score": 0.83088,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p176:t0",
+      "rank": 3,
+      "score": 0.82993,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p177:t0",
+      "rank": 4,
+      "score": 0.8282,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p165:t4",
+      "rank": 5,
+      "score": 0.82754,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p177:t1",
+     "openstax-business-ethics:p348:t3",
+     "openstax-business-ethics:p176:t0",
+     "openstax-business-ethics:p177:t0",
+     "openstax-business-ethics:p165:t4"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 33.4
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p177:t1",
+   "openstax-business-ethics:p348:t3",
+   "openstax-business-ethics:p176:t0",
+   "openstax-business-ethics:p177:t0",
+   "openstax-business-ethics:p165:t4"
+  ],
+  "context_chars": 4376,
+  "usage": {
+   "prompt_tokens": 1415,
+   "completion_tokens": 64,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 1.17,
+  "required_units": [
+   "openstax-business-ethics:p177:t1"
+  ],
+  "first_search_hit": true,
+  "context_full": true,
+  "cites_all_required": true,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "adu1",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "According to Table 6.2, what percentage of Mexico's workforce is unionized?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: Table 6.2 does not list Mexico as one of the eight industrialized nations [openstax-business-ethics:p175:table6.2].",
+  "citations": [],
+  "raw_citations": [
+   "openstax-business-ethics:p175:table6.2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "According to Table 6.2, what percentage of Mexico's workforce is unionized?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p175:table6.2",
+      "rank": 1,
+      "score": 0.84188,
+      "type": "table"
+     },
+     {
+      "id": "openstax-business-ethics:p174:t0",
+      "rank": 2,
+      "score": 0.84065,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p176:t0",
+      "rank": 3,
+      "score": 0.82872,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p175:t2",
+      "rank": 4,
+      "score": 0.82458,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p184:t3",
+      "rank": 5,
+      "score": 0.82268,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p175:table6.2",
+     "openstax-business-ethics:p174:t0",
+     "openstax-business-ethics:p176:t0",
+     "openstax-business-ethics:p175:t2",
+     "openstax-business-ethics:p184:t3"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 31.0
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p175:table6.2",
+   "openstax-business-ethics:p174:t0",
+   "openstax-business-ethics:p176:t0",
+   "openstax-business-ethics:p175:t2",
+   "openstax-business-ethics:p184:t3"
+  ],
+  "context_chars": 3622,
+  "usage": {
+   "prompt_tokens": 1284,
+   "completion_tokens": 43,
+   "llm_calls": 1,
+   "vision_calls": 0
+  },
+  "elapsed_s": 0.94,
+  "required_units": [],
+  "first_search_hit": null,
+  "context_full": null,
+  "cites_all_required": null,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "adu2",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "What was the 10-year return of the NASDAQ Index in the socially responsible funds comparison?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The provided text and Figure 4.5 [openstax-business-ethics:p101:fig4.5] provide Year-to-Date, 2-Year, and 5-Year returns for the NASDAQ Index, but do not contain information regarding a 10-year return.",
+  "citations": [],
+  "raw_citations": [
+   "openstax-business-ethics:p101:fig4.5"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "What was the 10-year return of the NASDAQ Index in the socially responsible funds comparison?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p101:fig4.5",
+      "rank": 1,
+      "score": 0.86589,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p101:t1",
+      "rank": 2,
+      "score": 0.8329,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p101:t0",
+      "rank": 3,
+      "score": 0.82825,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p99:t5",
+      "rank": 4,
+      "score": 0.81022,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p125:t0",
+      "rank": 5,
+      "score": 0.80598,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p101:fig4.5",
+     "openstax-business-ethics:p101:t1",
+     "openstax-business-ethics:p101:t0",
+     "openstax-business-ethics:p99:t5",
+     "openstax-business-ethics:p125:t0"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 34.5
+   },
+   {
+    "event": "search",
+    "query": "NASDAQ Index 10-Year Return",
+    "seeded_original_question": false,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p101:fig4.5",
+      "rank": 1,
+      "score": 0.87617,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p166:fig6.7",
+      "rank": 2,
+      "score": 0.83383,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p32:t1",
+      "rank": 3,
+      "score": 0.8313,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p237:fig8.9",
+      "rank": 4,
+      "score": 0.83073,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p126:t2",
+      "rank": 5,
+      "score": 0.83004,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p166:fig6.7",
+     "openstax-business-ethics:p32:t1"
+    ],
+    "skipped_duplicate": [
+     "openstax-business-ethics:p101:fig4.5"
+    ],
+    "skipped_budget": [
+     "openstax-business-ethics:p237:fig8.9",
+     "openstax-business-ethics:p126:t2"
+    ],
+    "retrieval_ms": 28.9
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p101:fig4.5",
+   "openstax-business-ethics:p101:t1",
+   "openstax-business-ethics:p101:t0",
+   "openstax-business-ethics:p99:t5",
+   "openstax-business-ethics:p125:t0",
+   "openstax-business-ethics:p166:fig6.7",
+   "openstax-business-ethics:p32:t1"
+  ],
+  "context_chars": 8449,
+  "usage": {
+   "prompt_tokens": 4984,
+   "completion_tokens": 96,
+   "llm_calls": 2,
+   "vision_calls": 0
+  },
+  "elapsed_s": 16.93,
+  "required_units": [],
+  "first_search_hit": null,
+  "context_full": null,
+  "cites_all_required": null,
+  "parser": "v2 (multi-id brackets)"
+ },
+ {
+  "query_id": "adu3",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "question": "What percentage of employers in Japan offer telework options?",
+  "config": "adv_dense_noview",
+  "top_k": 5,
+  "budget": 9000,
+  "max_searches": 4,
+  "max_views": 3,
+  "seed": true,
+  "model": "gemini-3.5-flash-lite",
+  "vision_model": "gemini-3.5-flash-lite",
+  "retriever": "dense",
+  "allow_view": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The provided text and figures do not contain information regarding the percentage of employers in Japan that offer telework options.",
+  "citations": [],
+  "raw_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "What percentage of employers in Japan offer telework options?",
+    "seeded_original_question": true,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p284:fig10.2",
+      "rank": 1,
+      "score": 0.88094,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p285:t3",
+      "rank": 2,
+      "score": 0.84002,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p302:t0",
+      "rank": 3,
+      "score": 0.83323,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p287:t1",
+      "rank": 4,
+      "score": 0.82648,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p284:t3",
+      "rank": 5,
+      "score": 0.82042,
+      "type": "text"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p284:fig10.2",
+     "openstax-business-ethics:p285:t3",
+     "openstax-business-ethics:p302:t0",
+     "openstax-business-ethics:p287:t1",
+     "openstax-business-ethics:p284:t3"
+    ],
+    "skipped_duplicate": [],
+    "skipped_budget": [],
+    "retrieval_ms": 33.5
+   },
+   {
+    "event": "search",
+    "query": "Japan telework",
+    "seeded_original_question": false,
+    "results": [
+     {
+      "id": "openstax-business-ethics:p284:fig10.2",
+      "rank": 1,
+      "score": 0.86309,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p286:t0",
+      "rank": 2,
+      "score": 0.86244,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p302:t0",
+      "rank": 3,
+      "score": 0.84924,
+      "type": "text"
+     },
+     {
+      "id": "openstax-business-ethics:p189:fig7.1",
+      "rank": 4,
+      "score": 0.84126,
+      "type": "figure"
+     },
+     {
+      "id": "openstax-business-ethics:p288:fig10.4",
+      "rank": 5,
+      "score": 0.83682,
+      "type": "figure"
+     }
+    ],
+    "added_to_context": [
+     "openstax-business-ethics:p286:t0",
+     "openstax-business-ethics:p189:fig7.1",
+     "openstax-business-ethics:p288:fig10.4"
+    ],
+    "skipped_duplicate": [
+     "openstax-business-ethics:p284:fig10.2",
+     "openstax-business-ethics:p302:t0"
+    ],
+    "skipped_budget": [],
+    "retrieval_ms": 31.4
+   }
+  ],
+  "context_ids": [
+   "openstax-business-ethics:p284:fig10.2",
+   "openstax-business-ethics:p285:t3",
+   "openstax-business-ethics:p302:t0",
+   "openstax-business-ethics:p287:t1",
+   "openstax-business-ethics:p284:t3",
+   "openstax-business-ethics:p286:t0",
+   "openstax-business-ethics:p189:fig7.1",
+   "openstax-business-ethics:p288:fig10.4"
+  ],
+  "context_chars": 7288,
+  "usage": {
+   "prompt_tokens": 3679,
+   "completion_tokens": 48,
+   "llm_calls": 2,
+   "vision_calls": 0
+  },
+  "elapsed_s": 9.12,
+  "required_units": [],
+  "first_search_hit": null,
+  "context_full": null,
+  "cites_all_required": null,
+  "parser": "v2 (multi-id brackets)"
+ }
+]

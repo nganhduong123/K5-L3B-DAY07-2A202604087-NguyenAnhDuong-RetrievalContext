@@ -1,0 +1,14 @@
+{
+ "figure_id": "2.3",
+ "page": 37,
+ "crop": "data/advanced/crops/fig2.3_p37.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:45:03",
+ "latency_s": 21.52,
+ "usage": {
+  "completion_tokens": 134,
+  "prompt_tokens": 1421,
+  "total_tokens": 1555
+ },
+ "description": "TYPE: painting\n\nTITLE: none\n\nTEXT IN IMAGE: none\n\nDATA: none\n\nKEY FACTS:\n- A classical painting depicting a scene from Homer's Odyssey with Penelope sitting on the left in a white gown with her feet resting on a footstool.\n- Odysseus is seated across from her on the right, wearing a red cap, light cloth draped around his waist, and holding a walking staff.\n- A dog lies on the floor in the lower right corner next to Odysseus's bench, and another figure stands in the background on the far right.\n- A decorative basket sits on the floor near Penelope's chair on the lower left."
+}

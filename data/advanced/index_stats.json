@@ -1,0 +1,12 @@
+{
+ "units": 1650,
+ "db_rows": 1650,
+ "embedding_model": "intfloat/multilingual-e5-small",
+ "dim": 384,
+ "embed_seconds": 123.5,
+ "by_type": {
+  "text": 1547,
+  "table": 4,
+  "figure": 99
+ }
+}

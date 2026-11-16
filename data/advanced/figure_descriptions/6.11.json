@@ -1,0 +1,16 @@
+{
+ "figure_id": "6.11",
+ "page": 174,
+ "crop": "data/advanced/crops/fig6.11_p174.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "prompt_variant": "no_verbatim (RECITATION fallback)",
+ "finish_reason": "stop",
+ "described_at": "2026-11-16T17:13:22",
+ "latency_s": 2.4,
+ "usage": {
+  "completion_tokens": 405,
+  "prompt_tokens": 1424,
+  "total_tokens": 1829
+ },
+ "description": "TYPE: line chart\nTITLE: Percentage of U.S. Workers Who Are Union Members, 1983–2017\nTEXT IN IMAGE: \n- Title: Percentage of U.S. Workers Who Are Union Members, 1983–2017\n- Y-axis: 10%, 15%, 20%, 25%\n- X-axis: 1980, 1990, 2000, 2010, 2020\nDATA: \n- X-axis: Years from 1983 to 2017 (with grid lines marked for 1980, 1990, 2000, 2010, 2020)\n- Y-axis: Percentage of U.S. workers, ranging from 10% to 25%\n- Line series (Union membership percentage):\n  - 1983: ≈20%\n  - 1990: ≈16%\n  - 2000: ≈13.5%\n  - 2010: ≈11.9%\n  - 2017: ≈10.7%\nKEY FACTS:\n- The percentage of U.S. workers who are union members steadily declined from approximately 20% in 1983 to about 10.7% in 2017.\n- The highest recorded value on the chart is at the start in 1983 at roughly 20%.\n- The lowest recorded value is at the end of the period in 2017 at roughly 10.7%.\n- The decline appears relatively consistent across the decades, dropping by roughly half over the 34-year span."
+}

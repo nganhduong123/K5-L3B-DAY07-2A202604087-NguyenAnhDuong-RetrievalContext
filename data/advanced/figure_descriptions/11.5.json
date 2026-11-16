@@ -1,0 +1,14 @@
+{
+ "figure_id": "11.5",
+ "page": 318,
+ "crop": "data/advanced/crops/fig11.5_p318.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:51:01",
+ "latency_s": 26.24,
+ "usage": {
+  "completion_tokens": 398,
+  "prompt_tokens": 1422,
+  "total_tokens": 1820
+ },
+ "description": "TYPE: bar chart\n\nTITLE: Best U.S. Employers as Ranked by Employees\n\nTEXT IN IMAGE:\nBest U.S. Employers as Ranked by Employees\nCostco 9.58\nGoogle 9.57\nREI 9.53\nMemorial Hermann Health System 9.45\nUnited Services Automobile Association 9.42\nMD Anderson Cancer Center 9.40\nPenn Medicine 9.34\nMayo Clinic 9.32\nCity of Austin 9.31\nWegmans Food Markets 9.30\nSources: McCarthy, Niall. \"America's Best Large Employers.\" Statista. May 10, 2017. Kalogeropoulos, Demitrios. \"Why Costco Doesn't Worry about Paying Workers $13 an Hour.\" The Motley Fool. Apr 29, 2015.\n\nDATA:\nHorizontal bar chart showing employer rankings out of 10:\n- Costco: 9.58\n- Google: 9.57\n- REI: 9.53\n- Memorial Hermann Health System: 9.45\n- United Services Automobile Association: 9.42\n- MD Anderson Cancer Center: 9.40\n- Penn Medicine: 9.34\n- Mayo Clinic: 9.32\n- City of Austin: 9.31\n- Wegmans Food Markets: 9.30\n\nKEY FACTS:\n- Costco is the highest-ranked employer with a score of 9.58.\n- Google is ranked second, just behind Costco with a score of 9.57.\n- Wegmans Food Markets has the lowest score among the top ten listed, at 9.30.\n- All top ten employers scored between 9.30 and 9.58."
+}

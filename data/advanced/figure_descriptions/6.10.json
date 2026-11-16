@@ -1,0 +1,14 @@
+{
+ "figure_id": "6.10",
+ "page": 174,
+ "crop": "data/advanced/crops/fig6.10_p174.jpg",
+ "model": "gemini-3.5-flash-lite",
+ "described_at": "2026-11-16T16:58:46",
+ "latency_s": 4.08,
+ "usage": {
+  "completion_tokens": 432,
+  "prompt_tokens": 1393,
+  "total_tokens": 1825
+ },
+ "description": "TYPE: map\nTITLE: States with Right-to-Work Laws\nTEXT IN IMAGE:\nStates with right-to-work laws (blue box)\nStates without right-to-work laws (grey box)\nState abbreviations: WA, OR, ID, NV, CA, AZ, UT, MT, WY, CO, NM, ND, SD, NE, KS, OK, TX, MN, IA, MO, AR, LA, WI, IL, MI, IN, KY, TN, MS, AL, GA, FL, OH, WV, VA, NC, SC, PA, MD, DE, NJ, NY, CT, RI, MA, VT, NH, ME, AK, HI, DC\nSource: National Conference of State Legislatures. \"Right-to-Work Resources.\" http://www.ncsl.org/research/labor-and-employment/right-to-work-laws-and-bills.aspx.\n\nDATA:\n- States with right-to-work laws (blue): ID, NV, AZ, UT, WY, ND, SD, NE, KS, OK, TX, IA, MO, AR, LA, WI, MI, IN, KY, TN, MS, AL, GA, FL, SC, NC, VA, WV\n- States without right-to-work laws (grey): WA, OR, CA, MT, CO, NM, MN, IL, OH, PA, MD, DE, NJ, NY, CT, RI, MA, VT, NH, ME, AK, HI\n\nKEY FACTS:\n- Right-to-work laws are prevalent across the South, Southeast, Midwest, and Intermountain West regions of the United States.\n- Major states with right-to-work laws include Texas, Florida, Georgia, North Carolina, Michigan, and Wisconsin.\n- States without right-to-work laws are heavily clustered on the West Coast, in the Northeast, and parts of the upper Midwest and Mid-Atlantic (e.g., California, New York, Pennsylvania, Illinois, Washington)."
+}

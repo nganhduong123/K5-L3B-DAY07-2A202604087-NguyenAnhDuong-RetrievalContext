@@ -1,0 +1,14 @@
+{
+ "figure_id": "A1",
+ "page": 327,
+ "crop": "data/advanced/crops/figA1_p327.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T12:48:26",
+ "latency_s": 21.7,
+ "usage": {
+  "completion_tokens": 424,
+  "prompt_tokens": 1421,
+  "total_tokens": 1845
+ },
+ "description": "TYPE: infographic\n\nTITLE: none\n\nTEXT IN IMAGE:\nConfucianism\nVirtue Theory\nUtilitarianism\nDeontology\nJustice Theory\nKǒng Qiū 384-322 BCE\n\"Master Kong\" Confucius\nSocrates ~470-399 BCE\nPlato ~428-348 BCE\nAristotle's predecessors and influences\nAristotle 384-322 BCE\nJeremy Bentham 1748-1832\nJohn Stuart Mill 1806-1873\nImmanuel Kant 1724-1804\nJohn Rawls 1921-2002\n\nDATA:\nTimeline showing philosophical ethical traditions and key figures along a horizontal line:\n- Confucianism: Kǒng Qiū (384-322 BCE), also labeled \"Master Kong\" Confucius.\n- Virtue Theory: Aristotle (384-322 BCE); accompanied by a box pointing out \"Aristotle's predecessors and influences\": Socrates (~470-399 BCE) and Plato (~428-348 BCE).\n- Utilitarianism: Jeremy Bentham (1748-1832) and John Stuart Mill (1806-1873).\n- Deontology: Immanuel Kant (1724-1804).\n- Justice Theory: John Rawls (1921-2002).\n\nKEY FACTS:\n- Displays five distinct ethical frameworks across history: Confucianism, Virtue Theory, Utilitarianism, Deontology, and Justice Theory.\n- Maps major historical philosophers onto a chronological horizontal timeline spanning from around 470 BCE (Socrates) to 2002 (John Rawls).\n- Highlights Socrates and Plato as Aristotle's predecessors and influences within Virtue Theory.\n- Pairs both Jeremy Bentham and John Stuart Mill under the category of Utilitarianism."
+}

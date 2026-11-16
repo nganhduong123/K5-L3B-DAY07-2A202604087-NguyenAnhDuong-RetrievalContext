@@ -1,0 +1,14 @@
+{
+ "figure_id": "4.6",
+ "page": 103,
+ "crop": "data/advanced/crops/fig4.6_p103.jpg",
+ "model": "gemini-3.5-flash",
+ "described_at": "2026-11-16T15:53:19",
+ "latency_s": 2.87,
+ "usage": {
+  "completion_tokens": 135,
+  "prompt_tokens": 1392,
+  "total_tokens": 1527
+ },
+ "description": "TYPE: photo\n\nTITLE: none\n\nTEXT IN IMAGE:\nNO DUMPING\nDRAINS TO OCEAN\nHDOT-HWY\n00193\n\nDATA: N/A\n\nKEY FACTS:\n- A circular metallic storm drain marker set into asphalt pavement with a blue background inside the raised lettering.\n- The top half of the outer ring features the text \"NO DUMPING\".\n- The bottom half of the outer ring features the text \"DRAINS TO OCEAN\".\n- The inner metallic section displays a geometric stream/water graphic above the identifier text \"HDOT-HWY\" and serial number \"00193\"."
+}
